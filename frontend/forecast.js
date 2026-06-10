@@ -1,71 +1,58 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-  // Call backend API
-  fetch("https://weather-forecast-xqwe.onrender.com/api/latest")
-    .then(response => response.json())
+  fetch("https://weather-forecast-xqwe.onrender.com/api/latest/Warangal")
+    .then(res => res.json())
     .then(data => {
 
-      // ❗ Safety check (if API returns error)
       if (!Array.isArray(data)) {
-        console.log("API error:", data);
+        console.log("Invalid API response", data);
         return;
       }
 
-      // Extract data for chart
-      const labels = data.map(item => item.district);
+      // Sort by time
+      data.sort((a, b) =>
+        new Date(a.forecast_time) - new Date(b.forecast_time)
+      );
+
+      const labels = data.map(item => item.forecast_time);
       const temperature = data.map(item => item.temperature);
       const humidity = data.map(item => item.humidity);
 
-      // Get canvas
-      const canvas = document.getElementById("myChart");
+      const ctx = document.getElementById("myChart").getContext("2d");
 
-      if (!canvas) {
-        console.log("❌ Canvas #myChart not found in HTML");
-        return;
-      }
-
-      const ctx = canvas.getContext("2d");
-
-      // Create Chart
       new Chart(ctx, {
-        type: "bar",
+        type: "line",
         data: {
           labels: labels,
           datasets: [
             {
               label: "Temperature (°C)",
               data: temperature,
-              backgroundColor: "rgba(255, 99, 132, 0.6)"
+              borderColor: "red",
+              fill: false
             },
             {
               label: "Humidity (%)",
               data: humidity,
-              backgroundColor: "rgba(54, 162, 235, 0.6)"
+              borderColor: "blue",
+              fill: false
             }
           ]
         },
         options: {
           responsive: true,
-          plugins: {
-            legend: {
-              position: "top"
-            },
-            title: {
-              display: true,
-              text: "District Weather Overview"
-            }
-          },
           scales: {
-            y: {
-              beginAtZero: true
+            x: {
+              ticks: {
+                maxRotation: 90,
+                minRotation: 45
+              }
             }
           }
         }
       });
 
     })
-    .catch(error => {
-      console.error("❌ Error loading data:", error);
-    });
+    .catch(err => console.error("Fetch error:", err));
 
 });
