@@ -6,11 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>India District Weather Forecast Dashboard</title>
 
-    <!-- Leaflet CSS -->
-    <link rel="stylesheet"
-        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-
-    <!-- Chart.js -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
     <style>
@@ -69,55 +65,66 @@
 
 <body>
 
-    <header>
-        <h1>🌦 India District Weather Forecast Dashboard</h1>
-    </header>
+<header>
+    <h1>🌦 India District Weather Forecast Dashboard</h1>
+</header>
 
-    <div class="container">
+<div class="container">
 
-        <!-- Controls -->
-        <div class="controls">
+    <!-- CONTROLS -->
+    <div class="controls">
 
-            <div>
-                <label for="dateSelect">
-                    <strong>📅 Forecast Date</strong>
-                </label>
-                <br>
-                <select id="dateSelect">
-                    <option>Loading...</option>
-                </select>
-            </div>
-
-            <div>
-                <label for="timeSelect">
-                    <strong>🕒 Forecast Time</strong>
-                </label>
-                <br>
-                <select id="timeSelect">
-                    <option>Loading...</option>
-                </select>
-            </div>
-
+        <!-- STATE DROPDOWN (NEW) -->
+        <div>
+            <label><strong>🏛 State</strong></label><br>
+            <select id="stateSelect">
+                <option value="">Select State</option>
+            </select>
         </div>
 
-        <!-- Map -->
-        <div id="map"></div>
+        <!-- DISTRICT DROPDOWN (NEW) -->
+        <div>
+            <label><strong>🏙 District</strong></label><br>
+            <select id="districtSelect">
+                <option value="">Select District</option>
+            </select>
+        </div>
 
-        <!-- Chart -->
-        <div class="chart-container">
-            <h2>📊 Temperature Forecast</h2>
-            <canvas id="myChart"></canvas>
+        <!-- DATE -->
+        <div>
+            <label for="dateSelect"><strong>📅 Forecast Date</strong></label><br>
+            <select id="dateSelect">
+                <option>Loading...</option>
+            </select>
+        </div>
+
+        <!-- TIME -->
+        <div>
+            <label for="timeSelect"><strong>🕒 Forecast Time</strong></label><br>
+            <select id="timeSelect">
+                <option>Loading...</option>
+            </select>
         </div>
 
     </div>
 
-    <!-- Leaflet -->
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <!-- MAP -->
+    <div id="map"></div>
 
-    <!-- Your scripts -->
-    <script src="map.js"></script>
-    <script src="forecast.js"></script>
+    <!-- CHART -->
+    <div class="chart-container">
+        <h2>📊 Temperature Forecast</h2>
+        <canvas id="myChart"></canvas>
+    </div>
+
+</div>
+
+<!-- Leaflet -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<!-- Scripts -->
+<script src="map.js"></script>
+<script src="forecast.js"></script>
 
 </body>
-
 </html>
