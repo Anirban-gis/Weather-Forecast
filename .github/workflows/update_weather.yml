@@ -30,7 +30,7 @@ jobs:
 
       - name: Run Weather Update Script
         run: |
-          python backend/forecast_api.py
+          python -m backend.forecast_api.py
 
       - name: Commit Updated Files
         run: |
