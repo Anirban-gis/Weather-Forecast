@@ -4,9 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>India District Weather Forecast Dashboard</title>
+    <title>Weather Forecast Dashboard</title>
 
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+
+    <!-- Chart.js -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
     <style>
@@ -19,23 +22,22 @@
         header {
             background: #1976d2;
             color: white;
-            padding: 15px;
+            padding: 12px;
             text-align: center;
         }
 
         .container {
-            padding: 20px;
+            padding: 15px;
         }
 
         .controls {
             background: white;
             padding: 15px;
-            margin-bottom: 15px;
             border-radius: 8px;
             display: flex;
-            gap: 20px;
-            align-items: center;
             flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 15px;
         }
 
         select {
@@ -44,7 +46,7 @@
         }
 
         #map {
-            height: 550px;
+            height: 500px;
             width: 100%;
             border-radius: 8px;
             margin-bottom: 20px;
@@ -58,7 +60,7 @@
         }
 
         canvas {
-            max-height: 450px;
+            max-height: 400px;
         }
     </style>
 </head>
@@ -66,7 +68,7 @@
 <body>
 
 <header>
-    <h1>🌦 India District Weather Forecast Dashboard</h1>
+    <h2>🌦 Weather Forecast Dashboard</h2>
 </header>
 
 <div class="container">
@@ -74,37 +76,21 @@
     <!-- CONTROLS -->
     <div class="controls">
 
-        <!-- STATE DROPDOWN (NEW) -->
-        <div>
-            <label><strong>🏛 State</strong></label><br>
-            <select id="stateSelect">
-                <option value="">Select State</option>
-            </select>
-        </div>
+        <select id="stateSelect">
+            <option value="">Select State</option>
+        </select>
 
-        <!-- DISTRICT DROPDOWN (NEW) -->
-        <div>
-            <label><strong>🏙 District</strong></label><br>
-            <select id="districtSelect">
-                <option value="">Select District</option>
-            </select>
-        </div>
+        <select id="districtSelect">
+            <option value="">Select District</option>
+        </select>
 
-        <!-- DATE -->
-        <div>
-            <label for="dateSelect"><strong>📅 Forecast Date</strong></label><br>
-            <select id="dateSelect">
-                <option>Loading...</option>
-            </select>
-        </div>
+        <select id="dateSelect">
+            <option>Loading...</option>
+        </select>
 
-        <!-- TIME -->
-        <div>
-            <label for="timeSelect"><strong>🕒 Forecast Time</strong></label><br>
-            <select id="timeSelect">
-                <option>Loading...</option>
-            </select>
-        </div>
+        <select id="timeSelect">
+            <option>Loading...</option>
+        </select>
 
     </div>
 
@@ -113,7 +99,7 @@
 
     <!-- CHART -->
     <div class="chart-container">
-        <h2>📊 Temperature Forecast</h2>
+        <h3>Temperature Chart</h3>
         <canvas id="myChart"></canvas>
     </div>
 
@@ -122,8 +108,7 @@
 <!-- Leaflet -->
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
-<!-- Scripts -->
-<script src="map.js"></script>
+<!-- JS -->
 <script src="forecast.js"></script>
 
 </body>
