@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
 
   // Call backend API
-  fetch("http://127.0.0.1:5000/api/latest")
+  fetch("https://weather-forecast-xqwe.onrender.com")
     .then(response => response.json())
     .then(data => {
 
