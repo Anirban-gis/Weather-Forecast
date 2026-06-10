@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     try {
 
         const response =
-            await fetch("https://weather-forecast-xqwe.onrender.com/api/latest");
+            await fetch("https://weather-forecast-xqwe.onrender.com/api/all-locations");
 
         const forecast =
             await response.json();
