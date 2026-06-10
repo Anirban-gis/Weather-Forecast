@@ -1,721 +1,721 @@
 state,district,forecast_time,temperature,humidity,weather,description
-Telangana,Adilabad,2026-06-10 11:30:00,39.41,30,Clouds,broken clouds
-Telangana,Adilabad,2026-06-10 14:30:00,40.27,27,Clouds,broken clouds
-Telangana,Adilabad,2026-06-10 17:30:00,39.01,28,Rain,light rain
-Telangana,Adilabad,2026-06-10 20:30:00,34.55,40,Rain,light rain
-Telangana,Adilabad,2026-06-10 23:30:00,33.45,43,Rain,light rain
-Telangana,Adilabad,2026-06-11 02:30:00,30.68,54,Rain,light rain
-Telangana,Adilabad,2026-06-11 05:30:00,31.43,49,Rain,light rain
-Telangana,Adilabad,2026-06-11 08:30:00,32.33,45,Clouds,overcast clouds
-Telangana,Adilabad,2026-06-11 11:30:00,36.52,33,Clouds,overcast clouds
-Telangana,Adilabad,2026-06-11 14:30:00,39.91,25,Clouds,scattered clouds
-Telangana,Adilabad,2026-06-11 17:30:00,40.34,22,Clouds,scattered clouds
-Telangana,Adilabad,2026-06-11 20:30:00,36.88,28,Rain,light rain
-Telangana,Adilabad,2026-06-11 23:30:00,34.82,33,Clear,clear sky
-Telangana,Adilabad,2026-06-12 02:30:00,33.6,40,Clouds,scattered clouds
-Telangana,Adilabad,2026-06-12 05:30:00,32.68,41,Rain,light rain
-Telangana,Adilabad,2026-06-12 08:30:00,35.2,40,Clear,clear sky
-Telangana,Adilabad,2026-06-12 11:30:00,39.59,28,Clear,clear sky
-Telangana,Adilabad,2026-06-12 14:30:00,42.17,22,Clear,clear sky
-Telangana,Adilabad,2026-06-12 17:30:00,41.13,22,Clouds,few clouds
-Telangana,Adilabad,2026-06-12 20:30:00,28.83,63,Rain,light rain
-Telangana,Adilabad,2026-06-12 23:30:00,31.88,49,Clouds,overcast clouds
-Telangana,Adilabad,2026-06-13 02:30:00,30.26,56,Clouds,overcast clouds
-Telangana,Adilabad,2026-06-13 05:30:00,29.72,58,Clouds,overcast clouds
-Telangana,Adilabad,2026-06-13 08:30:00,29.42,60,Rain,light rain
-Telangana,Adilabad,2026-06-13 11:30:00,35.05,39,Clouds,overcast clouds
-Telangana,Adilabad,2026-06-13 14:30:00,37.54,31,Clouds,broken clouds
-Telangana,Adilabad,2026-06-13 17:30:00,37.54,30,Clouds,overcast clouds
-Telangana,Adilabad,2026-06-13 20:30:00,33.45,43,Rain,light rain
-Telangana,Adilabad,2026-06-13 23:30:00,30.49,51,Rain,light rain
-Telangana,Adilabad,2026-06-14 02:30:00,32.43,43,Clouds,overcast clouds
-Telangana,Adilabad,2026-06-14 05:30:00,30.9,49,Clouds,overcast clouds
-Telangana,Adilabad,2026-06-14 08:30:00,31.95,49,Clouds,overcast clouds
-Telangana,Adilabad,2026-06-14 11:30:00,32.08,49,Clouds,overcast clouds
-Telangana,Adilabad,2026-06-14 14:30:00,35.89,37,Clouds,overcast clouds
-Telangana,Adilabad,2026-06-14 17:30:00,37.97,26,Clouds,broken clouds
-Telangana,Adilabad,2026-06-14 20:30:00,33.04,35,Clouds,scattered clouds
-Telangana,Adilabad,2026-06-14 23:30:00,33.12,35,Clouds,scattered clouds
-Telangana,Adilabad,2026-06-15 02:30:00,33.34,34,Clouds,overcast clouds
-Telangana,Adilabad,2026-06-15 05:30:00,31.36,49,Clouds,overcast clouds
-Telangana,Adilabad,2026-06-15 08:30:00,31.35,52,Clouds,overcast clouds
-Telangana,Bhadradri Kothagudem,2026-06-10 11:30:00,39.53,34,Clouds,broken clouds
-Telangana,Bhadradri Kothagudem,2026-06-10 14:30:00,39.63,33,Clouds,overcast clouds
-Telangana,Bhadradri Kothagudem,2026-06-10 17:30:00,38.2,36,Rain,light rain
-Telangana,Bhadradri Kothagudem,2026-06-10 20:30:00,26.07,90,Rain,heavy intensity rain
-Telangana,Bhadradri Kothagudem,2026-06-10 23:30:00,27.44,76,Rain,moderate rain
-Telangana,Bhadradri Kothagudem,2026-06-11 02:30:00,28.11,76,Clouds,overcast clouds
-Telangana,Bhadradri Kothagudem,2026-06-11 05:30:00,26.87,75,Rain,light rain
-Telangana,Bhadradri Kothagudem,2026-06-11 08:30:00,30.72,60,Clouds,overcast clouds
-Telangana,Bhadradri Kothagudem,2026-06-11 11:30:00,37.4,37,Clouds,overcast clouds
-Telangana,Bhadradri Kothagudem,2026-06-11 14:30:00,39.3,31,Clouds,overcast clouds
-Telangana,Bhadradri Kothagudem,2026-06-11 17:30:00,37.98,34,Clouds,overcast clouds
-Telangana,Bhadradri Kothagudem,2026-06-11 20:30:00,31.67,53,Rain,light rain
-Telangana,Bhadradri Kothagudem,2026-06-11 23:30:00,29.55,64,Rain,light rain
-Telangana,Bhadradri Kothagudem,2026-06-12 02:30:00,28.37,66,Rain,light rain
-Telangana,Bhadradri Kothagudem,2026-06-12 05:30:00,28.76,69,Rain,light rain
-Telangana,Bhadradri Kothagudem,2026-06-12 08:30:00,31.46,58,Clouds,overcast clouds
-Telangana,Bhadradri Kothagudem,2026-06-12 11:30:00,38.06,35,Clouds,overcast clouds
-Telangana,Bhadradri Kothagudem,2026-06-12 14:30:00,40.1,30,Clouds,broken clouds
-Telangana,Bhadradri Kothagudem,2026-06-12 17:30:00,38.45,33,Clouds,broken clouds
-Telangana,Bhadradri Kothagudem,2026-06-12 20:30:00,33.49,45,Rain,light rain
-Telangana,Bhadradri Kothagudem,2026-06-12 23:30:00,29.51,64,Rain,light rain
-Telangana,Bhadradri Kothagudem,2026-06-13 02:30:00,29.13,66,Rain,light rain
-Telangana,Bhadradri Kothagudem,2026-06-13 05:30:00,28.23,69,Rain,light rain
-Telangana,Bhadradri Kothagudem,2026-06-13 08:30:00,32.31,50,Clouds,scattered clouds
-Telangana,Bhadradri Kothagudem,2026-06-13 11:30:00,36.97,37,Clouds,broken clouds
-Telangana,Bhadradri Kothagudem,2026-06-13 14:30:00,39.41,31,Clouds,few clouds
-Telangana,Bhadradri Kothagudem,2026-06-13 17:30:00,38.3,32,Clouds,scattered clouds
-Telangana,Bhadradri Kothagudem,2026-06-13 20:30:00,33.4,46,Rain,light rain
-Telangana,Bhadradri Kothagudem,2026-06-13 23:30:00,32.02,52,Rain,light rain
-Telangana,Bhadradri Kothagudem,2026-06-14 02:30:00,29.94,62,Rain,light rain
-Telangana,Bhadradri Kothagudem,2026-06-14 05:30:00,29.11,65,Rain,light rain
-Telangana,Bhadradri Kothagudem,2026-06-14 08:30:00,33.15,48,Clouds,overcast clouds
-Telangana,Bhadradri Kothagudem,2026-06-14 11:30:00,37.51,34,Clouds,broken clouds
-Telangana,Bhadradri Kothagudem,2026-06-14 14:30:00,38.34,33,Clouds,broken clouds
-Telangana,Bhadradri Kothagudem,2026-06-14 17:30:00,37.26,33,Clouds,broken clouds
-Telangana,Bhadradri Kothagudem,2026-06-14 20:30:00,32.53,48,Rain,light rain
-Telangana,Bhadradri Kothagudem,2026-06-14 23:30:00,32.0,52,Rain,light rain
-Telangana,Bhadradri Kothagudem,2026-06-15 02:30:00,30.61,55,Rain,light rain
-Telangana,Bhadradri Kothagudem,2026-06-15 05:30:00,30.17,59,Rain,light rain
-Telangana,Bhadradri Kothagudem,2026-06-15 08:30:00,33.83,45,Clouds,overcast clouds
-Telangana,Hyderabad,2026-06-10 11:30:00,35.11,39,Clouds,broken clouds
-Telangana,Hyderabad,2026-06-10 14:30:00,35.42,38,Clouds,broken clouds
-Telangana,Hyderabad,2026-06-10 17:30:00,28.62,67,Rain,moderate rain
-Telangana,Hyderabad,2026-06-10 20:30:00,28.78,64,Rain,moderate rain
-Telangana,Hyderabad,2026-06-10 23:30:00,27.45,72,Rain,light rain
-Telangana,Hyderabad,2026-06-11 02:30:00,23.46,80,Rain,moderate rain
-Telangana,Hyderabad,2026-06-11 05:30:00,24.2,82,Rain,moderate rain
-Telangana,Hyderabad,2026-06-11 08:30:00,26.38,64,Clouds,overcast clouds
-Telangana,Hyderabad,2026-06-11 11:30:00,33.26,42,Clouds,overcast clouds
-Telangana,Hyderabad,2026-06-11 14:30:00,35.99,32,Clouds,broken clouds
-Telangana,Hyderabad,2026-06-11 17:30:00,35.93,31,Clouds,broken clouds
-Telangana,Hyderabad,2026-06-11 20:30:00,33.22,39,Clouds,scattered clouds
-Telangana,Hyderabad,2026-06-11 23:30:00,30.41,50,Clouds,scattered clouds
-Telangana,Hyderabad,2026-06-12 02:30:00,28.9,60,Clouds,broken clouds
-Telangana,Hyderabad,2026-06-12 05:30:00,27.88,62,Clouds,broken clouds
-Telangana,Hyderabad,2026-06-12 08:30:00,28.39,60,Clouds,overcast clouds
-Telangana,Hyderabad,2026-06-12 11:30:00,31.99,47,Clouds,overcast clouds
-Telangana,Hyderabad,2026-06-12 14:30:00,35.0,38,Clouds,overcast clouds
-Telangana,Hyderabad,2026-06-12 17:30:00,34.85,35,Clouds,broken clouds
-Telangana,Hyderabad,2026-06-12 20:30:00,29.22,58,Rain,light rain
-Telangana,Hyderabad,2026-06-12 23:30:00,27.2,65,Rain,light rain
-Telangana,Hyderabad,2026-06-13 02:30:00,26.06,61,Rain,light rain
-Telangana,Hyderabad,2026-06-13 05:30:00,25.31,71,Rain,light rain
-Telangana,Hyderabad,2026-06-13 08:30:00,26.97,62,Clouds,overcast clouds
-Telangana,Hyderabad,2026-06-13 11:30:00,31.17,46,Clouds,overcast clouds
-Telangana,Hyderabad,2026-06-13 14:30:00,32.49,44,Rain,light rain
-Telangana,Hyderabad,2026-06-13 17:30:00,30.41,47,Rain,light rain
-Telangana,Hyderabad,2026-06-13 20:30:00,29.51,52,Rain,light rain
-Telangana,Hyderabad,2026-06-13 23:30:00,28.57,54,Clouds,few clouds
-Telangana,Hyderabad,2026-06-14 02:30:00,28.22,59,Rain,light rain
-Telangana,Hyderabad,2026-06-14 05:30:00,26.97,68,Rain,light rain
-Telangana,Hyderabad,2026-06-14 08:30:00,27.47,65,Clouds,overcast clouds
-Telangana,Hyderabad,2026-06-14 11:30:00,31.87,47,Clouds,overcast clouds
-Telangana,Hyderabad,2026-06-14 14:30:00,32.26,44,Clouds,overcast clouds
-Telangana,Hyderabad,2026-06-14 17:30:00,30.64,50,Rain,light rain
-Telangana,Hyderabad,2026-06-14 20:30:00,30.52,48,Clouds,overcast clouds
-Telangana,Hyderabad,2026-06-14 23:30:00,29.13,53,Clouds,overcast clouds
-Telangana,Hyderabad,2026-06-15 02:30:00,28.2,59,Clouds,overcast clouds
-Telangana,Hyderabad,2026-06-15 05:30:00,27.21,63,Clouds,overcast clouds
-Telangana,Hyderabad,2026-06-15 08:30:00,29.93,50,Clouds,overcast clouds
-Telangana,Jagtial,2026-06-10 11:30:00,39.44,29,Clouds,overcast clouds
-Telangana,Jagtial,2026-06-10 14:30:00,39.47,28,Rain,light rain
-Telangana,Jagtial,2026-06-10 17:30:00,38.09,31,Rain,light rain
-Telangana,Jagtial,2026-06-10 20:30:00,33.12,44,Rain,light rain
-Telangana,Jagtial,2026-06-10 23:30:00,31.11,54,Rain,light rain
-Telangana,Jagtial,2026-06-11 02:30:00,28.32,63,Rain,light rain
-Telangana,Jagtial,2026-06-11 05:30:00,27.9,68,Rain,light rain
-Telangana,Jagtial,2026-06-11 08:30:00,32.35,48,Clouds,broken clouds
-Telangana,Jagtial,2026-06-11 11:30:00,37.25,33,Clouds,broken clouds
-Telangana,Jagtial,2026-06-11 14:30:00,40.09,25,Clouds,scattered clouds
-Telangana,Jagtial,2026-06-11 17:30:00,39.81,24,Clouds,few clouds
-Telangana,Jagtial,2026-06-11 20:30:00,36.42,31,Rain,light rain
-Telangana,Jagtial,2026-06-11 23:30:00,32.67,43,Rain,light rain
-Telangana,Jagtial,2026-06-12 02:30:00,32.13,45,Rain,light rain
-Telangana,Jagtial,2026-06-12 05:30:00,30.44,54,Rain,light rain
-Telangana,Jagtial,2026-06-12 08:30:00,34.02,44,Clouds,scattered clouds
-Telangana,Jagtial,2026-06-12 11:30:00,38.76,31,Clouds,few clouds
-Telangana,Jagtial,2026-06-12 14:30:00,39.16,28,Clouds,broken clouds
-Telangana,Jagtial,2026-06-12 17:30:00,29.03,62,Rain,light rain
-Telangana,Jagtial,2026-06-12 20:30:00,27.73,65,Rain,heavy intensity rain
-Telangana,Jagtial,2026-06-12 23:30:00,28.92,61,Clouds,overcast clouds
-Telangana,Jagtial,2026-06-13 02:30:00,28.01,69,Clouds,overcast clouds
-Telangana,Jagtial,2026-06-13 05:30:00,27.55,66,Clouds,overcast clouds
-Telangana,Jagtial,2026-06-13 08:30:00,29.75,59,Clouds,overcast clouds
-Telangana,Jagtial,2026-06-13 11:30:00,34.49,41,Clouds,broken clouds
-Telangana,Jagtial,2026-06-13 14:30:00,34.6,38,Clouds,overcast clouds
-Telangana,Jagtial,2026-06-13 17:30:00,36.07,35,Clouds,broken clouds
-Telangana,Jagtial,2026-06-13 20:30:00,32.24,45,Clouds,scattered clouds
-Telangana,Jagtial,2026-06-13 23:30:00,30.78,51,Clouds,scattered clouds
-Telangana,Jagtial,2026-06-14 02:30:00,29.79,53,Rain,light rain
-Telangana,Jagtial,2026-06-14 05:30:00,29.32,58,Clouds,overcast clouds
-Telangana,Jagtial,2026-06-14 08:30:00,32.44,48,Clouds,broken clouds
-Telangana,Jagtial,2026-06-14 11:30:00,37.0,35,Clouds,broken clouds
-Telangana,Jagtial,2026-06-14 14:30:00,38.78,29,Clouds,scattered clouds
-Telangana,Jagtial,2026-06-14 17:30:00,37.78,28,Clouds,scattered clouds
-Telangana,Jagtial,2026-06-14 20:30:00,32.82,42,Clouds,scattered clouds
-Telangana,Jagtial,2026-06-14 23:30:00,32.55,41,Clouds,scattered clouds
-Telangana,Jagtial,2026-06-15 02:30:00,30.88,48,Clouds,overcast clouds
-Telangana,Jagtial,2026-06-15 05:30:00,30.37,45,Clouds,broken clouds
-Telangana,Jagtial,2026-06-15 08:30:00,32.97,44,Clouds,scattered clouds
-Telangana,Jayashankar Bhupalapally,2026-06-10 11:30:00,40.19,29,Clouds,broken clouds
-Telangana,Jayashankar Bhupalapally,2026-06-10 14:30:00,40.44,27,Clouds,overcast clouds
-Telangana,Jayashankar Bhupalapally,2026-06-10 17:30:00,39.07,29,Clouds,overcast clouds
-Telangana,Jayashankar Bhupalapally,2026-06-10 20:30:00,32.9,47,Rain,light rain
-Telangana,Jayashankar Bhupalapally,2026-06-10 23:30:00,29.36,62,Rain,light rain
-Telangana,Jayashankar Bhupalapally,2026-06-11 02:30:00,27.68,64,Rain,light rain
-Telangana,Jayashankar Bhupalapally,2026-06-11 05:30:00,28.45,66,Clouds,overcast clouds
-Telangana,Jayashankar Bhupalapally,2026-06-11 08:30:00,32.66,47,Clouds,broken clouds
-Telangana,Jayashankar Bhupalapally,2026-06-11 11:30:00,38.75,31,Clouds,broken clouds
-Telangana,Jayashankar Bhupalapally,2026-06-11 14:30:00,41.03,24,Clouds,broken clouds
-Telangana,Jayashankar Bhupalapally,2026-06-11 17:30:00,40.77,23,Clouds,broken clouds
-Telangana,Jayashankar Bhupalapally,2026-06-11 20:30:00,35.46,37,Rain,light rain
-Telangana,Jayashankar Bhupalapally,2026-06-11 23:30:00,32.38,49,Rain,light rain
-Telangana,Jayashankar Bhupalapally,2026-06-12 02:30:00,32.65,46,Clouds,overcast clouds
-Telangana,Jayashankar Bhupalapally,2026-06-12 05:30:00,30.77,53,Rain,light rain
-Telangana,Jayashankar Bhupalapally,2026-06-12 08:30:00,32.1,51,Clouds,overcast clouds
-Telangana,Jayashankar Bhupalapally,2026-06-12 11:30:00,37.5,34,Clouds,broken clouds
-Telangana,Jayashankar Bhupalapally,2026-06-12 14:30:00,39.55,29,Clouds,broken clouds
-Telangana,Jayashankar Bhupalapally,2026-06-12 17:30:00,37.47,33,Rain,light rain
-Telangana,Jayashankar Bhupalapally,2026-06-12 20:30:00,30.83,50,Rain,light rain
-Telangana,Jayashankar Bhupalapally,2026-06-12 23:30:00,29.82,50,Clouds,scattered clouds
-Telangana,Jayashankar Bhupalapally,2026-06-13 02:30:00,29.48,55,Rain,light rain
-Telangana,Jayashankar Bhupalapally,2026-06-13 05:30:00,29.27,57,Clouds,overcast clouds
-Telangana,Jayashankar Bhupalapally,2026-06-13 08:30:00,30.08,56,Clouds,overcast clouds
-Telangana,Jayashankar Bhupalapally,2026-06-13 11:30:00,34.04,43,Clouds,overcast clouds
-Telangana,Jayashankar Bhupalapally,2026-06-13 14:30:00,37.59,34,Rain,light rain
-Telangana,Jayashankar Bhupalapally,2026-06-13 17:30:00,36.25,36,Rain,light rain
-Telangana,Jayashankar Bhupalapally,2026-06-13 20:30:00,33.42,40,Clouds,scattered clouds
-Telangana,Jayashankar Bhupalapally,2026-06-13 23:30:00,29.86,56,Rain,light rain
-Telangana,Jayashankar Bhupalapally,2026-06-14 02:30:00,29.35,60,Rain,light rain
-Telangana,Jayashankar Bhupalapally,2026-06-14 05:30:00,29.91,57,Clouds,overcast clouds
-Telangana,Jayashankar Bhupalapally,2026-06-14 08:30:00,31.03,54,Clouds,overcast clouds
-Telangana,Jayashankar Bhupalapally,2026-06-14 11:30:00,34.54,40,Clouds,overcast clouds
-Telangana,Jayashankar Bhupalapally,2026-06-14 14:30:00,36.82,33,Clouds,overcast clouds
-Telangana,Jayashankar Bhupalapally,2026-06-14 17:30:00,38.55,29,Clouds,broken clouds
-Telangana,Jayashankar Bhupalapally,2026-06-14 20:30:00,32.84,43,Rain,light rain
-Telangana,Jayashankar Bhupalapally,2026-06-14 23:30:00,32.11,45,Clouds,few clouds
-Telangana,Jayashankar Bhupalapally,2026-06-15 02:30:00,31.76,46,Clouds,overcast clouds
-Telangana,Jayashankar Bhupalapally,2026-06-15 05:30:00,30.54,52,Clouds,overcast clouds
-Telangana,Jayashankar Bhupalapally,2026-06-15 08:30:00,34.06,38,Clouds,broken clouds
-Telangana,Karimnagar,2026-06-10 11:30:00,39.24,30,Clouds,broken clouds
-Telangana,Karimnagar,2026-06-10 14:30:00,39.63,28,Clouds,broken clouds
-Telangana,Karimnagar,2026-06-10 17:30:00,35.57,38,Rain,light rain
-Telangana,Karimnagar,2026-06-10 20:30:00,31.55,51,Rain,light rain
-Telangana,Karimnagar,2026-06-10 23:30:00,31.76,50,Rain,light rain
-Telangana,Karimnagar,2026-06-11 02:30:00,27.32,71,Rain,light rain
-Telangana,Karimnagar,2026-06-11 05:30:00,26.37,74,Clouds,overcast clouds
-Telangana,Karimnagar,2026-06-11 08:30:00,31.04,52,Clouds,overcast clouds
-Telangana,Karimnagar,2026-06-11 11:30:00,37.58,33,Clouds,broken clouds
-Telangana,Karimnagar,2026-06-11 14:30:00,40.14,25,Clouds,broken clouds
-Telangana,Karimnagar,2026-06-11 17:30:00,39.79,25,Clouds,broken clouds
-Telangana,Karimnagar,2026-06-11 20:30:00,35.73,33,Clouds,few clouds
-Telangana,Karimnagar,2026-06-11 23:30:00,33.1,41,Rain,light rain
-Telangana,Karimnagar,2026-06-12 02:30:00,31.59,48,Clouds,scattered clouds
-Telangana,Karimnagar,2026-06-12 05:30:00,30.0,56,Rain,light rain
-Telangana,Karimnagar,2026-06-12 08:30:00,33.29,46,Clouds,scattered clouds
-Telangana,Karimnagar,2026-06-12 11:30:00,37.68,33,Clouds,broken clouds
-Telangana,Karimnagar,2026-06-12 14:30:00,39.9,27,Clouds,overcast clouds
-Telangana,Karimnagar,2026-06-12 17:30:00,27.93,61,Rain,moderate rain
-Telangana,Karimnagar,2026-06-12 20:30:00,28.14,58,Rain,light rain
-Telangana,Karimnagar,2026-06-12 23:30:00,29.51,56,Clouds,overcast clouds
-Telangana,Karimnagar,2026-06-13 02:30:00,28.96,61,Clouds,overcast clouds
-Telangana,Karimnagar,2026-06-13 05:30:00,28.29,60,Rain,light rain
-Telangana,Karimnagar,2026-06-13 08:30:00,31.51,51,Clouds,scattered clouds
-Telangana,Karimnagar,2026-06-13 11:30:00,35.83,38,Clouds,scattered clouds
-Telangana,Karimnagar,2026-06-13 14:30:00,36.93,32,Clouds,broken clouds
-Telangana,Karimnagar,2026-06-13 17:30:00,36.37,32,Clouds,broken clouds
-Telangana,Karimnagar,2026-06-13 20:30:00,32.58,43,Clouds,broken clouds
-Telangana,Karimnagar,2026-06-13 23:30:00,31.15,49,Rain,light rain
-Telangana,Karimnagar,2026-06-14 02:30:00,30.9,50,Rain,light rain
-Telangana,Karimnagar,2026-06-14 05:30:00,30.27,53,Clouds,overcast clouds
-Telangana,Karimnagar,2026-06-14 08:30:00,31.52,49,Clouds,overcast clouds
-Telangana,Karimnagar,2026-06-14 11:30:00,36.9,34,Clouds,overcast clouds
-Telangana,Karimnagar,2026-06-14 14:30:00,38.56,29,Clouds,broken clouds
-Telangana,Karimnagar,2026-06-14 17:30:00,37.39,30,Rain,light rain
-Telangana,Karimnagar,2026-06-14 20:30:00,34.69,34,Clouds,broken clouds
-Telangana,Karimnagar,2026-06-14 23:30:00,32.26,42,Clouds,broken clouds
-Telangana,Karimnagar,2026-06-15 02:30:00,30.52,50,Clouds,broken clouds
-Telangana,Karimnagar,2026-06-15 05:30:00,31.01,47,Clouds,broken clouds
-Telangana,Karimnagar,2026-06-15 08:30:00,33.18,42,Clouds,broken clouds
-Telangana,Khammam,2026-06-10 11:30:00,37.78,38,Clouds,overcast clouds
-Telangana,Khammam,2026-06-10 14:30:00,38.59,35,Clouds,overcast clouds
-Telangana,Khammam,2026-06-10 17:30:00,38.61,35,Clouds,overcast clouds
-Telangana,Khammam,2026-06-10 20:30:00,30.44,61,Rain,light rain
-Telangana,Khammam,2026-06-10 23:30:00,30.34,61,Rain,light rain
-Telangana,Khammam,2026-06-11 02:30:00,28.69,64,Rain,light rain
-Telangana,Khammam,2026-06-11 05:30:00,28.34,67,Rain,light rain
-Telangana,Khammam,2026-06-11 08:30:00,30.22,54,Rain,light rain
-Telangana,Khammam,2026-06-11 11:30:00,36.74,35,Clouds,overcast clouds
-Telangana,Khammam,2026-06-11 14:30:00,38.05,32,Clouds,overcast clouds
-Telangana,Khammam,2026-06-11 17:30:00,36.47,36,Clouds,overcast clouds
-Telangana,Khammam,2026-06-11 20:30:00,33.17,44,Rain,light rain
-Telangana,Khammam,2026-06-11 23:30:00,32.1,47,Clouds,scattered clouds
-Telangana,Khammam,2026-06-12 02:30:00,29.4,62,Rain,light rain
-Telangana,Khammam,2026-06-12 05:30:00,29.18,65,Rain,light rain
-Telangana,Khammam,2026-06-12 08:30:00,32.03,54,Clouds,overcast clouds
-Telangana,Khammam,2026-06-12 11:30:00,36.69,38,Clouds,overcast clouds
-Telangana,Khammam,2026-06-12 14:30:00,38.49,33,Clouds,overcast clouds
-Telangana,Khammam,2026-06-12 17:30:00,39.02,30,Clouds,overcast clouds
-Telangana,Khammam,2026-06-12 20:30:00,33.47,45,Rain,light rain
-Telangana,Khammam,2026-06-12 23:30:00,29.16,63,Rain,light rain
-Telangana,Khammam,2026-06-13 02:30:00,29.13,66,Rain,light rain
-Telangana,Khammam,2026-06-13 05:30:00,28.4,67,Rain,light rain
-Telangana,Khammam,2026-06-13 08:30:00,31.22,54,Rain,light rain
-Telangana,Khammam,2026-06-13 11:30:00,36.15,40,Clouds,broken clouds
-Telangana,Khammam,2026-06-13 14:30:00,38.67,33,Clear,clear sky
-Telangana,Khammam,2026-06-13 17:30:00,37.99,33,Clouds,few clouds
-Telangana,Khammam,2026-06-13 20:30:00,35.01,41,Clouds,broken clouds
-Telangana,Khammam,2026-06-13 23:30:00,32.35,47,Clouds,scattered clouds
-Telangana,Khammam,2026-06-14 02:30:00,29.77,58,Rain,light rain
-Telangana,Khammam,2026-06-14 05:30:00,29.67,60,Rain,light rain
-Telangana,Khammam,2026-06-14 08:30:00,32.57,49,Rain,light rain
-Telangana,Khammam,2026-06-14 11:30:00,37.41,35,Clouds,broken clouds
-Telangana,Khammam,2026-06-14 14:30:00,38.74,32,Clouds,broken clouds
-Telangana,Khammam,2026-06-14 17:30:00,37.76,33,Clouds,broken clouds
-Telangana,Khammam,2026-06-14 20:30:00,34.17,43,Clouds,overcast clouds
-Telangana,Khammam,2026-06-14 23:30:00,33.28,47,Clouds,overcast clouds
-Telangana,Khammam,2026-06-15 02:30:00,31.62,53,Rain,light rain
-Telangana,Khammam,2026-06-15 05:30:00,31.46,52,Rain,light rain
-Telangana,Khammam,2026-06-15 08:30:00,33.78,43,Clouds,overcast clouds
-Telangana,Mahabubnagar,2026-06-10 11:30:00,31.79,50,Clouds,overcast clouds
-Telangana,Mahabubnagar,2026-06-10 14:30:00,32.62,47,Rain,light rain
-Telangana,Mahabubnagar,2026-06-10 17:30:00,32.54,46,Clouds,overcast clouds
-Telangana,Mahabubnagar,2026-06-10 20:30:00,27.79,65,Rain,light rain
-Telangana,Mahabubnagar,2026-06-10 23:30:00,28.34,65,Rain,light rain
-Telangana,Mahabubnagar,2026-06-11 02:30:00,26.69,71,Rain,moderate rain
-Telangana,Mahabubnagar,2026-06-11 05:30:00,23.96,81,Rain,moderate rain
-Telangana,Mahabubnagar,2026-06-11 08:30:00,25.77,72,Rain,moderate rain
-Telangana,Mahabubnagar,2026-06-11 11:30:00,31.58,51,Clouds,overcast clouds
-Telangana,Mahabubnagar,2026-06-11 14:30:00,34.45,39,Clouds,broken clouds
-Telangana,Mahabubnagar,2026-06-11 17:30:00,34.53,37,Clouds,broken clouds
-Telangana,Mahabubnagar,2026-06-11 20:30:00,31.06,48,Rain,light rain
-Telangana,Mahabubnagar,2026-06-11 23:30:00,28.64,57,Rain,light rain
-Telangana,Mahabubnagar,2026-06-12 02:30:00,26.85,66,Clouds,overcast clouds
-Telangana,Mahabubnagar,2026-06-12 05:30:00,25.49,69,Clouds,broken clouds
-Telangana,Mahabubnagar,2026-06-12 08:30:00,27.91,59,Clouds,scattered clouds
-Telangana,Mahabubnagar,2026-06-12 11:30:00,31.97,46,Clouds,scattered clouds
-Telangana,Mahabubnagar,2026-06-12 14:30:00,34.05,39,Clouds,overcast clouds
-Telangana,Mahabubnagar,2026-06-12 17:30:00,34.07,37,Clouds,broken clouds
-Telangana,Mahabubnagar,2026-06-12 20:30:00,30.41,52,Clouds,scattered clouds
-Telangana,Mahabubnagar,2026-06-12 23:30:00,25.29,73,Clouds,few clouds
-Telangana,Mahabubnagar,2026-06-13 02:30:00,24.8,69,Rain,light rain
-Telangana,Mahabubnagar,2026-06-13 05:30:00,23.87,80,Clouds,scattered clouds
-Telangana,Mahabubnagar,2026-06-13 08:30:00,26.33,62,Clouds,few clouds
-Telangana,Mahabubnagar,2026-06-13 11:30:00,31.26,43,Clouds,few clouds
-Telangana,Mahabubnagar,2026-06-13 14:30:00,33.98,38,Clouds,few clouds
-Telangana,Mahabubnagar,2026-06-13 17:30:00,30.75,48,Rain,light rain
-Telangana,Mahabubnagar,2026-06-13 20:30:00,28.67,55,Rain,light rain
-Telangana,Mahabubnagar,2026-06-13 23:30:00,28.23,57,Clouds,broken clouds
-Telangana,Mahabubnagar,2026-06-14 02:30:00,26.85,69,Rain,light rain
-Telangana,Mahabubnagar,2026-06-14 05:30:00,25.88,72,Clouds,broken clouds
-Telangana,Mahabubnagar,2026-06-14 08:30:00,28.28,62,Clouds,broken clouds
-Telangana,Mahabubnagar,2026-06-14 11:30:00,32.77,44,Clouds,scattered clouds
-Telangana,Mahabubnagar,2026-06-14 14:30:00,34.77,36,Clouds,scattered clouds
-Telangana,Mahabubnagar,2026-06-14 17:30:00,32.54,41,Clouds,scattered clouds
-Telangana,Mahabubnagar,2026-06-14 20:30:00,30.47,47,Clouds,broken clouds
-Telangana,Mahabubnagar,2026-06-14 23:30:00,28.77,54,Clouds,overcast clouds
-Telangana,Mahabubnagar,2026-06-15 02:30:00,27.57,63,Clouds,overcast clouds
-Telangana,Mahabubnagar,2026-06-15 05:30:00,26.52,65,Clouds,overcast clouds
-Telangana,Mahabubnagar,2026-06-15 08:30:00,28.53,57,Clouds,broken clouds
-Telangana,Medak,2026-06-10 11:30:00,35.9,39,Clouds,broken clouds
-Telangana,Medak,2026-06-10 14:30:00,36.52,36,Rain,light rain
-Telangana,Medak,2026-06-10 17:30:00,35.84,36,Rain,light rain
-Telangana,Medak,2026-06-10 20:30:00,28.38,67,Rain,light rain
-Telangana,Medak,2026-06-10 23:30:00,26.21,81,Rain,light rain
-Telangana,Medak,2026-06-11 02:30:00,24.84,76,Rain,moderate rain
-Telangana,Medak,2026-06-11 05:30:00,23.49,86,Rain,moderate rain
-Telangana,Medak,2026-06-11 08:30:00,27.44,67,Rain,light rain
-Telangana,Medak,2026-06-11 11:30:00,33.27,42,Clouds,overcast clouds
-Telangana,Medak,2026-06-11 14:30:00,36.12,34,Clouds,broken clouds
-Telangana,Medak,2026-06-11 17:30:00,35.48,34,Clouds,scattered clouds
-Telangana,Medak,2026-06-11 20:30:00,32.82,41,Clouds,scattered clouds
-Telangana,Medak,2026-06-11 23:30:00,29.6,54,Clouds,scattered clouds
-Telangana,Medak,2026-06-12 02:30:00,28.87,58,Rain,light rain
-Telangana,Medak,2026-06-12 05:30:00,27.63,67,Clear,clear sky
-Telangana,Medak,2026-06-12 08:30:00,30.62,55,Clouds,few clouds
-Telangana,Medak,2026-06-12 11:30:00,35.4,38,Clouds,few clouds
-Telangana,Medak,2026-06-12 14:30:00,36.18,33,Clouds,scattered clouds
-Telangana,Medak,2026-06-12 17:30:00,33.78,42,Clouds,broken clouds
-Telangana,Medak,2026-06-12 20:30:00,28.11,66,Rain,light rain
-Telangana,Medak,2026-06-12 23:30:00,25.48,75,Rain,light rain
-Telangana,Medak,2026-06-13 02:30:00,26.31,71,Clouds,overcast clouds
-Telangana,Medak,2026-06-13 05:30:00,25.8,72,Clouds,overcast clouds
-Telangana,Medak,2026-06-13 08:30:00,27.23,61,Clouds,overcast clouds
-Telangana,Medak,2026-06-13 11:30:00,32.87,44,Clouds,overcast clouds
-Telangana,Medak,2026-06-13 14:30:00,33.11,40,Clouds,overcast clouds
-Telangana,Medak,2026-06-13 17:30:00,31.16,46,Clouds,broken clouds
-Telangana,Medak,2026-06-13 20:30:00,29.12,55,Clouds,few clouds
-Telangana,Medak,2026-06-13 23:30:00,27.37,63,Rain,light rain
-Telangana,Medak,2026-06-14 02:30:00,27.38,63,Clouds,overcast clouds
-Telangana,Medak,2026-06-14 05:30:00,26.78,69,Clouds,broken clouds
-Telangana,Medak,2026-06-14 08:30:00,30.23,54,Clouds,broken clouds
-Telangana,Medak,2026-06-14 11:30:00,33.8,41,Clouds,scattered clouds
-Telangana,Medak,2026-06-14 14:30:00,35.07,37,Clouds,scattered clouds
-Telangana,Medak,2026-06-14 17:30:00,35.07,34,Clouds,scattered clouds
-Telangana,Medak,2026-06-14 20:30:00,31.91,43,Clouds,few clouds
-Telangana,Medak,2026-06-14 23:30:00,29.71,52,Clouds,few clouds
-Telangana,Medak,2026-06-15 02:30:00,30.28,47,Clouds,overcast clouds
-Telangana,Medak,2026-06-15 05:30:00,27.88,55,Clouds,overcast clouds
-Telangana,Medak,2026-06-15 08:30:00,30.28,51,Clouds,scattered clouds
-Telangana,Nalgonda,2026-06-10 11:30:00,36.15,40,Clouds,overcast clouds
-Telangana,Nalgonda,2026-06-10 14:30:00,37.1,37,Clouds,overcast clouds
-Telangana,Nalgonda,2026-06-10 17:30:00,31.27,56,Rain,light rain
-Telangana,Nalgonda,2026-06-10 20:30:00,30.27,46,Rain,light rain
-Telangana,Nalgonda,2026-06-10 23:30:00,25.38,73,Rain,moderate rain
-Telangana,Nalgonda,2026-06-11 02:30:00,26.7,73,Rain,light rain
-Telangana,Nalgonda,2026-06-11 05:30:00,25.57,75,Rain,light rain
-Telangana,Nalgonda,2026-06-11 08:30:00,28.53,61,Clouds,overcast clouds
-Telangana,Nalgonda,2026-06-11 11:30:00,32.46,46,Clouds,overcast clouds
-Telangana,Nalgonda,2026-06-11 14:30:00,32.74,48,Clouds,overcast clouds
-Telangana,Nalgonda,2026-06-11 17:30:00,32.37,48,Clouds,overcast clouds
-Telangana,Nalgonda,2026-06-11 20:30:00,32.41,44,Clouds,overcast clouds
-Telangana,Nalgonda,2026-06-11 23:30:00,30.96,53,Clouds,broken clouds
-Telangana,Nalgonda,2026-06-12 02:30:00,30.08,55,Rain,light rain
-Telangana,Nalgonda,2026-06-12 05:30:00,28.95,63,Clouds,overcast clouds
-Telangana,Nalgonda,2026-06-12 08:30:00,30.48,55,Clouds,overcast clouds
-Telangana,Nalgonda,2026-06-12 11:30:00,35.94,38,Clouds,broken clouds
-Telangana,Nalgonda,2026-06-12 14:30:00,38.2,31,Clouds,broken clouds
-Telangana,Nalgonda,2026-06-12 17:30:00,38.0,31,Clouds,broken clouds
-Telangana,Nalgonda,2026-06-12 20:30:00,34.21,43,Rain,light rain
-Telangana,Nalgonda,2026-06-12 23:30:00,29.67,57,Rain,light rain
-Telangana,Nalgonda,2026-06-13 02:30:00,27.58,65,Rain,light rain
-Telangana,Nalgonda,2026-06-13 05:30:00,26.69,67,Rain,moderate rain
-Telangana,Nalgonda,2026-06-13 08:30:00,30.03,55,Rain,light rain
-Telangana,Nalgonda,2026-06-13 11:30:00,34.33,41,Clouds,scattered clouds
-Telangana,Nalgonda,2026-06-13 14:30:00,36.1,37,Clouds,few clouds
-Telangana,Nalgonda,2026-06-13 17:30:00,36.41,35,Clouds,few clouds
-Telangana,Nalgonda,2026-06-13 20:30:00,31.81,47,Clear,clear sky
-Telangana,Nalgonda,2026-06-13 23:30:00,31.04,51,Clouds,scattered clouds
-Telangana,Nalgonda,2026-06-14 02:30:00,29.84,54,Rain,light rain
-Telangana,Nalgonda,2026-06-14 05:30:00,28.9,62,Rain,light rain
-Telangana,Nalgonda,2026-06-14 08:30:00,31.81,52,Clouds,few clouds
-Telangana,Nalgonda,2026-06-14 11:30:00,36.0,37,Clouds,scattered clouds
-Telangana,Nalgonda,2026-06-14 14:30:00,37.41,33,Clouds,overcast clouds
-Telangana,Nalgonda,2026-06-14 17:30:00,35.52,37,Clouds,overcast clouds
-Telangana,Nalgonda,2026-06-14 20:30:00,33.02,45,Clouds,overcast clouds
-Telangana,Nalgonda,2026-06-14 23:30:00,32.52,45,Clouds,overcast clouds
-Telangana,Nalgonda,2026-06-15 02:30:00,31.24,49,Clouds,overcast clouds
-Telangana,Nalgonda,2026-06-15 05:30:00,30.2,55,Clouds,overcast clouds
-Telangana,Nalgonda,2026-06-15 08:30:00,31.92,47,Clouds,broken clouds
-Telangana,Nizamabad,2026-06-10 11:30:00,37.36,35,Clouds,broken clouds
-Telangana,Nizamabad,2026-06-10 14:30:00,38.22,32,Clouds,broken clouds
-Telangana,Nizamabad,2026-06-10 17:30:00,38.71,29,Clouds,overcast clouds
-Telangana,Nizamabad,2026-06-10 20:30:00,30.95,52,Rain,light rain
-Telangana,Nizamabad,2026-06-10 23:30:00,28.59,63,Rain,light rain
-Telangana,Nizamabad,2026-06-11 02:30:00,26.08,78,Rain,light rain
-Telangana,Nizamabad,2026-06-11 05:30:00,26.97,76,Rain,light rain
-Telangana,Nizamabad,2026-06-11 08:30:00,30.69,52,Clouds,broken clouds
-Telangana,Nizamabad,2026-06-11 11:30:00,33.95,42,Clouds,broken clouds
-Telangana,Nizamabad,2026-06-11 14:30:00,37.97,30,Clear,clear sky
-Telangana,Nizamabad,2026-06-11 17:30:00,38.2,27,Clouds,few clouds
-Telangana,Nizamabad,2026-06-11 20:30:00,33.01,42,Clear,clear sky
-Telangana,Nizamabad,2026-06-11 23:30:00,30.2,54,Clear,clear sky
-Telangana,Nizamabad,2026-06-12 02:30:00,30.61,51,Rain,light rain
-Telangana,Nizamabad,2026-06-12 05:30:00,29.31,58,Clouds,scattered clouds
-Telangana,Nizamabad,2026-06-12 08:30:00,32.06,48,Clouds,broken clouds
-Telangana,Nizamabad,2026-06-12 11:30:00,36.53,35,Clouds,scattered clouds
-Telangana,Nizamabad,2026-06-12 14:30:00,38.94,28,Clouds,few clouds
-Telangana,Nizamabad,2026-06-12 17:30:00,39.09,26,Clouds,few clouds
-Telangana,Nizamabad,2026-06-12 20:30:00,26.74,70,Rain,light rain
-Telangana,Nizamabad,2026-06-12 23:30:00,26.19,73,Rain,light rain
-Telangana,Nizamabad,2026-06-13 02:30:00,26.81,67,Clouds,overcast clouds
-Telangana,Nizamabad,2026-06-13 05:30:00,25.74,73,Rain,light rain
-Telangana,Nizamabad,2026-06-13 08:30:00,27.49,61,Clouds,overcast clouds
-Telangana,Nizamabad,2026-06-13 11:30:00,32.72,43,Rain,light rain
-Telangana,Nizamabad,2026-06-13 14:30:00,34.34,38,Clouds,overcast clouds
-Telangana,Nizamabad,2026-06-13 17:30:00,34.43,37,Clouds,broken clouds
-Telangana,Nizamabad,2026-06-13 20:30:00,30.71,50,Clouds,scattered clouds
-Telangana,Nizamabad,2026-06-13 23:30:00,29.49,58,Rain,light rain
-Telangana,Nizamabad,2026-06-14 02:30:00,28.94,59,Clouds,overcast clouds
-Telangana,Nizamabad,2026-06-14 05:30:00,29.3,56,Clouds,overcast clouds
-Telangana,Nizamabad,2026-06-14 08:30:00,31.13,50,Clouds,overcast clouds
-Telangana,Nizamabad,2026-06-14 11:30:00,32.85,44,Clouds,broken clouds
-Telangana,Nizamabad,2026-06-14 14:30:00,36.6,32,Clouds,scattered clouds
-Telangana,Nizamabad,2026-06-14 17:30:00,34.71,35,Clouds,broken clouds
-Telangana,Nizamabad,2026-06-14 20:30:00,32.43,41,Clouds,broken clouds
-Telangana,Nizamabad,2026-06-14 23:30:00,31.41,45,Clouds,broken clouds
-Telangana,Nizamabad,2026-06-15 02:30:00,30.34,49,Clouds,overcast clouds
-Telangana,Nizamabad,2026-06-15 05:30:00,28.62,56,Clouds,broken clouds
-Telangana,Nizamabad,2026-06-15 08:30:00,31.11,50,Clouds,broken clouds
-Telangana,Rangareddy,2026-06-10 11:30:00,33.92,41,Clouds,broken clouds
-Telangana,Rangareddy,2026-06-10 14:30:00,34.15,40,Clouds,broken clouds
-Telangana,Rangareddy,2026-06-10 17:30:00,29.47,61,Rain,light rain
-Telangana,Rangareddy,2026-06-10 20:30:00,27.14,70,Rain,moderate rain
-Telangana,Rangareddy,2026-06-10 23:30:00,26.8,72,Rain,light rain
-Telangana,Rangareddy,2026-06-11 02:30:00,22.04,88,Rain,moderate rain
-Telangana,Rangareddy,2026-06-11 05:30:00,23.24,82,Rain,light rain
-Telangana,Rangareddy,2026-06-11 08:30:00,26.46,61,Clouds,overcast clouds
-Telangana,Rangareddy,2026-06-11 11:30:00,32.48,42,Clouds,overcast clouds
-Telangana,Rangareddy,2026-06-11 14:30:00,34.93,33,Clouds,broken clouds
-Telangana,Rangareddy,2026-06-11 17:30:00,34.68,33,Clouds,broken clouds
-Telangana,Rangareddy,2026-06-11 20:30:00,31.61,44,Clouds,scattered clouds
-Telangana,Rangareddy,2026-06-11 23:30:00,29.76,51,Rain,light rain
-Telangana,Rangareddy,2026-06-12 02:30:00,26.96,66,Clouds,scattered clouds
-Telangana,Rangareddy,2026-06-12 05:30:00,26.29,67,Clouds,broken clouds
-Telangana,Rangareddy,2026-06-12 08:30:00,27.17,62,Clouds,overcast clouds
-Telangana,Rangareddy,2026-06-12 11:30:00,31.95,45,Clouds,overcast clouds
-Telangana,Rangareddy,2026-06-12 14:30:00,34.22,38,Clouds,overcast clouds
-Telangana,Rangareddy,2026-06-12 17:30:00,33.54,35,Clouds,broken clouds
-Telangana,Rangareddy,2026-06-12 20:30:00,28.52,59,Rain,light rain
-Telangana,Rangareddy,2026-06-12 23:30:00,25.77,70,Rain,light rain
-Telangana,Rangareddy,2026-06-13 02:30:00,24.07,70,Rain,light rain
-Telangana,Rangareddy,2026-06-13 05:30:00,23.51,77,Rain,light rain
-Telangana,Rangareddy,2026-06-13 08:30:00,27.13,60,Clouds,broken clouds
-Telangana,Rangareddy,2026-06-13 11:30:00,28.89,51,Clouds,broken clouds
-Telangana,Rangareddy,2026-06-13 14:30:00,30.9,47,Rain,light rain
-Telangana,Rangareddy,2026-06-13 17:30:00,29.85,47,Rain,light rain
-Telangana,Rangareddy,2026-06-13 20:30:00,28.13,56,Rain,light rain
-Telangana,Rangareddy,2026-06-13 23:30:00,27.13,57,Clouds,few clouds
-Telangana,Rangareddy,2026-06-14 02:30:00,26.99,63,Rain,light rain
-Telangana,Rangareddy,2026-06-14 05:30:00,25.03,73,Rain,light rain
-Telangana,Rangareddy,2026-06-14 08:30:00,26.49,66,Clouds,overcast clouds
-Telangana,Rangareddy,2026-06-14 11:30:00,30.71,49,Clouds,overcast clouds
-Telangana,Rangareddy,2026-06-14 14:30:00,31.3,45,Clouds,overcast clouds
-Telangana,Rangareddy,2026-06-14 17:30:00,29.72,50,Rain,light rain
-Telangana,Rangareddy,2026-06-14 20:30:00,29.2,51,Clouds,overcast clouds
-Telangana,Rangareddy,2026-06-14 23:30:00,27.7,57,Clouds,overcast clouds
-Telangana,Rangareddy,2026-06-15 02:30:00,26.94,62,Clouds,overcast clouds
-Telangana,Rangareddy,2026-06-15 05:30:00,25.97,65,Clouds,overcast clouds
-Telangana,Rangareddy,2026-06-15 08:30:00,28.85,53,Clouds,broken clouds
-Telangana,Sangareddy,2026-06-10 11:30:00,34.89,40,Clouds,broken clouds
-Telangana,Sangareddy,2026-06-10 14:30:00,35.48,38,Rain,light rain
-Telangana,Sangareddy,2026-06-10 17:30:00,30.84,55,Rain,light rain
-Telangana,Sangareddy,2026-06-10 20:30:00,30.87,53,Rain,light rain
-Telangana,Sangareddy,2026-06-10 23:30:00,28.02,64,Rain,light rain
-Telangana,Sangareddy,2026-06-11 02:30:00,23.38,77,Rain,heavy intensity rain
-Telangana,Sangareddy,2026-06-11 05:30:00,21.96,93,Rain,moderate rain
-Telangana,Sangareddy,2026-06-11 08:30:00,26.8,69,Rain,light rain
-Telangana,Sangareddy,2026-06-11 11:30:00,32.02,46,Clouds,overcast clouds
-Telangana,Sangareddy,2026-06-11 14:30:00,35.5,35,Clouds,broken clouds
-Telangana,Sangareddy,2026-06-11 17:30:00,35.85,33,Clouds,scattered clouds
-Telangana,Sangareddy,2026-06-11 20:30:00,32.43,45,Clouds,scattered clouds
-Telangana,Sangareddy,2026-06-11 23:30:00,29.47,57,Rain,light rain
-Telangana,Sangareddy,2026-06-12 02:30:00,27.74,66,Clouds,scattered clouds
-Telangana,Sangareddy,2026-06-12 05:30:00,26.54,69,Clouds,scattered clouds
-Telangana,Sangareddy,2026-06-12 08:30:00,29.23,60,Clouds,scattered clouds
-Telangana,Sangareddy,2026-06-12 11:30:00,33.81,43,Clouds,scattered clouds
-Telangana,Sangareddy,2026-06-12 14:30:00,36.02,35,Clouds,broken clouds
-Telangana,Sangareddy,2026-06-12 17:30:00,31.9,48,Rain,light rain
-Telangana,Sangareddy,2026-06-12 20:30:00,26.77,67,Rain,moderate rain
-Telangana,Sangareddy,2026-06-12 23:30:00,25.25,66,Rain,light rain
-Telangana,Sangareddy,2026-06-13 02:30:00,25.53,67,Rain,light rain
-Telangana,Sangareddy,2026-06-13 05:30:00,24.7,74,Rain,light rain
-Telangana,Sangareddy,2026-06-13 08:30:00,25.29,72,Clouds,overcast clouds
-Telangana,Sangareddy,2026-06-13 11:30:00,27.46,62,Clouds,overcast clouds
-Telangana,Sangareddy,2026-06-13 14:30:00,29.31,53,Clouds,overcast clouds
-Telangana,Sangareddy,2026-06-13 17:30:00,30.14,50,Clouds,overcast clouds
-Telangana,Sangareddy,2026-06-13 20:30:00,27.66,62,Clear,clear sky
-Telangana,Sangareddy,2026-06-13 23:30:00,26.59,64,Rain,light rain
-Telangana,Sangareddy,2026-06-14 02:30:00,26.66,71,Rain,light rain
-Telangana,Sangareddy,2026-06-14 05:30:00,26.24,70,Clouds,broken clouds
-Telangana,Sangareddy,2026-06-14 08:30:00,28.83,59,Clouds,overcast clouds
-Telangana,Sangareddy,2026-06-14 11:30:00,32.32,45,Clouds,broken clouds
-Telangana,Sangareddy,2026-06-14 14:30:00,31.81,46,Clouds,overcast clouds
-Telangana,Sangareddy,2026-06-14 17:30:00,31.62,46,Clouds,overcast clouds
-Telangana,Sangareddy,2026-06-14 20:30:00,29.51,52,Clouds,broken clouds
-Telangana,Sangareddy,2026-06-14 23:30:00,28.26,60,Clouds,broken clouds
-Telangana,Sangareddy,2026-06-15 02:30:00,27.83,60,Clouds,overcast clouds
-Telangana,Sangareddy,2026-06-15 05:30:00,26.42,67,Clouds,overcast clouds
-Telangana,Sangareddy,2026-06-15 08:30:00,29.9,51,Clouds,scattered clouds
-Telangana,Siddipet,2026-06-10 11:30:00,37.07,34,Clouds,broken clouds
-Telangana,Siddipet,2026-06-10 14:30:00,37.22,32,Rain,light rain
-Telangana,Siddipet,2026-06-10 17:30:00,35.24,38,Rain,light rain
-Telangana,Siddipet,2026-06-10 20:30:00,25.96,80,Rain,moderate rain
-Telangana,Siddipet,2026-06-10 23:30:00,29.28,59,Rain,light rain
-Telangana,Siddipet,2026-06-11 02:30:00,23.92,83,Rain,moderate rain
-Telangana,Siddipet,2026-06-11 05:30:00,24.12,84,Rain,moderate rain
-Telangana,Siddipet,2026-06-11 08:30:00,27.25,62,Rain,light rain
-Telangana,Siddipet,2026-06-11 11:30:00,33.1,44,Clouds,overcast clouds
-Telangana,Siddipet,2026-06-11 14:30:00,36.47,32,Clouds,overcast clouds
-Telangana,Siddipet,2026-06-11 17:30:00,36.0,32,Clouds,overcast clouds
-Telangana,Siddipet,2026-06-11 20:30:00,32.13,43,Clouds,few clouds
-Telangana,Siddipet,2026-06-11 23:30:00,29.85,52,Clouds,few clouds
-Telangana,Siddipet,2026-06-12 02:30:00,28.92,56,Rain,light rain
-Telangana,Siddipet,2026-06-12 05:30:00,27.64,66,Rain,light rain
-Telangana,Siddipet,2026-06-12 08:30:00,30.42,55,Clouds,scattered clouds
-Telangana,Siddipet,2026-06-12 11:30:00,34.05,41,Clouds,broken clouds
-Telangana,Siddipet,2026-06-12 14:30:00,36.65,33,Clouds,overcast clouds
-Telangana,Siddipet,2026-06-12 17:30:00,24.46,73,Rain,moderate rain
-Telangana,Siddipet,2026-06-12 20:30:00,26.06,69,Rain,light rain
-Telangana,Siddipet,2026-06-12 23:30:00,26.65,68,Clouds,broken clouds
-Telangana,Siddipet,2026-06-13 02:30:00,26.46,67,Clouds,broken clouds
-Telangana,Siddipet,2026-06-13 05:30:00,25.65,71,Clouds,overcast clouds
-Telangana,Siddipet,2026-06-13 08:30:00,28.49,59,Clouds,broken clouds
-Telangana,Siddipet,2026-06-13 11:30:00,33.59,42,Clouds,broken clouds
-Telangana,Siddipet,2026-06-13 14:30:00,35.52,34,Clouds,scattered clouds
-Telangana,Siddipet,2026-06-13 17:30:00,34.14,37,Clouds,scattered clouds
-Telangana,Siddipet,2026-06-13 20:30:00,30.16,48,Clouds,scattered clouds
-Telangana,Siddipet,2026-06-13 23:30:00,29.66,52,Clouds,scattered clouds
-Telangana,Siddipet,2026-06-14 02:30:00,28.06,59,Rain,light rain
-Telangana,Siddipet,2026-06-14 05:30:00,27.44,64,Clouds,overcast clouds
-Telangana,Siddipet,2026-06-14 08:30:00,30.43,52,Clouds,overcast clouds
-Telangana,Siddipet,2026-06-14 11:30:00,32.27,44,Clouds,overcast clouds
-Telangana,Siddipet,2026-06-14 14:30:00,31.48,46,Clouds,overcast clouds
-Telangana,Siddipet,2026-06-14 17:30:00,31.58,45,Rain,light rain
-Telangana,Siddipet,2026-06-14 20:30:00,30.21,46,Rain,light rain
-Telangana,Siddipet,2026-06-14 23:30:00,28.98,52,Clouds,scattered clouds
-Telangana,Siddipet,2026-06-15 02:30:00,28.17,59,Clouds,overcast clouds
-Telangana,Siddipet,2026-06-15 05:30:00,28.22,53,Clouds,overcast clouds
-Telangana,Siddipet,2026-06-15 08:30:00,30.44,50,Clouds,broken clouds
-Telangana,Suryapet,2026-06-10 11:30:00,36.85,39,Clouds,broken clouds
-Telangana,Suryapet,2026-06-10 14:30:00,37.73,36,Clouds,overcast clouds
-Telangana,Suryapet,2026-06-10 17:30:00,34.14,48,Rain,light rain
-Telangana,Suryapet,2026-06-10 20:30:00,29.95,50,Rain,light rain
-Telangana,Suryapet,2026-06-10 23:30:00,27.09,71,Rain,moderate rain
-Telangana,Suryapet,2026-06-11 02:30:00,28.29,63,Rain,light rain
-Telangana,Suryapet,2026-06-11 05:30:00,27.04,70,Clouds,overcast clouds
-Telangana,Suryapet,2026-06-11 08:30:00,28.7,59,Rain,light rain
-Telangana,Suryapet,2026-06-11 11:30:00,32.42,48,Clouds,overcast clouds
-Telangana,Suryapet,2026-06-11 14:30:00,31.2,55,Clouds,overcast clouds
-Telangana,Suryapet,2026-06-11 17:30:00,32.26,49,Clouds,overcast clouds
-Telangana,Suryapet,2026-06-11 20:30:00,31.26,48,Clouds,broken clouds
-Telangana,Suryapet,2026-06-11 23:30:00,30.14,56,Clouds,scattered clouds
-Telangana,Suryapet,2026-06-12 02:30:00,29.69,60,Rain,light rain
-Telangana,Suryapet,2026-06-12 05:30:00,28.68,65,Clouds,overcast clouds
-Telangana,Suryapet,2026-06-12 08:30:00,32.36,51,Clouds,broken clouds
-Telangana,Suryapet,2026-06-12 11:30:00,36.3,39,Clouds,broken clouds
-Telangana,Suryapet,2026-06-12 14:30:00,38.66,31,Clouds,scattered clouds
-Telangana,Suryapet,2026-06-12 17:30:00,38.69,29,Clouds,few clouds
-Telangana,Suryapet,2026-06-12 20:30:00,32.93,46,Clouds,few clouds
-Telangana,Suryapet,2026-06-12 23:30:00,30.07,56,Rain,light rain
-Telangana,Suryapet,2026-06-13 02:30:00,29.19,63,Rain,light rain
-Telangana,Suryapet,2026-06-13 05:30:00,27.0,67,Rain,moderate rain
-Telangana,Suryapet,2026-06-13 08:30:00,30.4,56,Rain,light rain
-Telangana,Suryapet,2026-06-13 11:30:00,34.97,42,Clouds,broken clouds
-Telangana,Suryapet,2026-06-13 14:30:00,36.66,36,Clear,clear sky
-Telangana,Suryapet,2026-06-13 17:30:00,37.02,34,Clear,clear sky
-Telangana,Suryapet,2026-06-13 20:30:00,32.45,46,Clear,clear sky
-Telangana,Suryapet,2026-06-13 23:30:00,31.57,49,Clouds,scattered clouds
-Telangana,Suryapet,2026-06-14 02:30:00,30.58,56,Rain,light rain
-Telangana,Suryapet,2026-06-14 05:30:00,28.96,60,Rain,light rain
-Telangana,Suryapet,2026-06-14 08:30:00,32.41,51,Clouds,scattered clouds
-Telangana,Suryapet,2026-06-14 11:30:00,37.16,33,Clouds,broken clouds
-Telangana,Suryapet,2026-06-14 14:30:00,37.81,32,Clouds,overcast clouds
-Telangana,Suryapet,2026-06-14 17:30:00,36.37,35,Clouds,overcast clouds
-Telangana,Suryapet,2026-06-14 20:30:00,33.33,45,Rain,light rain
-Telangana,Suryapet,2026-06-14 23:30:00,32.75,47,Clouds,overcast clouds
-Telangana,Suryapet,2026-06-15 02:30:00,31.85,49,Clouds,overcast clouds
-Telangana,Suryapet,2026-06-15 05:30:00,30.77,53,Clouds,overcast clouds
-Telangana,Suryapet,2026-06-15 08:30:00,31.69,48,Clouds,overcast clouds
-Telangana,Vikarabad,2026-06-10 11:30:00,32.95,44,Clouds,broken clouds
-Telangana,Vikarabad,2026-06-10 14:30:00,33.57,42,Rain,light rain
-Telangana,Vikarabad,2026-06-10 17:30:00,31.9,48,Rain,light rain
-Telangana,Vikarabad,2026-06-10 20:30:00,29.46,58,Rain,light rain
-Telangana,Vikarabad,2026-06-10 23:30:00,27.68,65,Rain,light rain
-Telangana,Vikarabad,2026-06-11 02:30:00,23.93,81,Rain,heavy intensity rain
-Telangana,Vikarabad,2026-06-11 05:30:00,23.55,82,Rain,moderate rain
-Telangana,Vikarabad,2026-06-11 08:30:00,25.79,70,Rain,moderate rain
-Telangana,Vikarabad,2026-06-11 11:30:00,31.43,48,Clouds,overcast clouds
-Telangana,Vikarabad,2026-06-11 14:30:00,34.39,37,Clouds,broken clouds
-Telangana,Vikarabad,2026-06-11 17:30:00,34.56,34,Clouds,broken clouds
-Telangana,Vikarabad,2026-06-11 20:30:00,31.41,48,Clouds,broken clouds
-Telangana,Vikarabad,2026-06-11 23:30:00,28.54,58,Clouds,broken clouds
-Telangana,Vikarabad,2026-06-12 02:30:00,26.44,69,Clouds,scattered clouds
-Telangana,Vikarabad,2026-06-12 05:30:00,25.09,71,Clouds,scattered clouds
-Telangana,Vikarabad,2026-06-12 08:30:00,27.23,63,Clouds,broken clouds
-Telangana,Vikarabad,2026-06-12 11:30:00,32.55,45,Clouds,broken clouds
-Telangana,Vikarabad,2026-06-12 14:30:00,34.86,36,Clouds,broken clouds
-Telangana,Vikarabad,2026-06-12 17:30:00,30.96,49,Rain,light rain
-Telangana,Vikarabad,2026-06-12 20:30:00,26.18,64,Rain,light rain
-Telangana,Vikarabad,2026-06-12 23:30:00,24.38,68,Rain,light rain
-Telangana,Vikarabad,2026-06-13 02:30:00,23.7,74,Rain,light rain
-Telangana,Vikarabad,2026-06-13 05:30:00,23.02,80,Rain,light rain
-Telangana,Vikarabad,2026-06-13 08:30:00,24.58,71,Clouds,overcast clouds
-Telangana,Vikarabad,2026-06-13 11:30:00,29.69,50,Clouds,overcast clouds
-Telangana,Vikarabad,2026-06-13 14:30:00,31.23,46,Clouds,scattered clouds
-Telangana,Vikarabad,2026-06-13 17:30:00,30.51,47,Clouds,scattered clouds
-Telangana,Vikarabad,2026-06-13 20:30:00,27.23,61,Clouds,few clouds
-Telangana,Vikarabad,2026-06-13 23:30:00,27.12,60,Clouds,few clouds
-Telangana,Vikarabad,2026-06-14 02:30:00,26.24,71,Rain,light rain
-Telangana,Vikarabad,2026-06-14 05:30:00,24.32,77,Rain,light rain
-Telangana,Vikarabad,2026-06-14 08:30:00,27.56,63,Clouds,broken clouds
-Telangana,Vikarabad,2026-06-14 11:30:00,30.99,47,Clouds,broken clouds
-Telangana,Vikarabad,2026-06-14 14:30:00,30.57,47,Clouds,overcast clouds
-Telangana,Vikarabad,2026-06-14 17:30:00,30.53,47,Clouds,overcast clouds
-Telangana,Vikarabad,2026-06-14 20:30:00,28.59,53,Clouds,overcast clouds
-Telangana,Vikarabad,2026-06-14 23:30:00,27.34,61,Clouds,overcast clouds
-Telangana,Vikarabad,2026-06-15 02:30:00,26.67,64,Clouds,overcast clouds
-Telangana,Vikarabad,2026-06-15 05:30:00,25.41,69,Clouds,overcast clouds
-Telangana,Vikarabad,2026-06-15 08:30:00,28.33,57,Clouds,scattered clouds
-Telangana,Warangal,2026-06-10 11:30:00,38.25,34,Clouds,broken clouds
-Telangana,Warangal,2026-06-10 14:30:00,38.82,31,Clouds,broken clouds
-Telangana,Warangal,2026-06-10 17:30:00,35.63,41,Rain,light rain
-Telangana,Warangal,2026-06-10 20:30:00,29.73,54,Rain,light rain
-Telangana,Warangal,2026-06-10 23:30:00,27.54,66,Rain,moderate rain
-Telangana,Warangal,2026-06-11 02:30:00,24.59,81,Rain,moderate rain
-Telangana,Warangal,2026-06-11 05:30:00,26.87,71,Rain,light rain
-Telangana,Warangal,2026-06-11 08:30:00,30.59,53,Rain,light rain
-Telangana,Warangal,2026-06-11 11:30:00,35.33,39,Clouds,overcast clouds
-Telangana,Warangal,2026-06-11 14:30:00,38.49,30,Clouds,overcast clouds
-Telangana,Warangal,2026-06-11 17:30:00,38.31,30,Clouds,overcast clouds
-Telangana,Warangal,2026-06-11 20:30:00,31.38,50,Rain,light rain
-Telangana,Warangal,2026-06-11 23:30:00,30.82,53,Rain,light rain
-Telangana,Warangal,2026-06-12 02:30:00,30.52,55,Clouds,overcast clouds
-Telangana,Warangal,2026-06-12 05:30:00,29.74,58,Clouds,overcast clouds
-Telangana,Warangal,2026-06-12 08:30:00,31.68,54,Clouds,overcast clouds
-Telangana,Warangal,2026-06-12 11:30:00,34.87,42,Clouds,broken clouds
-Telangana,Warangal,2026-06-12 14:30:00,37.67,32,Clouds,overcast clouds
-Telangana,Warangal,2026-06-12 17:30:00,35.34,40,Clouds,broken clouds
-Telangana,Warangal,2026-06-12 20:30:00,29.08,62,Rain,light rain
-Telangana,Warangal,2026-06-12 23:30:00,28.69,58,Rain,light rain
-Telangana,Warangal,2026-06-13 02:30:00,28.48,61,Rain,light rain
-Telangana,Warangal,2026-06-13 05:30:00,27.78,64,Rain,light rain
-Telangana,Warangal,2026-06-13 08:30:00,31.02,52,Clouds,broken clouds
-Telangana,Warangal,2026-06-13 11:30:00,35.46,39,Clouds,broken clouds
-Telangana,Warangal,2026-06-13 14:30:00,36.07,36,Clouds,overcast clouds
-Telangana,Warangal,2026-06-13 17:30:00,35.24,37,Clouds,overcast clouds
-Telangana,Warangal,2026-06-13 20:30:00,32.32,46,Clouds,scattered clouds
-Telangana,Warangal,2026-06-13 23:30:00,30.75,51,Rain,light rain
-Telangana,Warangal,2026-06-14 02:30:00,29.7,57,Rain,light rain
-Telangana,Warangal,2026-06-14 05:30:00,28.91,60,Rain,light rain
-Telangana,Warangal,2026-06-14 08:30:00,30.12,56,Clouds,overcast clouds
-Telangana,Warangal,2026-06-14 11:30:00,36.0,38,Clouds,broken clouds
-Telangana,Warangal,2026-06-14 14:30:00,36.43,34,Clouds,broken clouds
-Telangana,Warangal,2026-06-14 17:30:00,32.14,48,Rain,light rain
-Telangana,Warangal,2026-06-14 20:30:00,31.79,48,Rain,light rain
-Telangana,Warangal,2026-06-14 23:30:00,31.08,49,Clouds,broken clouds
-Telangana,Warangal,2026-06-15 02:30:00,30.24,52,Clouds,overcast clouds
-Telangana,Warangal,2026-06-15 05:30:00,29.58,57,Clouds,overcast clouds
-Telangana,Warangal,2026-06-15 08:30:00,33.26,41,Clouds,broken clouds
-Telangana,Yadadri Bhuvanagiri,2026-06-10 11:30:00,35.66,38,Clouds,broken clouds
-Telangana,Yadadri Bhuvanagiri,2026-06-10 14:30:00,35.8,37,Rain,light rain
-Telangana,Yadadri Bhuvanagiri,2026-06-10 17:30:00,30.17,58,Rain,moderate rain
-Telangana,Yadadri Bhuvanagiri,2026-06-10 20:30:00,27.24,68,Rain,moderate rain
-Telangana,Yadadri Bhuvanagiri,2026-06-10 23:30:00,27.16,64,Rain,heavy intensity rain
-Telangana,Yadadri Bhuvanagiri,2026-06-11 02:30:00,23.72,90,Rain,heavy intensity rain
-Telangana,Yadadri Bhuvanagiri,2026-06-11 05:30:00,23.81,79,Rain,heavy intensity rain
-Telangana,Yadadri Bhuvanagiri,2026-06-11 08:30:00,27.76,63,Clouds,overcast clouds
-Telangana,Yadadri Bhuvanagiri,2026-06-11 11:30:00,29.64,56,Clouds,overcast clouds
-Telangana,Yadadri Bhuvanagiri,2026-06-11 14:30:00,32.25,48,Clouds,overcast clouds
-Telangana,Yadadri Bhuvanagiri,2026-06-11 17:30:00,34.08,39,Clouds,overcast clouds
-Telangana,Yadadri Bhuvanagiri,2026-06-11 20:30:00,29.36,55,Clouds,scattered clouds
-Telangana,Yadadri Bhuvanagiri,2026-06-11 23:30:00,29.49,55,Clouds,scattered clouds
-Telangana,Yadadri Bhuvanagiri,2026-06-12 02:30:00,28.61,57,Clouds,broken clouds
-Telangana,Yadadri Bhuvanagiri,2026-06-12 05:30:00,27.4,66,Rain,light rain
-Telangana,Yadadri Bhuvanagiri,2026-06-12 08:30:00,28.37,61,Clouds,overcast clouds
-Telangana,Yadadri Bhuvanagiri,2026-06-12 11:30:00,31.74,50,Clouds,overcast clouds
-Telangana,Yadadri Bhuvanagiri,2026-06-12 14:30:00,35.56,37,Clouds,overcast clouds
-Telangana,Yadadri Bhuvanagiri,2026-06-12 17:30:00,35.65,35,Clouds,broken clouds
-Telangana,Yadadri Bhuvanagiri,2026-06-12 20:30:00,27.91,59,Rain,light rain
-Telangana,Yadadri Bhuvanagiri,2026-06-12 23:30:00,28.1,63,Rain,light rain
-Telangana,Yadadri Bhuvanagiri,2026-06-13 02:30:00,26.44,62,Rain,light rain
-Telangana,Yadadri Bhuvanagiri,2026-06-13 05:30:00,25.54,71,Rain,moderate rain
-Telangana,Yadadri Bhuvanagiri,2026-06-13 08:30:00,27.25,63,Clouds,overcast clouds
-Telangana,Yadadri Bhuvanagiri,2026-06-13 11:30:00,30.77,51,Clouds,overcast clouds
-Telangana,Yadadri Bhuvanagiri,2026-06-13 14:30:00,33.54,42,Clouds,overcast clouds
-Telangana,Yadadri Bhuvanagiri,2026-06-13 17:30:00,32.51,44,Clouds,overcast clouds
-Telangana,Yadadri Bhuvanagiri,2026-06-13 20:30:00,28.95,53,Rain,light rain
-Telangana,Yadadri Bhuvanagiri,2026-06-13 23:30:00,28.0,59,Clouds,few clouds
-Telangana,Yadadri Bhuvanagiri,2026-06-14 02:30:00,26.29,65,Rain,light rain
-Telangana,Yadadri Bhuvanagiri,2026-06-14 05:30:00,26.09,74,Rain,light rain
-Telangana,Yadadri Bhuvanagiri,2026-06-14 08:30:00,28.8,60,Clouds,overcast clouds
-Telangana,Yadadri Bhuvanagiri,2026-06-14 11:30:00,31.25,50,Clouds,overcast clouds
-Telangana,Yadadri Bhuvanagiri,2026-06-14 14:30:00,31.05,49,Clouds,overcast clouds
-Telangana,Yadadri Bhuvanagiri,2026-06-14 17:30:00,30.22,53,Clouds,overcast clouds
-Telangana,Yadadri Bhuvanagiri,2026-06-14 20:30:00,28.9,56,Clouds,overcast clouds
-Telangana,Yadadri Bhuvanagiri,2026-06-14 23:30:00,28.45,56,Clouds,overcast clouds
-Telangana,Yadadri Bhuvanagiri,2026-06-15 02:30:00,28.3,58,Clouds,overcast clouds
-Telangana,Yadadri Bhuvanagiri,2026-06-15 05:30:00,27.6,58,Clouds,overcast clouds
-Telangana,Yadadri Bhuvanagiri,2026-06-15 08:30:00,29.27,53,Clouds,broken clouds
+Telangana,Adilabad,2026-06-10 09:00:00,42.28,23,Clouds,overcast clouds
+Telangana,Adilabad,2026-06-10 12:00:00,40.93,25,Rain,light rain
+Telangana,Adilabad,2026-06-10 15:00:00,36.85,34,Rain,light rain
+Telangana,Adilabad,2026-06-10 18:00:00,34.19,39,Rain,light rain
+Telangana,Adilabad,2026-06-10 21:00:00,32.12,49,Clouds,overcast clouds
+Telangana,Adilabad,2026-06-11 00:00:00,32.0,47,Clouds,overcast clouds
+Telangana,Adilabad,2026-06-11 03:00:00,32.86,44,Clouds,overcast clouds
+Telangana,Adilabad,2026-06-11 06:00:00,37.79,31,Clouds,overcast clouds
+Telangana,Adilabad,2026-06-11 09:00:00,42.51,20,Clouds,broken clouds
+Telangana,Adilabad,2026-06-11 12:00:00,40.55,22,Rain,light rain
+Telangana,Adilabad,2026-06-11 15:00:00,34.04,37,Rain,light rain
+Telangana,Adilabad,2026-06-11 18:00:00,33.68,38,Rain,light rain
+Telangana,Adilabad,2026-06-11 21:00:00,32.68,42,Rain,light rain
+Telangana,Adilabad,2026-06-12 00:00:00,32.19,45,Rain,light rain
+Telangana,Adilabad,2026-06-12 03:00:00,35.18,41,Clouds,broken clouds
+Telangana,Adilabad,2026-06-12 06:00:00,39.51,29,Clouds,scattered clouds
+Telangana,Adilabad,2026-06-12 09:00:00,41.81,23,Clouds,few clouds
+Telangana,Adilabad,2026-06-12 12:00:00,42.03,20,Clouds,few clouds
+Telangana,Adilabad,2026-06-12 15:00:00,27.24,68,Rain,moderate rain
+Telangana,Adilabad,2026-06-12 18:00:00,30.3,50,Rain,light rain
+Telangana,Adilabad,2026-06-12 21:00:00,29.31,54,Rain,light rain
+Telangana,Adilabad,2026-06-13 00:00:00,29.57,57,Clouds,overcast clouds
+Telangana,Adilabad,2026-06-13 03:00:00,31.48,49,Clouds,overcast clouds
+Telangana,Adilabad,2026-06-13 06:00:00,33.48,43,Clouds,overcast clouds
+Telangana,Adilabad,2026-06-13 09:00:00,35.75,37,Clouds,overcast clouds
+Telangana,Adilabad,2026-06-13 12:00:00,36.2,36,Clouds,overcast clouds
+Telangana,Adilabad,2026-06-13 15:00:00,32.61,45,Rain,light rain
+Telangana,Adilabad,2026-06-13 18:00:00,31.1,51,Rain,light rain
+Telangana,Adilabad,2026-06-13 21:00:00,32.11,42,Clouds,overcast clouds
+Telangana,Adilabad,2026-06-14 00:00:00,32.1,43,Clouds,overcast clouds
+Telangana,Adilabad,2026-06-14 03:00:00,33.56,44,Clouds,broken clouds
+Telangana,Adilabad,2026-06-14 06:00:00,36.5,35,Clouds,broken clouds
+Telangana,Adilabad,2026-06-14 09:00:00,37.1,32,Clouds,overcast clouds
+Telangana,Adilabad,2026-06-14 12:00:00,39.25,26,Clouds,overcast clouds
+Telangana,Adilabad,2026-06-14 15:00:00,34.73,31,Rain,light rain
+Telangana,Adilabad,2026-06-14 18:00:00,34.8,28,Clouds,overcast clouds
+Telangana,Adilabad,2026-06-14 21:00:00,33.38,38,Clouds,overcast clouds
+Telangana,Adilabad,2026-06-15 00:00:00,31.21,50,Clouds,overcast clouds
+Telangana,Adilabad,2026-06-15 03:00:00,32.75,48,Clouds,broken clouds
+Telangana,Adilabad,2026-06-15 06:00:00,35.91,38,Clouds,broken clouds
+Telangana,Bhadradri Kothagudem,2026-06-10 09:00:00,40.92,27,Clouds,overcast clouds
+Telangana,Bhadradri Kothagudem,2026-06-10 12:00:00,39.83,30,Rain,light rain
+Telangana,Bhadradri Kothagudem,2026-06-10 15:00:00,33.05,55,Rain,light rain
+Telangana,Bhadradri Kothagudem,2026-06-10 18:00:00,27.76,74,Rain,light rain
+Telangana,Bhadradri Kothagudem,2026-06-10 21:00:00,27.74,75,Rain,light rain
+Telangana,Bhadradri Kothagudem,2026-06-11 00:00:00,27.98,75,Clouds,overcast clouds
+Telangana,Bhadradri Kothagudem,2026-06-11 03:00:00,33.37,47,Clouds,broken clouds
+Telangana,Bhadradri Kothagudem,2026-06-11 06:00:00,38.76,33,Clouds,broken clouds
+Telangana,Bhadradri Kothagudem,2026-06-11 09:00:00,41.77,25,Clouds,overcast clouds
+Telangana,Bhadradri Kothagudem,2026-06-11 12:00:00,40.9,26,Clouds,broken clouds
+Telangana,Bhadradri Kothagudem,2026-06-11 15:00:00,33.0,47,Rain,light rain
+Telangana,Bhadradri Kothagudem,2026-06-11 18:00:00,28.23,71,Rain,moderate rain
+Telangana,Bhadradri Kothagudem,2026-06-11 21:00:00,27.75,68,Rain,light rain
+Telangana,Bhadradri Kothagudem,2026-06-12 00:00:00,26.13,88,Rain,moderate rain
+Telangana,Bhadradri Kothagudem,2026-06-12 03:00:00,27.48,81,Clouds,overcast clouds
+Telangana,Bhadradri Kothagudem,2026-06-12 06:00:00,34.11,50,Clouds,overcast clouds
+Telangana,Bhadradri Kothagudem,2026-06-12 09:00:00,37.89,36,Clouds,overcast clouds
+Telangana,Bhadradri Kothagudem,2026-06-12 12:00:00,36.6,41,Clouds,overcast clouds
+Telangana,Bhadradri Kothagudem,2026-06-12 15:00:00,30.17,63,Rain,light rain
+Telangana,Bhadradri Kothagudem,2026-06-12 18:00:00,27.41,78,Rain,light rain
+Telangana,Bhadradri Kothagudem,2026-06-12 21:00:00,27.11,77,Rain,light rain
+Telangana,Bhadradri Kothagudem,2026-06-13 00:00:00,26.82,80,Clouds,overcast clouds
+Telangana,Bhadradri Kothagudem,2026-06-13 03:00:00,30.89,58,Clouds,overcast clouds
+Telangana,Bhadradri Kothagudem,2026-06-13 06:00:00,36.42,35,Clouds,broken clouds
+Telangana,Bhadradri Kothagudem,2026-06-13 09:00:00,39.06,30,Clouds,scattered clouds
+Telangana,Bhadradri Kothagudem,2026-06-13 12:00:00,38.46,32,Clouds,scattered clouds
+Telangana,Bhadradri Kothagudem,2026-06-13 15:00:00,30.07,60,Rain,light rain
+Telangana,Bhadradri Kothagudem,2026-06-13 18:00:00,30.66,58,Rain,light rain
+Telangana,Bhadradri Kothagudem,2026-06-13 21:00:00,29.44,63,Rain,light rain
+Telangana,Bhadradri Kothagudem,2026-06-14 00:00:00,28.57,67,Rain,light rain
+Telangana,Bhadradri Kothagudem,2026-06-14 03:00:00,33.01,49,Clouds,broken clouds
+Telangana,Bhadradri Kothagudem,2026-06-14 06:00:00,39.07,30,Clouds,broken clouds
+Telangana,Bhadradri Kothagudem,2026-06-14 09:00:00,40.78,25,Clouds,broken clouds
+Telangana,Bhadradri Kothagudem,2026-06-14 12:00:00,38.04,33,Clouds,broken clouds
+Telangana,Bhadradri Kothagudem,2026-06-14 15:00:00,31.47,54,Rain,light rain
+Telangana,Bhadradri Kothagudem,2026-06-14 18:00:00,31.34,58,Rain,light rain
+Telangana,Bhadradri Kothagudem,2026-06-14 21:00:00,30.9,59,Clouds,overcast clouds
+Telangana,Bhadradri Kothagudem,2026-06-15 00:00:00,30.18,58,Clouds,overcast clouds
+Telangana,Bhadradri Kothagudem,2026-06-15 03:00:00,35.33,38,Clouds,overcast clouds
+Telangana,Bhadradri Kothagudem,2026-06-15 06:00:00,36.22,34,Clouds,broken clouds
+Telangana,Hyderabad,2026-06-10 09:00:00,35.64,36,Rain,light rain
+Telangana,Hyderabad,2026-06-10 12:00:00,32.62,50,Rain,moderate rain
+Telangana,Hyderabad,2026-06-10 15:00:00,31.67,53,Rain,moderate rain
+Telangana,Hyderabad,2026-06-10 18:00:00,28.8,66,Rain,light rain
+Telangana,Hyderabad,2026-06-10 21:00:00,28.08,64,Rain,light rain
+Telangana,Hyderabad,2026-06-11 00:00:00,26.11,77,Rain,light rain
+Telangana,Hyderabad,2026-06-11 03:00:00,28.94,62,Clouds,overcast clouds
+Telangana,Hyderabad,2026-06-11 06:00:00,34.0,41,Clouds,broken clouds
+Telangana,Hyderabad,2026-06-11 09:00:00,36.82,31,Clouds,scattered clouds
+Telangana,Hyderabad,2026-06-11 12:00:00,36.72,30,Clouds,scattered clouds
+Telangana,Hyderabad,2026-06-11 15:00:00,33.8,38,Clouds,scattered clouds
+Telangana,Hyderabad,2026-06-11 18:00:00,31.87,43,Clouds,scattered clouds
+Telangana,Hyderabad,2026-06-11 21:00:00,29.14,55,Rain,light rain
+Telangana,Hyderabad,2026-06-12 00:00:00,27.44,62,Clouds,scattered clouds
+Telangana,Hyderabad,2026-06-12 03:00:00,30.09,54,Clouds,few clouds
+Telangana,Hyderabad,2026-06-12 06:00:00,34.64,39,Clouds,scattered clouds
+Telangana,Hyderabad,2026-06-12 09:00:00,36.17,34,Clouds,overcast clouds
+Telangana,Hyderabad,2026-06-12 12:00:00,34.54,34,Clouds,overcast clouds
+Telangana,Hyderabad,2026-06-12 15:00:00,28.37,61,Rain,light rain
+Telangana,Hyderabad,2026-06-12 18:00:00,24.84,78,Rain,light rain
+Telangana,Hyderabad,2026-06-12 21:00:00,27.31,57,Rain,light rain
+Telangana,Hyderabad,2026-06-13 00:00:00,24.41,77,Clouds,overcast clouds
+Telangana,Hyderabad,2026-06-13 03:00:00,26.25,63,Clouds,overcast clouds
+Telangana,Hyderabad,2026-06-13 06:00:00,28.32,53,Clouds,overcast clouds
+Telangana,Hyderabad,2026-06-13 09:00:00,30.48,46,Clouds,overcast clouds
+Telangana,Hyderabad,2026-06-13 12:00:00,30.64,47,Clouds,overcast clouds
+Telangana,Hyderabad,2026-06-13 15:00:00,28.85,55,Clouds,overcast clouds
+Telangana,Hyderabad,2026-06-13 18:00:00,28.21,58,Clouds,broken clouds
+Telangana,Hyderabad,2026-06-13 21:00:00,27.33,65,Rain,light rain
+Telangana,Hyderabad,2026-06-14 00:00:00,26.62,65,Clouds,broken clouds
+Telangana,Hyderabad,2026-06-14 03:00:00,28.55,61,Clouds,broken clouds
+Telangana,Hyderabad,2026-06-14 06:00:00,29.66,53,Clouds,broken clouds
+Telangana,Hyderabad,2026-06-14 09:00:00,30.99,47,Clouds,overcast clouds
+Telangana,Hyderabad,2026-06-14 12:00:00,30.67,46,Clouds,overcast clouds
+Telangana,Hyderabad,2026-06-14 15:00:00,30.22,46,Clouds,overcast clouds
+Telangana,Hyderabad,2026-06-14 18:00:00,29.13,54,Clouds,overcast clouds
+Telangana,Hyderabad,2026-06-14 21:00:00,28.31,59,Clouds,overcast clouds
+Telangana,Hyderabad,2026-06-15 00:00:00,27.37,61,Clouds,overcast clouds
+Telangana,Hyderabad,2026-06-15 03:00:00,30.33,50,Clouds,broken clouds
+Telangana,Hyderabad,2026-06-15 06:00:00,34.28,37,Clouds,broken clouds
+Telangana,Jagtial,2026-06-10 09:00:00,41.0,23,Clouds,overcast clouds
+Telangana,Jagtial,2026-06-10 12:00:00,37.71,32,Rain,light rain
+Telangana,Jagtial,2026-06-10 15:00:00,35.8,37,Rain,light rain
+Telangana,Jagtial,2026-06-10 18:00:00,31.99,46,Rain,light rain
+Telangana,Jagtial,2026-06-10 21:00:00,30.74,53,Rain,light rain
+Telangana,Jagtial,2026-06-11 00:00:00,29.73,57,Clouds,overcast clouds
+Telangana,Jagtial,2026-06-11 03:00:00,33.05,44,Clouds,few clouds
+Telangana,Jagtial,2026-06-11 06:00:00,38.11,31,Clouds,scattered clouds
+Telangana,Jagtial,2026-06-11 09:00:00,41.16,22,Clouds,broken clouds
+Telangana,Jagtial,2026-06-11 12:00:00,39.91,22,Clouds,broken clouds
+Telangana,Jagtial,2026-06-11 15:00:00,34.59,36,Rain,light rain
+Telangana,Jagtial,2026-06-11 18:00:00,30.8,50,Rain,light rain
+Telangana,Jagtial,2026-06-11 21:00:00,31.24,47,Clear,clear sky
+Telangana,Jagtial,2026-06-12 00:00:00,30.68,49,Clouds,scattered clouds
+Telangana,Jagtial,2026-06-12 03:00:00,34.07,44,Clouds,scattered clouds
+Telangana,Jagtial,2026-06-12 06:00:00,37.81,34,Clouds,scattered clouds
+Telangana,Jagtial,2026-06-12 09:00:00,40.57,27,Clouds,scattered clouds
+Telangana,Jagtial,2026-06-12 12:00:00,25.34,79,Rain,light rain
+Telangana,Jagtial,2026-06-12 15:00:00,27.45,70,Rain,light rain
+Telangana,Jagtial,2026-06-12 18:00:00,28.03,58,Clouds,overcast clouds
+Telangana,Jagtial,2026-06-12 21:00:00,28.75,52,Clouds,overcast clouds
+Telangana,Jagtial,2026-06-13 00:00:00,28.56,58,Rain,light rain
+Telangana,Jagtial,2026-06-13 03:00:00,30.13,53,Clouds,overcast clouds
+Telangana,Jagtial,2026-06-13 06:00:00,33.34,42,Clouds,overcast clouds
+Telangana,Jagtial,2026-06-13 09:00:00,35.5,38,Clouds,overcast clouds
+Telangana,Jagtial,2026-06-13 12:00:00,34.47,39,Clouds,broken clouds
+Telangana,Jagtial,2026-06-13 15:00:00,32.28,47,Clouds,overcast clouds
+Telangana,Jagtial,2026-06-13 18:00:00,30.44,51,Clouds,broken clouds
+Telangana,Jagtial,2026-06-13 21:00:00,30.83,50,Clouds,overcast clouds
+Telangana,Jagtial,2026-06-14 00:00:00,29.73,54,Clouds,overcast clouds
+Telangana,Jagtial,2026-06-14 03:00:00,31.62,48,Clouds,overcast clouds
+Telangana,Jagtial,2026-06-14 06:00:00,36.21,36,Clouds,broken clouds
+Telangana,Jagtial,2026-06-14 09:00:00,39.24,28,Clouds,broken clouds
+Telangana,Jagtial,2026-06-14 12:00:00,37.3,31,Clouds,broken clouds
+Telangana,Jagtial,2026-06-14 15:00:00,32.94,38,Clouds,broken clouds
+Telangana,Jagtial,2026-06-14 18:00:00,33.32,34,Clouds,broken clouds
+Telangana,Jagtial,2026-06-14 21:00:00,31.79,43,Clouds,overcast clouds
+Telangana,Jagtial,2026-06-15 00:00:00,31.14,45,Clouds,overcast clouds
+Telangana,Jagtial,2026-06-15 03:00:00,31.94,47,Clouds,overcast clouds
+Telangana,Jagtial,2026-06-15 06:00:00,32.78,44,Clouds,overcast clouds
+Telangana,Jayashankar Bhupalapally,2026-06-10 09:00:00,41.33,23,Clouds,overcast clouds
+Telangana,Jayashankar Bhupalapally,2026-06-10 12:00:00,39.86,27,Rain,light rain
+Telangana,Jayashankar Bhupalapally,2026-06-10 15:00:00,36.45,37,Rain,light rain
+Telangana,Jayashankar Bhupalapally,2026-06-10 18:00:00,31.68,53,Clouds,overcast clouds
+Telangana,Jayashankar Bhupalapally,2026-06-10 21:00:00,31.21,53,Clouds,overcast clouds
+Telangana,Jayashankar Bhupalapally,2026-06-11 00:00:00,29.42,55,Clouds,overcast clouds
+Telangana,Jayashankar Bhupalapally,2026-06-11 03:00:00,33.93,44,Clouds,broken clouds
+Telangana,Jayashankar Bhupalapally,2026-06-11 06:00:00,39.3,29,Clouds,broken clouds
+Telangana,Jayashankar Bhupalapally,2026-06-11 09:00:00,42.2,22,Clouds,scattered clouds
+Telangana,Jayashankar Bhupalapally,2026-06-11 12:00:00,41.25,21,Clouds,scattered clouds
+Telangana,Jayashankar Bhupalapally,2026-06-11 15:00:00,33.97,39,Clear,clear sky
+Telangana,Jayashankar Bhupalapally,2026-06-11 18:00:00,30.52,54,Rain,light rain
+Telangana,Jayashankar Bhupalapally,2026-06-11 21:00:00,29.76,60,Rain,light rain
+Telangana,Jayashankar Bhupalapally,2026-06-12 00:00:00,28.45,62,Rain,light rain
+Telangana,Jayashankar Bhupalapally,2026-06-12 03:00:00,31.81,54,Clouds,broken clouds
+Telangana,Jayashankar Bhupalapally,2026-06-12 06:00:00,37.78,35,Clouds,broken clouds
+Telangana,Jayashankar Bhupalapally,2026-06-12 09:00:00,40.95,26,Rain,light rain
+Telangana,Jayashankar Bhupalapally,2026-06-12 12:00:00,27.46,72,Rain,moderate rain
+Telangana,Jayashankar Bhupalapally,2026-06-12 15:00:00,27.75,62,Rain,moderate rain
+Telangana,Jayashankar Bhupalapally,2026-06-12 18:00:00,28.52,61,Clouds,overcast clouds
+Telangana,Jayashankar Bhupalapally,2026-06-12 21:00:00,27.51,68,Clouds,overcast clouds
+Telangana,Jayashankar Bhupalapally,2026-06-13 00:00:00,27.36,66,Clouds,overcast clouds
+Telangana,Jayashankar Bhupalapally,2026-06-13 03:00:00,28.72,59,Rain,light rain
+Telangana,Jayashankar Bhupalapally,2026-06-13 06:00:00,34.27,44,Clouds,overcast clouds
+Telangana,Jayashankar Bhupalapally,2026-06-13 09:00:00,37.35,34,Clouds,overcast clouds
+Telangana,Jayashankar Bhupalapally,2026-06-13 12:00:00,36.43,35,Clouds,broken clouds
+Telangana,Jayashankar Bhupalapally,2026-06-13 15:00:00,32.37,47,Clear,clear sky
+Telangana,Jayashankar Bhupalapally,2026-06-13 18:00:00,30.91,54,Clouds,scattered clouds
+Telangana,Jayashankar Bhupalapally,2026-06-13 21:00:00,29.97,57,Clouds,broken clouds
+Telangana,Jayashankar Bhupalapally,2026-06-14 00:00:00,29.92,57,Clouds,broken clouds
+Telangana,Jayashankar Bhupalapally,2026-06-14 03:00:00,32.26,48,Clouds,broken clouds
+Telangana,Jayashankar Bhupalapally,2026-06-14 06:00:00,35.44,38,Clouds,broken clouds
+Telangana,Jayashankar Bhupalapally,2026-06-14 09:00:00,38.41,30,Clouds,overcast clouds
+Telangana,Jayashankar Bhupalapally,2026-06-14 12:00:00,38.27,30,Clouds,overcast clouds
+Telangana,Jayashankar Bhupalapally,2026-06-14 15:00:00,30.69,52,Clouds,broken clouds
+Telangana,Jayashankar Bhupalapally,2026-06-14 18:00:00,31.3,51,Clouds,broken clouds
+Telangana,Jayashankar Bhupalapally,2026-06-14 21:00:00,31.24,52,Clouds,overcast clouds
+Telangana,Jayashankar Bhupalapally,2026-06-15 00:00:00,31.06,48,Clouds,overcast clouds
+Telangana,Jayashankar Bhupalapally,2026-06-15 03:00:00,35.65,35,Clouds,broken clouds
+Telangana,Jayashankar Bhupalapally,2026-06-15 06:00:00,34.98,38,Clouds,broken clouds
+Telangana,Karimnagar,2026-06-10 09:00:00,40.52,24,Clouds,overcast clouds
+Telangana,Karimnagar,2026-06-10 12:00:00,38.72,29,Rain,light rain
+Telangana,Karimnagar,2026-06-10 15:00:00,34.45,40,Rain,light rain
+Telangana,Karimnagar,2026-06-10 18:00:00,31.42,54,Rain,light rain
+Telangana,Karimnagar,2026-06-10 21:00:00,29.43,58,Clouds,overcast clouds
+Telangana,Karimnagar,2026-06-11 00:00:00,29.84,57,Rain,light rain
+Telangana,Karimnagar,2026-06-11 03:00:00,33.17,45,Clouds,scattered clouds
+Telangana,Karimnagar,2026-06-11 06:00:00,38.42,30,Clouds,scattered clouds
+Telangana,Karimnagar,2026-06-11 09:00:00,41.44,22,Clouds,few clouds
+Telangana,Karimnagar,2026-06-11 12:00:00,39.98,23,Rain,light rain
+Telangana,Karimnagar,2026-06-11 15:00:00,34.65,38,Rain,light rain
+Telangana,Karimnagar,2026-06-11 18:00:00,33.0,42,Rain,light rain
+Telangana,Karimnagar,2026-06-11 21:00:00,29.87,55,Rain,light rain
+Telangana,Karimnagar,2026-06-12 00:00:00,29.84,55,Clouds,few clouds
+Telangana,Karimnagar,2026-06-12 03:00:00,31.13,54,Clouds,broken clouds
+Telangana,Karimnagar,2026-06-12 06:00:00,36.96,36,Clouds,broken clouds
+Telangana,Karimnagar,2026-06-12 09:00:00,40.15,27,Clear,clear sky
+Telangana,Karimnagar,2026-06-12 12:00:00,29.51,62,Rain,light rain
+Telangana,Karimnagar,2026-06-12 15:00:00,26.8,68,Rain,moderate rain
+Telangana,Karimnagar,2026-06-12 18:00:00,28.47,59,Rain,light rain
+Telangana,Karimnagar,2026-06-12 21:00:00,28.03,58,Clouds,overcast clouds
+Telangana,Karimnagar,2026-06-13 00:00:00,27.97,60,Rain,light rain
+Telangana,Karimnagar,2026-06-13 03:00:00,29.17,56,Clouds,overcast clouds
+Telangana,Karimnagar,2026-06-13 06:00:00,33.47,43,Clouds,overcast clouds
+Telangana,Karimnagar,2026-06-13 09:00:00,35.22,38,Clouds,broken clouds
+Telangana,Karimnagar,2026-06-13 12:00:00,34.67,39,Clouds,broken clouds
+Telangana,Karimnagar,2026-06-13 15:00:00,31.61,50,Clouds,scattered clouds
+Telangana,Karimnagar,2026-06-13 18:00:00,30.78,52,Clouds,broken clouds
+Telangana,Karimnagar,2026-06-13 21:00:00,30.03,54,Clouds,overcast clouds
+Telangana,Karimnagar,2026-06-14 00:00:00,30.24,51,Clouds,overcast clouds
+Telangana,Karimnagar,2026-06-14 03:00:00,31.79,47,Clouds,broken clouds
+Telangana,Karimnagar,2026-06-14 06:00:00,34.54,40,Clouds,broken clouds
+Telangana,Karimnagar,2026-06-14 09:00:00,37.72,31,Clouds,overcast clouds
+Telangana,Karimnagar,2026-06-14 12:00:00,36.42,33,Clouds,overcast clouds
+Telangana,Karimnagar,2026-06-14 15:00:00,34.14,39,Rain,light rain
+Telangana,Karimnagar,2026-06-14 18:00:00,32.54,43,Clouds,broken clouds
+Telangana,Karimnagar,2026-06-14 21:00:00,31.67,45,Clouds,overcast clouds
+Telangana,Karimnagar,2026-06-15 00:00:00,31.07,45,Clouds,overcast clouds
+Telangana,Karimnagar,2026-06-15 03:00:00,31.39,49,Clouds,overcast clouds
+Telangana,Karimnagar,2026-06-15 06:00:00,32.45,45,Clouds,overcast clouds
+Telangana,Khammam,2026-06-10 09:00:00,41.15,28,Clouds,overcast clouds
+Telangana,Khammam,2026-06-10 12:00:00,40.77,29,Clouds,overcast clouds
+Telangana,Khammam,2026-06-10 15:00:00,33.54,56,Rain,light rain
+Telangana,Khammam,2026-06-10 18:00:00,27.26,77,Rain,moderate rain
+Telangana,Khammam,2026-06-10 21:00:00,27.7,74,Rain,light rain
+Telangana,Khammam,2026-06-11 00:00:00,28.48,73,Rain,light rain
+Telangana,Khammam,2026-06-11 03:00:00,32.29,52,Clouds,broken clouds
+Telangana,Khammam,2026-06-11 06:00:00,37.11,39,Clouds,broken clouds
+Telangana,Khammam,2026-06-11 09:00:00,40.14,29,Clouds,broken clouds
+Telangana,Khammam,2026-06-11 12:00:00,39.62,28,Clouds,broken clouds
+Telangana,Khammam,2026-06-11 15:00:00,35.51,40,Clouds,few clouds
+Telangana,Khammam,2026-06-11 18:00:00,30.64,57,Rain,light rain
+Telangana,Khammam,2026-06-11 21:00:00,29.31,66,Rain,light rain
+Telangana,Khammam,2026-06-12 00:00:00,27.32,78,Clouds,overcast clouds
+Telangana,Khammam,2026-06-12 03:00:00,28.49,73,Rain,light rain
+Telangana,Khammam,2026-06-12 06:00:00,36.54,39,Clouds,overcast clouds
+Telangana,Khammam,2026-06-12 09:00:00,37.88,34,Clouds,overcast clouds
+Telangana,Khammam,2026-06-12 12:00:00,38.47,32,Clouds,overcast clouds
+Telangana,Khammam,2026-06-12 15:00:00,30.56,55,Rain,light rain
+Telangana,Khammam,2026-06-12 18:00:00,27.87,65,Rain,light rain
+Telangana,Khammam,2026-06-12 21:00:00,28.06,67,Rain,light rain
+Telangana,Khammam,2026-06-13 00:00:00,28.37,69,Clouds,broken clouds
+Telangana,Khammam,2026-06-13 03:00:00,29.83,59,Clouds,overcast clouds
+Telangana,Khammam,2026-06-13 06:00:00,32.7,45,Clouds,overcast clouds
+Telangana,Khammam,2026-06-13 09:00:00,34.3,42,Rain,light rain
+Telangana,Khammam,2026-06-13 12:00:00,31.81,53,Rain,light rain
+Telangana,Khammam,2026-06-13 15:00:00,30.19,56,Rain,light rain
+Telangana,Khammam,2026-06-13 18:00:00,30.22,58,Clouds,overcast clouds
+Telangana,Khammam,2026-06-13 21:00:00,29.28,63,Rain,light rain
+Telangana,Khammam,2026-06-14 00:00:00,28.68,66,Rain,light rain
+Telangana,Khammam,2026-06-14 03:00:00,30.33,61,Clouds,overcast clouds
+Telangana,Khammam,2026-06-14 06:00:00,36.48,38,Clouds,overcast clouds
+Telangana,Khammam,2026-06-14 09:00:00,37.38,34,Clouds,overcast clouds
+Telangana,Khammam,2026-06-14 12:00:00,37.0,34,Clouds,broken clouds
+Telangana,Khammam,2026-06-14 15:00:00,33.38,45,Rain,light rain
+Telangana,Khammam,2026-06-14 18:00:00,31.15,56,Rain,light rain
+Telangana,Khammam,2026-06-14 21:00:00,30.4,59,Rain,light rain
+Telangana,Khammam,2026-06-15 00:00:00,30.28,59,Clouds,overcast clouds
+Telangana,Khammam,2026-06-15 03:00:00,34.55,39,Clouds,broken clouds
+Telangana,Khammam,2026-06-15 06:00:00,37.95,33,Clouds,broken clouds
+Telangana,Mahabubnagar,2026-06-10 09:00:00,34.67,40,Rain,light rain
+Telangana,Mahabubnagar,2026-06-10 12:00:00,34.05,42,Rain,light rain
+Telangana,Mahabubnagar,2026-06-10 15:00:00,32.02,48,Clouds,overcast clouds
+Telangana,Mahabubnagar,2026-06-10 18:00:00,28.61,64,Clouds,overcast clouds
+Telangana,Mahabubnagar,2026-06-10 21:00:00,26.57,71,Rain,light rain
+Telangana,Mahabubnagar,2026-06-11 00:00:00,25.62,75,Rain,light rain
+Telangana,Mahabubnagar,2026-06-11 03:00:00,28.05,64,Clouds,overcast clouds
+Telangana,Mahabubnagar,2026-06-11 06:00:00,32.72,44,Clouds,overcast clouds
+Telangana,Mahabubnagar,2026-06-11 09:00:00,35.45,35,Clouds,few clouds
+Telangana,Mahabubnagar,2026-06-11 12:00:00,34.85,35,Clouds,scattered clouds
+Telangana,Mahabubnagar,2026-06-11 15:00:00,32.05,42,Rain,light rain
+Telangana,Mahabubnagar,2026-06-11 18:00:00,30.73,46,Clouds,scattered clouds
+Telangana,Mahabubnagar,2026-06-11 21:00:00,27.33,62,Clear,clear sky
+Telangana,Mahabubnagar,2026-06-12 00:00:00,25.96,67,Clear,clear sky
+Telangana,Mahabubnagar,2026-06-12 03:00:00,28.38,57,Clouds,scattered clouds
+Telangana,Mahabubnagar,2026-06-12 06:00:00,33.18,41,Clouds,scattered clouds
+Telangana,Mahabubnagar,2026-06-12 09:00:00,35.58,34,Clouds,broken clouds
+Telangana,Mahabubnagar,2026-06-12 12:00:00,32.01,46,Rain,light rain
+Telangana,Mahabubnagar,2026-06-12 15:00:00,28.17,56,Rain,moderate rain
+Telangana,Mahabubnagar,2026-06-12 18:00:00,26.92,69,Rain,moderate rain
+Telangana,Mahabubnagar,2026-06-12 21:00:00,23.81,82,Rain,light rain
+Telangana,Mahabubnagar,2026-06-13 00:00:00,22.62,81,Rain,light rain
+Telangana,Mahabubnagar,2026-06-13 03:00:00,23.77,73,Clouds,overcast clouds
+Telangana,Mahabubnagar,2026-06-13 06:00:00,27.74,57,Clouds,overcast clouds
+Telangana,Mahabubnagar,2026-06-13 09:00:00,31.73,44,Clouds,scattered clouds
+Telangana,Mahabubnagar,2026-06-13 12:00:00,30.78,47,Clouds,scattered clouds
+Telangana,Mahabubnagar,2026-06-13 15:00:00,28.41,60,Clouds,broken clouds
+Telangana,Mahabubnagar,2026-06-13 18:00:00,27.79,64,Clouds,broken clouds
+Telangana,Mahabubnagar,2026-06-13 21:00:00,25.15,75,Rain,light rain
+Telangana,Mahabubnagar,2026-06-14 00:00:00,25.07,75,Rain,light rain
+Telangana,Mahabubnagar,2026-06-14 03:00:00,26.86,67,Rain,light rain
+Telangana,Mahabubnagar,2026-06-14 06:00:00,32.16,44,Clouds,broken clouds
+Telangana,Mahabubnagar,2026-06-14 09:00:00,32.61,39,Clouds,broken clouds
+Telangana,Mahabubnagar,2026-06-14 12:00:00,30.77,45,Clouds,overcast clouds
+Telangana,Mahabubnagar,2026-06-14 15:00:00,27.78,64,Clouds,overcast clouds
+Telangana,Mahabubnagar,2026-06-14 18:00:00,26.94,67,Clouds,overcast clouds
+Telangana,Mahabubnagar,2026-06-14 21:00:00,26.88,63,Clouds,overcast clouds
+Telangana,Mahabubnagar,2026-06-15 00:00:00,26.57,63,Clouds,overcast clouds
+Telangana,Mahabubnagar,2026-06-15 03:00:00,28.43,56,Clouds,broken clouds
+Telangana,Mahabubnagar,2026-06-15 06:00:00,32.53,43,Clouds,broken clouds
+Telangana,Medak,2026-06-10 09:00:00,37.67,32,Clouds,overcast clouds
+Telangana,Medak,2026-06-10 12:00:00,37.26,33,Rain,light rain
+Telangana,Medak,2026-06-10 15:00:00,32.37,48,Rain,light rain
+Telangana,Medak,2026-06-10 18:00:00,25.43,80,Rain,moderate rain
+Telangana,Medak,2026-06-10 21:00:00,27.15,66,Rain,moderate rain
+Telangana,Medak,2026-06-11 00:00:00,27.38,69,Rain,light rain
+Telangana,Medak,2026-06-11 03:00:00,29.32,56,Clouds,broken clouds
+Telangana,Medak,2026-06-11 06:00:00,34.35,38,Clouds,broken clouds
+Telangana,Medak,2026-06-11 09:00:00,37.63,30,Clouds,scattered clouds
+Telangana,Medak,2026-06-11 12:00:00,37.49,28,Clouds,few clouds
+Telangana,Medak,2026-06-11 15:00:00,34.68,35,Clouds,broken clouds
+Telangana,Medak,2026-06-11 18:00:00,30.85,48,Rain,light rain
+Telangana,Medak,2026-06-11 21:00:00,30.1,51,Clouds,overcast clouds
+Telangana,Medak,2026-06-12 00:00:00,28.36,64,Clouds,overcast clouds
+Telangana,Medak,2026-06-12 03:00:00,31.28,53,Clouds,scattered clouds
+Telangana,Medak,2026-06-12 06:00:00,34.26,42,Clouds,scattered clouds
+Telangana,Medak,2026-06-12 09:00:00,34.07,39,Rain,light rain
+Telangana,Medak,2026-06-12 12:00:00,36.36,33,Rain,light rain
+Telangana,Medak,2026-06-12 15:00:00,25.81,78,Rain,moderate rain
+Telangana,Medak,2026-06-12 18:00:00,23.0,84,Rain,moderate rain
+Telangana,Medak,2026-06-12 21:00:00,25.15,70,Rain,light rain
+Telangana,Medak,2026-06-13 00:00:00,26.04,66,Clouds,overcast clouds
+Telangana,Medak,2026-06-13 03:00:00,27.01,62,Clouds,overcast clouds
+Telangana,Medak,2026-06-13 06:00:00,27.93,59,Clouds,overcast clouds
+Telangana,Medak,2026-06-13 09:00:00,28.74,61,Clouds,overcast clouds
+Telangana,Medak,2026-06-13 12:00:00,30.48,52,Clouds,overcast clouds
+Telangana,Medak,2026-06-13 15:00:00,27.34,65,Clouds,broken clouds
+Telangana,Medak,2026-06-13 18:00:00,27.07,67,Clouds,broken clouds
+Telangana,Medak,2026-06-13 21:00:00,27.0,68,Clouds,overcast clouds
+Telangana,Medak,2026-06-14 00:00:00,26.81,70,Clouds,overcast clouds
+Telangana,Medak,2026-06-14 03:00:00,28.63,63,Clouds,broken clouds
+Telangana,Medak,2026-06-14 06:00:00,31.78,47,Clouds,overcast clouds
+Telangana,Medak,2026-06-14 09:00:00,34.55,38,Clouds,overcast clouds
+Telangana,Medak,2026-06-14 12:00:00,33.44,39,Clouds,overcast clouds
+Telangana,Medak,2026-06-14 15:00:00,31.47,42,Clouds,overcast clouds
+Telangana,Medak,2026-06-14 18:00:00,30.02,49,Clouds,overcast clouds
+Telangana,Medak,2026-06-14 21:00:00,29.22,50,Clouds,scattered clouds
+Telangana,Medak,2026-06-15 00:00:00,28.18,56,Clouds,broken clouds
+Telangana,Medak,2026-06-15 03:00:00,29.7,53,Clouds,overcast clouds
+Telangana,Medak,2026-06-15 06:00:00,33.6,40,Clouds,overcast clouds
+Telangana,Nalgonda,2026-06-10 09:00:00,38.98,31,Clouds,overcast clouds
+Telangana,Nalgonda,2026-06-10 12:00:00,35.31,45,Rain,moderate rain
+Telangana,Nalgonda,2026-06-10 15:00:00,33.47,42,Rain,light rain
+Telangana,Nalgonda,2026-06-10 18:00:00,26.93,76,Rain,moderate rain
+Telangana,Nalgonda,2026-06-10 21:00:00,26.33,83,Rain,moderate rain
+Telangana,Nalgonda,2026-06-11 00:00:00,27.65,73,Rain,light rain
+Telangana,Nalgonda,2026-06-11 03:00:00,29.56,60,Clouds,overcast clouds
+Telangana,Nalgonda,2026-06-11 06:00:00,35.73,40,Clouds,overcast clouds
+Telangana,Nalgonda,2026-06-11 09:00:00,38.61,31,Clouds,broken clouds
+Telangana,Nalgonda,2026-06-11 12:00:00,38.56,30,Clouds,broken clouds
+Telangana,Nalgonda,2026-06-11 15:00:00,34.49,41,Clouds,few clouds
+Telangana,Nalgonda,2026-06-11 18:00:00,33.01,44,Clouds,few clouds
+Telangana,Nalgonda,2026-06-11 21:00:00,31.42,49,Clouds,scattered clouds
+Telangana,Nalgonda,2026-06-12 00:00:00,29.54,58,Clouds,scattered clouds
+Telangana,Nalgonda,2026-06-12 03:00:00,30.86,52,Rain,light rain
+Telangana,Nalgonda,2026-06-12 06:00:00,36.02,38,Clouds,broken clouds
+Telangana,Nalgonda,2026-06-12 09:00:00,38.77,31,Clouds,scattered clouds
+Telangana,Nalgonda,2026-06-12 12:00:00,38.19,30,Clouds,broken clouds
+Telangana,Nalgonda,2026-06-12 15:00:00,31.8,51,Rain,light rain
+Telangana,Nalgonda,2026-06-12 18:00:00,27.81,66,Rain,light rain
+Telangana,Nalgonda,2026-06-12 21:00:00,28.27,62,Rain,light rain
+Telangana,Nalgonda,2026-06-13 00:00:00,28.23,63,Clouds,overcast clouds
+Telangana,Nalgonda,2026-06-13 03:00:00,28.14,60,Clouds,overcast clouds
+Telangana,Nalgonda,2026-06-13 06:00:00,30.3,50,Clouds,overcast clouds
+Telangana,Nalgonda,2026-06-13 09:00:00,33.66,40,Clouds,overcast clouds
+Telangana,Nalgonda,2026-06-13 12:00:00,33.43,40,Rain,light rain
+Telangana,Nalgonda,2026-06-13 15:00:00,30.75,50,Clouds,scattered clouds
+Telangana,Nalgonda,2026-06-13 18:00:00,30.22,52,Clouds,scattered clouds
+Telangana,Nalgonda,2026-06-13 21:00:00,29.84,56,Rain,light rain
+Telangana,Nalgonda,2026-06-14 00:00:00,29.1,63,Clouds,overcast clouds
+Telangana,Nalgonda,2026-06-14 03:00:00,29.76,58,Clouds,overcast clouds
+Telangana,Nalgonda,2026-06-14 06:00:00,33.62,44,Clouds,overcast clouds
+Telangana,Nalgonda,2026-06-14 09:00:00,35.46,37,Clouds,overcast clouds
+Telangana,Nalgonda,2026-06-14 12:00:00,34.33,40,Clouds,overcast clouds
+Telangana,Nalgonda,2026-06-14 15:00:00,31.13,48,Rain,light rain
+Telangana,Nalgonda,2026-06-14 18:00:00,30.46,54,Rain,light rain
+Telangana,Nalgonda,2026-06-14 21:00:00,29.71,58,Clouds,overcast clouds
+Telangana,Nalgonda,2026-06-15 00:00:00,30.42,51,Clouds,overcast clouds
+Telangana,Nalgonda,2026-06-15 03:00:00,31.78,47,Clouds,overcast clouds
+Telangana,Nalgonda,2026-06-15 06:00:00,37.28,31,Clouds,broken clouds
+Telangana,Nizamabad,2026-06-10 09:00:00,39.93,27,Clouds,broken clouds
+Telangana,Nizamabad,2026-06-10 12:00:00,39.57,27,Clouds,broken clouds
+Telangana,Nizamabad,2026-06-10 15:00:00,33.14,49,Rain,light rain
+Telangana,Nizamabad,2026-06-10 18:00:00,29.21,61,Rain,light rain
+Telangana,Nizamabad,2026-06-10 21:00:00,28.56,64,Rain,light rain
+Telangana,Nizamabad,2026-06-11 00:00:00,29.06,58,Clouds,overcast clouds
+Telangana,Nizamabad,2026-06-11 03:00:00,31.59,48,Clouds,scattered clouds
+Telangana,Nizamabad,2026-06-11 06:00:00,36.7,33,Clouds,scattered clouds
+Telangana,Nizamabad,2026-06-11 09:00:00,39.95,24,Clouds,scattered clouds
+Telangana,Nizamabad,2026-06-11 12:00:00,40.01,23,Clouds,scattered clouds
+Telangana,Nizamabad,2026-06-11 15:00:00,34.7,35,Rain,light rain
+Telangana,Nizamabad,2026-06-11 18:00:00,31.12,50,Rain,light rain
+Telangana,Nizamabad,2026-06-11 21:00:00,31.35,48,Rain,light rain
+Telangana,Nizamabad,2026-06-12 00:00:00,29.82,56,Clouds,broken clouds
+Telangana,Nizamabad,2026-06-12 03:00:00,31.49,51,Clouds,broken clouds
+Telangana,Nizamabad,2026-06-12 06:00:00,34.82,38,Clouds,overcast clouds
+Telangana,Nizamabad,2026-06-12 09:00:00,39.74,26,Clouds,scattered clouds
+Telangana,Nizamabad,2026-06-12 12:00:00,39.8,24,Clouds,scattered clouds
+Telangana,Nizamabad,2026-06-12 15:00:00,25.88,71,Rain,moderate rain
+Telangana,Nizamabad,2026-06-12 18:00:00,26.27,66,Rain,moderate rain
+Telangana,Nizamabad,2026-06-12 21:00:00,25.86,69,Clouds,overcast clouds
+Telangana,Nizamabad,2026-06-13 00:00:00,26.74,67,Rain,light rain
+Telangana,Nizamabad,2026-06-13 03:00:00,28.42,58,Clouds,overcast clouds
+Telangana,Nizamabad,2026-06-13 06:00:00,30.76,50,Clouds,overcast clouds
+Telangana,Nizamabad,2026-06-13 09:00:00,30.23,53,Clouds,overcast clouds
+Telangana,Nizamabad,2026-06-13 12:00:00,29.99,56,Clouds,overcast clouds
+Telangana,Nizamabad,2026-06-13 15:00:00,28.95,58,Clouds,broken clouds
+Telangana,Nizamabad,2026-06-13 18:00:00,29.05,52,Clouds,broken clouds
+Telangana,Nizamabad,2026-06-13 21:00:00,28.38,57,Clouds,overcast clouds
+Telangana,Nizamabad,2026-06-14 00:00:00,28.91,57,Clouds,overcast clouds
+Telangana,Nizamabad,2026-06-14 03:00:00,29.95,53,Clouds,overcast clouds
+Telangana,Nizamabad,2026-06-14 06:00:00,34.24,41,Clouds,broken clouds
+Telangana,Nizamabad,2026-06-14 09:00:00,36.62,33,Clouds,few clouds
+Telangana,Nizamabad,2026-06-14 12:00:00,37.18,29,Clouds,scattered clouds
+Telangana,Nizamabad,2026-06-14 15:00:00,33.92,34,Clouds,broken clouds
+Telangana,Nizamabad,2026-06-14 18:00:00,31.25,46,Clouds,overcast clouds
+Telangana,Nizamabad,2026-06-14 21:00:00,30.81,45,Clouds,broken clouds
+Telangana,Nizamabad,2026-06-15 00:00:00,29.05,57,Clouds,overcast clouds
+Telangana,Nizamabad,2026-06-15 03:00:00,30.78,51,Clouds,broken clouds
+Telangana,Nizamabad,2026-06-15 06:00:00,35.99,35,Clouds,broken clouds
+Telangana,Rangareddy,2026-06-10 09:00:00,33.47,40,Rain,light rain
+Telangana,Rangareddy,2026-06-10 12:00:00,32.2,46,Rain,light rain
+Telangana,Rangareddy,2026-06-10 15:00:00,29.84,58,Rain,moderate rain
+Telangana,Rangareddy,2026-06-10 18:00:00,28.62,64,Rain,light rain
+Telangana,Rangareddy,2026-06-10 21:00:00,26.15,72,Rain,light rain
+Telangana,Rangareddy,2026-06-11 00:00:00,24.71,82,Rain,light rain
+Telangana,Rangareddy,2026-06-11 03:00:00,27.76,65,Clouds,overcast clouds
+Telangana,Rangareddy,2026-06-11 06:00:00,32.89,44,Clouds,broken clouds
+Telangana,Rangareddy,2026-06-11 09:00:00,35.53,34,Clear,clear sky
+Telangana,Rangareddy,2026-06-11 12:00:00,35.22,33,Clouds,scattered clouds
+Telangana,Rangareddy,2026-06-11 15:00:00,31.57,45,Clouds,few clouds
+Telangana,Rangareddy,2026-06-11 18:00:00,30.04,48,Clouds,few clouds
+Telangana,Rangareddy,2026-06-11 21:00:00,27.45,59,Rain,light rain
+Telangana,Rangareddy,2026-06-12 00:00:00,25.75,66,Rain,light rain
+Telangana,Rangareddy,2026-06-12 03:00:00,28.8,56,Clear,clear sky
+Telangana,Rangareddy,2026-06-12 06:00:00,33.57,41,Clouds,few clouds
+Telangana,Rangareddy,2026-06-12 09:00:00,35.29,34,Clouds,overcast clouds
+Telangana,Rangareddy,2026-06-12 12:00:00,33.54,37,Clouds,overcast clouds
+Telangana,Rangareddy,2026-06-12 15:00:00,27.41,62,Rain,light rain
+Telangana,Rangareddy,2026-06-12 18:00:00,24.29,79,Rain,light rain
+Telangana,Rangareddy,2026-06-12 21:00:00,25.62,65,Rain,light rain
+Telangana,Rangareddy,2026-06-13 00:00:00,22.85,82,Clouds,overcast clouds
+Telangana,Rangareddy,2026-06-13 03:00:00,25.28,65,Clouds,overcast clouds
+Telangana,Rangareddy,2026-06-13 06:00:00,27.62,53,Clouds,overcast clouds
+Telangana,Rangareddy,2026-06-13 09:00:00,31.3,43,Clouds,broken clouds
+Telangana,Rangareddy,2026-06-13 12:00:00,29.49,49,Clouds,broken clouds
+Telangana,Rangareddy,2026-06-13 15:00:00,27.12,60,Clouds,overcast clouds
+Telangana,Rangareddy,2026-06-13 18:00:00,26.52,63,Rain,light rain
+Telangana,Rangareddy,2026-06-13 21:00:00,25.86,70,Rain,light rain
+Telangana,Rangareddy,2026-06-14 00:00:00,25.37,69,Clouds,broken clouds
+Telangana,Rangareddy,2026-06-14 03:00:00,28.65,58,Clouds,scattered clouds
+Telangana,Rangareddy,2026-06-14 06:00:00,29.65,50,Clouds,broken clouds
+Telangana,Rangareddy,2026-06-14 09:00:00,30.43,46,Clouds,overcast clouds
+Telangana,Rangareddy,2026-06-14 12:00:00,29.39,48,Clouds,overcast clouds
+Telangana,Rangareddy,2026-06-14 15:00:00,28.76,49,Clouds,overcast clouds
+Telangana,Rangareddy,2026-06-14 18:00:00,27.31,62,Clouds,overcast clouds
+Telangana,Rangareddy,2026-06-14 21:00:00,26.96,62,Clouds,overcast clouds
+Telangana,Rangareddy,2026-06-15 00:00:00,26.23,63,Clouds,overcast clouds
+Telangana,Rangareddy,2026-06-15 03:00:00,29.24,52,Clouds,broken clouds
+Telangana,Rangareddy,2026-06-15 06:00:00,33.47,38,Clouds,broken clouds
+Telangana,Sangareddy,2026-06-10 09:00:00,36.08,35,Clouds,scattered clouds
+Telangana,Sangareddy,2026-06-10 12:00:00,35.91,36,Clouds,broken clouds
+Telangana,Sangareddy,2026-06-10 15:00:00,33.32,44,Clouds,broken clouds
+Telangana,Sangareddy,2026-06-10 18:00:00,28.66,63,Rain,light rain
+Telangana,Sangareddy,2026-06-10 21:00:00,28.44,64,Rain,moderate rain
+Telangana,Sangareddy,2026-06-11 00:00:00,26.75,73,Rain,light rain
+Telangana,Sangareddy,2026-06-11 03:00:00,29.15,60,Clouds,broken clouds
+Telangana,Sangareddy,2026-06-11 06:00:00,33.95,40,Clouds,scattered clouds
+Telangana,Sangareddy,2026-06-11 09:00:00,37.01,30,Clear,clear sky
+Telangana,Sangareddy,2026-06-11 12:00:00,36.98,29,Clouds,few clouds
+Telangana,Sangareddy,2026-06-11 15:00:00,33.3,39,Rain,light rain
+Telangana,Sangareddy,2026-06-11 18:00:00,31.62,45,Clouds,few clouds
+Telangana,Sangareddy,2026-06-11 21:00:00,28.41,59,Rain,light rain
+Telangana,Sangareddy,2026-06-12 00:00:00,27.2,66,Clouds,broken clouds
+Telangana,Sangareddy,2026-06-12 03:00:00,29.6,57,Clouds,few clouds
+Telangana,Sangareddy,2026-06-12 06:00:00,34.66,40,Clouds,few clouds
+Telangana,Sangareddy,2026-06-12 09:00:00,36.38,33,Clouds,scattered clouds
+Telangana,Sangareddy,2026-06-12 12:00:00,34.3,38,Rain,light rain
+Telangana,Sangareddy,2026-06-12 15:00:00,30.3,54,Rain,light rain
+Telangana,Sangareddy,2026-06-12 18:00:00,23.4,83,Rain,moderate rain
+Telangana,Sangareddy,2026-06-12 21:00:00,26.44,63,Rain,light rain
+Telangana,Sangareddy,2026-06-13 00:00:00,24.7,72,Rain,light rain
+Telangana,Sangareddy,2026-06-13 03:00:00,27.29,59,Clouds,overcast clouds
+Telangana,Sangareddy,2026-06-13 06:00:00,28.73,53,Clouds,overcast clouds
+Telangana,Sangareddy,2026-06-13 09:00:00,28.58,56,Clouds,overcast clouds
+Telangana,Sangareddy,2026-06-13 12:00:00,28.73,57,Clouds,overcast clouds
+Telangana,Sangareddy,2026-06-13 15:00:00,27.72,63,Clouds,overcast clouds
+Telangana,Sangareddy,2026-06-13 18:00:00,27.34,65,Rain,light rain
+Telangana,Sangareddy,2026-06-13 21:00:00,26.83,68,Clouds,overcast clouds
+Telangana,Sangareddy,2026-06-14 00:00:00,26.01,71,Rain,light rain
+Telangana,Sangareddy,2026-06-14 03:00:00,29.61,54,Clouds,broken clouds
+Telangana,Sangareddy,2026-06-14 06:00:00,29.77,52,Clouds,broken clouds
+Telangana,Sangareddy,2026-06-14 09:00:00,30.16,49,Clouds,overcast clouds
+Telangana,Sangareddy,2026-06-14 12:00:00,30.87,45,Clouds,overcast clouds
+Telangana,Sangareddy,2026-06-14 15:00:00,29.4,50,Clouds,overcast clouds
+Telangana,Sangareddy,2026-06-14 18:00:00,28.4,59,Clouds,overcast clouds
+Telangana,Sangareddy,2026-06-14 21:00:00,28.27,56,Clouds,overcast clouds
+Telangana,Sangareddy,2026-06-15 00:00:00,27.03,63,Clouds,overcast clouds
+Telangana,Sangareddy,2026-06-15 03:00:00,29.34,53,Clouds,broken clouds
+Telangana,Sangareddy,2026-06-15 06:00:00,33.1,42,Clouds,broken clouds
+Telangana,Siddipet,2026-06-10 09:00:00,38.11,28,Clouds,overcast clouds
+Telangana,Siddipet,2026-06-10 12:00:00,37.27,31,Rain,light rain
+Telangana,Siddipet,2026-06-10 15:00:00,29.42,68,Rain,moderate rain
+Telangana,Siddipet,2026-06-10 18:00:00,28.9,64,Rain,moderate rain
+Telangana,Siddipet,2026-06-10 21:00:00,26.05,70,Rain,light rain
+Telangana,Siddipet,2026-06-11 00:00:00,27.38,67,Rain,light rain
+Telangana,Siddipet,2026-06-11 03:00:00,30.31,52,Clouds,overcast clouds
+Telangana,Siddipet,2026-06-11 06:00:00,34.93,38,Clouds,broken clouds
+Telangana,Siddipet,2026-06-11 09:00:00,38.31,28,Clouds,few clouds
+Telangana,Siddipet,2026-06-11 12:00:00,37.61,28,Clouds,scattered clouds
+Telangana,Siddipet,2026-06-11 15:00:00,31.82,45,Rain,light rain
+Telangana,Siddipet,2026-06-11 18:00:00,31.13,45,Rain,light rain
+Telangana,Siddipet,2026-06-11 21:00:00,27.5,62,Rain,light rain
+Telangana,Siddipet,2026-06-12 00:00:00,28.17,61,Clouds,scattered clouds
+Telangana,Siddipet,2026-06-12 03:00:00,31.34,52,Clouds,scattered clouds
+Telangana,Siddipet,2026-06-12 06:00:00,32.1,48,Clouds,broken clouds
+Telangana,Siddipet,2026-06-12 09:00:00,34.96,36,Clouds,overcast clouds
+Telangana,Siddipet,2026-06-12 12:00:00,36.71,28,Rain,light rain
+Telangana,Siddipet,2026-06-12 15:00:00,25.34,74,Rain,moderate rain
+Telangana,Siddipet,2026-06-12 18:00:00,25.19,71,Rain,light rain
+Telangana,Siddipet,2026-06-12 21:00:00,26.09,64,Clouds,overcast clouds
+Telangana,Siddipet,2026-06-13 00:00:00,25.65,66,Clouds,overcast clouds
+Telangana,Siddipet,2026-06-13 03:00:00,26.1,65,Clouds,overcast clouds
+Telangana,Siddipet,2026-06-13 06:00:00,31.82,43,Clouds,overcast clouds
+Telangana,Siddipet,2026-06-13 09:00:00,32.74,41,Clouds,scattered clouds
+Telangana,Siddipet,2026-06-13 12:00:00,31.36,47,Clouds,broken clouds
+Telangana,Siddipet,2026-06-13 15:00:00,28.97,57,Clouds,broken clouds
+Telangana,Siddipet,2026-06-13 18:00:00,28.19,60,Clouds,broken clouds
+Telangana,Siddipet,2026-06-13 21:00:00,27.6,63,Clouds,overcast clouds
+Telangana,Siddipet,2026-06-14 00:00:00,28.0,59,Clouds,overcast clouds
+Telangana,Siddipet,2026-06-14 03:00:00,29.5,56,Clouds,broken clouds
+Telangana,Siddipet,2026-06-14 06:00:00,33.45,42,Clouds,broken clouds
+Telangana,Siddipet,2026-06-14 09:00:00,33.91,38,Clouds,overcast clouds
+Telangana,Siddipet,2026-06-14 12:00:00,34.0,37,Clouds,overcast clouds
+Telangana,Siddipet,2026-06-14 15:00:00,31.51,46,Clouds,broken clouds
+Telangana,Siddipet,2026-06-14 18:00:00,29.71,48,Clouds,broken clouds
+Telangana,Siddipet,2026-06-14 21:00:00,29.38,52,Clouds,overcast clouds
+Telangana,Siddipet,2026-06-15 00:00:00,28.35,55,Clouds,overcast clouds
+Telangana,Siddipet,2026-06-15 03:00:00,31.24,48,Clouds,broken clouds
+Telangana,Siddipet,2026-06-15 06:00:00,35.25,36,Clouds,scattered clouds
+Telangana,Suryapet,2026-06-10 09:00:00,40.25,29,Clouds,overcast clouds
+Telangana,Suryapet,2026-06-10 12:00:00,37.75,37,Rain,light rain
+Telangana,Suryapet,2026-06-10 15:00:00,34.18,44,Rain,light rain
+Telangana,Suryapet,2026-06-10 18:00:00,27.06,79,Rain,moderate rain
+Telangana,Suryapet,2026-06-10 21:00:00,27.51,77,Rain,moderate rain
+Telangana,Suryapet,2026-06-11 00:00:00,27.2,78,Clouds,overcast clouds
+Telangana,Suryapet,2026-06-11 03:00:00,31.35,57,Clouds,overcast clouds
+Telangana,Suryapet,2026-06-11 06:00:00,36.18,40,Clouds,overcast clouds
+Telangana,Suryapet,2026-06-11 09:00:00,39.36,30,Clouds,broken clouds
+Telangana,Suryapet,2026-06-11 12:00:00,39.14,30,Clouds,broken clouds
+Telangana,Suryapet,2026-06-11 15:00:00,34.63,43,Clouds,scattered clouds
+Telangana,Suryapet,2026-06-11 18:00:00,32.88,49,Clouds,few clouds
+Telangana,Suryapet,2026-06-11 21:00:00,29.66,63,Clouds,scattered clouds
+Telangana,Suryapet,2026-06-12 00:00:00,29.13,70,Clouds,broken clouds
+Telangana,Suryapet,2026-06-12 03:00:00,31.95,54,Clouds,overcast clouds
+Telangana,Suryapet,2026-06-12 06:00:00,36.34,39,Clouds,broken clouds
+Telangana,Suryapet,2026-06-12 09:00:00,39.32,30,Clouds,broken clouds
+Telangana,Suryapet,2026-06-12 12:00:00,37.87,33,Clouds,broken clouds
+Telangana,Suryapet,2026-06-12 15:00:00,30.27,52,Rain,light rain
+Telangana,Suryapet,2026-06-12 18:00:00,29.49,60,Rain,moderate rain
+Telangana,Suryapet,2026-06-12 21:00:00,28.59,65,Rain,light rain
+Telangana,Suryapet,2026-06-13 00:00:00,28.66,64,Clouds,overcast clouds
+Telangana,Suryapet,2026-06-13 03:00:00,28.29,63,Clouds,overcast clouds
+Telangana,Suryapet,2026-06-13 06:00:00,32.18,46,Clouds,overcast clouds
+Telangana,Suryapet,2026-06-13 09:00:00,36.06,36,Clouds,broken clouds
+Telangana,Suryapet,2026-06-13 12:00:00,32.4,45,Rain,light rain
+Telangana,Suryapet,2026-06-13 15:00:00,31.15,49,Rain,light rain
+Telangana,Suryapet,2026-06-13 18:00:00,30.14,55,Rain,light rain
+Telangana,Suryapet,2026-06-13 21:00:00,29.23,60,Rain,light rain
+Telangana,Suryapet,2026-06-14 00:00:00,29.33,63,Rain,light rain
+Telangana,Suryapet,2026-06-14 03:00:00,31.66,51,Clouds,overcast clouds
+Telangana,Suryapet,2026-06-14 06:00:00,35.78,39,Clouds,broken clouds
+Telangana,Suryapet,2026-06-14 09:00:00,37.48,34,Clouds,broken clouds
+Telangana,Suryapet,2026-06-14 12:00:00,36.22,35,Clouds,broken clouds
+Telangana,Suryapet,2026-06-14 15:00:00,31.87,49,Rain,light rain
+Telangana,Suryapet,2026-06-14 18:00:00,31.03,52,Rain,light rain
+Telangana,Suryapet,2026-06-14 21:00:00,30.35,56,Clouds,overcast clouds
+Telangana,Suryapet,2026-06-15 00:00:00,30.79,52,Clouds,overcast clouds
+Telangana,Suryapet,2026-06-15 03:00:00,30.89,51,Clouds,overcast clouds
+Telangana,Suryapet,2026-06-15 06:00:00,36.27,36,Clouds,overcast clouds
+Telangana,Vikarabad,2026-06-10 09:00:00,34.98,37,Clouds,broken clouds
+Telangana,Vikarabad,2026-06-10 12:00:00,34.39,39,Clouds,broken clouds
+Telangana,Vikarabad,2026-06-10 15:00:00,31.76,48,Rain,light rain
+Telangana,Vikarabad,2026-06-10 18:00:00,28.55,64,Rain,light rain
+Telangana,Vikarabad,2026-06-10 21:00:00,26.33,73,Rain,heavy intensity rain
+Telangana,Vikarabad,2026-06-11 00:00:00,25.41,76,Rain,light rain
+Telangana,Vikarabad,2026-06-11 03:00:00,27.48,66,Clouds,broken clouds
+Telangana,Vikarabad,2026-06-11 06:00:00,32.3,44,Clouds,scattered clouds
+Telangana,Vikarabad,2026-06-11 09:00:00,35.28,34,Clear,clear sky
+Telangana,Vikarabad,2026-06-11 12:00:00,35.18,32,Clouds,scattered clouds
+Telangana,Vikarabad,2026-06-11 15:00:00,31.78,43,Clouds,few clouds
+Telangana,Vikarabad,2026-06-11 18:00:00,29.56,49,Rain,light rain
+Telangana,Vikarabad,2026-06-11 21:00:00,26.76,62,Rain,light rain
+Telangana,Vikarabad,2026-06-12 00:00:00,25.44,69,Clouds,scattered clouds
+Telangana,Vikarabad,2026-06-12 03:00:00,28.13,60,Clouds,few clouds
+Telangana,Vikarabad,2026-06-12 06:00:00,32.94,42,Clouds,scattered clouds
+Telangana,Vikarabad,2026-06-12 09:00:00,35.76,34,Clouds,overcast clouds
+Telangana,Vikarabad,2026-06-12 12:00:00,34.37,37,Rain,light rain
+Telangana,Vikarabad,2026-06-12 15:00:00,30.2,51,Rain,light rain
+Telangana,Vikarabad,2026-06-12 18:00:00,23.93,81,Rain,light rain
+Telangana,Vikarabad,2026-06-12 21:00:00,24.6,70,Rain,light rain
+Telangana,Vikarabad,2026-06-13 00:00:00,22.46,83,Rain,light rain
+Telangana,Vikarabad,2026-06-13 03:00:00,25.32,66,Clouds,overcast clouds
+Telangana,Vikarabad,2026-06-13 06:00:00,29.02,52,Clouds,overcast clouds
+Telangana,Vikarabad,2026-06-13 09:00:00,29.44,50,Clouds,overcast clouds
+Telangana,Vikarabad,2026-06-13 12:00:00,27.54,60,Clouds,overcast clouds
+Telangana,Vikarabad,2026-06-13 15:00:00,27.02,63,Clouds,overcast clouds
+Telangana,Vikarabad,2026-06-13 18:00:00,26.96,64,Clouds,overcast clouds
+Telangana,Vikarabad,2026-06-13 21:00:00,24.8,77,Rain,light rain
+Telangana,Vikarabad,2026-06-14 00:00:00,24.52,75,Rain,light rain
+Telangana,Vikarabad,2026-06-14 03:00:00,28.44,57,Clouds,broken clouds
+Telangana,Vikarabad,2026-06-14 06:00:00,30.59,45,Clouds,broken clouds
+Telangana,Vikarabad,2026-06-14 09:00:00,30.19,46,Clouds,overcast clouds
+Telangana,Vikarabad,2026-06-14 12:00:00,30.36,43,Clouds,overcast clouds
+Telangana,Vikarabad,2026-06-14 15:00:00,28.78,51,Clouds,overcast clouds
+Telangana,Vikarabad,2026-06-14 18:00:00,26.74,65,Clouds,overcast clouds
+Telangana,Vikarabad,2026-06-14 21:00:00,26.84,61,Clouds,overcast clouds
+Telangana,Vikarabad,2026-06-15 00:00:00,25.6,66,Clouds,overcast clouds
+Telangana,Vikarabad,2026-06-15 03:00:00,27.75,57,Clouds,broken clouds
+Telangana,Vikarabad,2026-06-15 06:00:00,31.81,44,Clouds,broken clouds
+Telangana,Warangal,2026-06-10 09:00:00,41.39,23,Clouds,overcast clouds
+Telangana,Warangal,2026-06-10 12:00:00,39.37,28,Rain,light rain
+Telangana,Warangal,2026-06-10 15:00:00,34.93,42,Rain,light rain
+Telangana,Warangal,2026-06-10 18:00:00,31.0,51,Rain,light rain
+Telangana,Warangal,2026-06-10 21:00:00,29.37,61,Rain,light rain
+Telangana,Warangal,2026-06-11 00:00:00,28.6,58,Rain,light rain
+Telangana,Warangal,2026-06-11 03:00:00,32.78,48,Clouds,overcast clouds
+Telangana,Warangal,2026-06-11 06:00:00,37.38,33,Clouds,overcast clouds
+Telangana,Warangal,2026-06-11 09:00:00,40.08,26,Clouds,broken clouds
+Telangana,Warangal,2026-06-11 12:00:00,40.11,25,Clouds,scattered clouds
+Telangana,Warangal,2026-06-11 15:00:00,33.23,38,Rain,light rain
+Telangana,Warangal,2026-06-11 18:00:00,31.18,50,Rain,light rain
+Telangana,Warangal,2026-06-11 21:00:00,26.58,73,Rain,light rain
+Telangana,Warangal,2026-06-12 00:00:00,28.1,65,Rain,light rain
+Telangana,Warangal,2026-06-12 03:00:00,30.84,59,Clouds,broken clouds
+Telangana,Warangal,2026-06-12 06:00:00,34.02,46,Clouds,broken clouds
+Telangana,Warangal,2026-06-12 09:00:00,37.58,34,Clouds,broken clouds
+Telangana,Warangal,2026-06-12 12:00:00,31.45,54,Rain,light rain
+Telangana,Warangal,2026-06-12 15:00:00,29.1,55,Rain,light rain
+Telangana,Warangal,2026-06-12 18:00:00,28.43,62,Clouds,overcast clouds
+Telangana,Warangal,2026-06-12 21:00:00,28.16,56,Clouds,overcast clouds
+Telangana,Warangal,2026-06-13 00:00:00,28.18,58,Rain,light rain
+Telangana,Warangal,2026-06-13 03:00:00,29.85,52,Clouds,overcast clouds
+Telangana,Warangal,2026-06-13 06:00:00,34.62,41,Clouds,overcast clouds
+Telangana,Warangal,2026-06-13 09:00:00,36.62,35,Clouds,overcast clouds
+Telangana,Warangal,2026-06-13 12:00:00,34.71,39,Rain,light rain
+Telangana,Warangal,2026-06-13 15:00:00,32.18,47,Clouds,scattered clouds
+Telangana,Warangal,2026-06-13 18:00:00,30.71,53,Clouds,scattered clouds
+Telangana,Warangal,2026-06-13 21:00:00,29.82,56,Clouds,broken clouds
+Telangana,Warangal,2026-06-14 00:00:00,29.76,57,Clouds,broken clouds
+Telangana,Warangal,2026-06-14 03:00:00,29.94,56,Rain,light rain
+Telangana,Warangal,2026-06-14 06:00:00,33.32,43,Clouds,overcast clouds
+Telangana,Warangal,2026-06-14 09:00:00,36.49,34,Clouds,broken clouds
+Telangana,Warangal,2026-06-14 12:00:00,35.72,36,Rain,light rain
+Telangana,Warangal,2026-06-14 15:00:00,32.57,47,Rain,light rain
+Telangana,Warangal,2026-06-14 18:00:00,31.81,50,Clouds,overcast clouds
+Telangana,Warangal,2026-06-14 21:00:00,30.89,49,Clouds,overcast clouds
+Telangana,Warangal,2026-06-15 00:00:00,31.3,45,Clouds,overcast clouds
+Telangana,Warangal,2026-06-15 03:00:00,32.14,46,Clouds,broken clouds
+Telangana,Warangal,2026-06-15 06:00:00,35.84,37,Clouds,broken clouds
+Telangana,Yadadri Bhuvanagiri,2026-06-10 09:00:00,36.62,33,Rain,light rain
+Telangana,Yadadri Bhuvanagiri,2026-06-10 12:00:00,33.47,46,Rain,moderate rain
+Telangana,Yadadri Bhuvanagiri,2026-06-10 15:00:00,31.13,52,Rain,light rain
+Telangana,Yadadri Bhuvanagiri,2026-06-10 18:00:00,28.19,61,Rain,light rain
+Telangana,Yadadri Bhuvanagiri,2026-06-10 21:00:00,26.89,64,Rain,light rain
+Telangana,Yadadri Bhuvanagiri,2026-06-11 00:00:00,27.44,66,Rain,light rain
+Telangana,Yadadri Bhuvanagiri,2026-06-11 03:00:00,28.36,64,Clouds,overcast clouds
+Telangana,Yadadri Bhuvanagiri,2026-06-11 06:00:00,35.1,37,Clouds,overcast clouds
+Telangana,Yadadri Bhuvanagiri,2026-06-11 09:00:00,37.29,30,Clouds,scattered clouds
+Telangana,Yadadri Bhuvanagiri,2026-06-11 12:00:00,37.12,29,Clouds,scattered clouds
+Telangana,Yadadri Bhuvanagiri,2026-06-11 15:00:00,33.44,40,Clouds,few clouds
+Telangana,Yadadri Bhuvanagiri,2026-06-11 18:00:00,32.34,43,Clouds,scattered clouds
+Telangana,Yadadri Bhuvanagiri,2026-06-11 21:00:00,30.21,49,Clouds,broken clouds
+Telangana,Yadadri Bhuvanagiri,2026-06-12 00:00:00,28.37,58,Clouds,broken clouds
+Telangana,Yadadri Bhuvanagiri,2026-06-12 03:00:00,30.03,54,Rain,light rain
+Telangana,Yadadri Bhuvanagiri,2026-06-12 06:00:00,34.96,39,Clouds,broken clouds
+Telangana,Yadadri Bhuvanagiri,2026-06-12 09:00:00,33.9,40,Clouds,overcast clouds
+Telangana,Yadadri Bhuvanagiri,2026-06-12 12:00:00,33.61,38,Clouds,overcast clouds
+Telangana,Yadadri Bhuvanagiri,2026-06-12 15:00:00,25.51,73,Rain,light rain
+Telangana,Yadadri Bhuvanagiri,2026-06-12 18:00:00,24.83,76,Rain,light rain
+Telangana,Yadadri Bhuvanagiri,2026-06-12 21:00:00,26.81,58,Clouds,broken clouds
+Telangana,Yadadri Bhuvanagiri,2026-06-13 00:00:00,26.3,62,Clouds,overcast clouds
+Telangana,Yadadri Bhuvanagiri,2026-06-13 03:00:00,26.63,61,Clouds,overcast clouds
+Telangana,Yadadri Bhuvanagiri,2026-06-13 06:00:00,29.47,50,Clouds,overcast clouds
+Telangana,Yadadri Bhuvanagiri,2026-06-13 09:00:00,31.97,42,Clouds,overcast clouds
+Telangana,Yadadri Bhuvanagiri,2026-06-13 12:00:00,30.16,49,Clouds,overcast clouds
+Telangana,Yadadri Bhuvanagiri,2026-06-13 15:00:00,28.51,56,Clouds,broken clouds
+Telangana,Yadadri Bhuvanagiri,2026-06-13 18:00:00,27.77,59,Clouds,scattered clouds
+Telangana,Yadadri Bhuvanagiri,2026-06-13 21:00:00,27.97,60,Rain,light rain
+Telangana,Yadadri Bhuvanagiri,2026-06-14 00:00:00,27.11,63,Clouds,overcast clouds
+Telangana,Yadadri Bhuvanagiri,2026-06-14 03:00:00,27.52,65,Clouds,overcast clouds
+Telangana,Yadadri Bhuvanagiri,2026-06-14 06:00:00,32.01,46,Clouds,overcast clouds
+Telangana,Yadadri Bhuvanagiri,2026-06-14 09:00:00,33.03,42,Clouds,overcast clouds
+Telangana,Yadadri Bhuvanagiri,2026-06-14 12:00:00,31.53,45,Clouds,broken clouds
+Telangana,Yadadri Bhuvanagiri,2026-06-14 15:00:00,30.56,45,Clouds,overcast clouds
+Telangana,Yadadri Bhuvanagiri,2026-06-14 18:00:00,29.59,48,Clouds,overcast clouds
+Telangana,Yadadri Bhuvanagiri,2026-06-14 21:00:00,28.74,56,Clouds,overcast clouds
+Telangana,Yadadri Bhuvanagiri,2026-06-15 00:00:00,28.12,55,Clouds,overcast clouds
+Telangana,Yadadri Bhuvanagiri,2026-06-15 03:00:00,31.19,47,Clouds,overcast clouds
+Telangana,Yadadri Bhuvanagiri,2026-06-15 06:00:00,34.97,36,Clouds,broken clouds
