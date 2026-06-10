@@ -1,29 +1,67 @@
 document.addEventListener("DOMContentLoaded", async function () {
 
+    const API_BASE = "https://weather-forecast-xqwe.onrender.com";
+
+    // ================= MAP =================
     const map = L.map("map").setView([22.9734, 78.6569], 5);
 
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
         attribution: "© OpenStreetMap contributors"
     }).addTo(map);
 
-    let chart;
+    let markers = [];
 
     try {
 
-        // ================= API =================
-        const response =
-            await fetch("https://weather-forecast-xqwe.onrender.com/api/forecast");
+        // ================= LOAD DATA =================
+        const forecastRes = await fetch(`${API_BASE}/api/forecast`);
+        const locationsRes = await fetch(`${API_BASE}/api/locations`);
 
-        const forecast =
-            await response.json();
+        const forecast = await forecastRes.json();
+        const locations = await locationsRes.json();
 
         // ================= DROPDOWNS =================
+        const stateSelect = document.getElementById("stateSelect");
+        const districtSelect = document.getElementById("districtSelect");
         const dateSelect = document.getElementById("dateSelect");
         const timeSelect = document.getElementById("timeSelect");
 
-        // ================= UNIQUE DATES =================
+        // ================= STATES =================
+        const states = [...new Set(locations.map(l => l.State))];
+
+        stateSelect.innerHTML = `<option value="">Select State</option>`;
+
+        states.forEach(state => {
+            const opt = document.createElement("option");
+            opt.value = state;
+            opt.textContent = state;
+            stateSelect.appendChild(opt);
+        });
+
+        // ================= STATE → DISTRICT =================
+        stateSelect.addEventListener("change", function () {
+
+            districtSelect.innerHTML = `<option value="">Select District</option>`;
+
+            const filtered = locations.filter(l => l.State === this.value);
+
+            const districts = [...new Set(filtered.map(d => d.District))];
+
+            districts.forEach(d => {
+                const opt = document.createElement("option");
+                opt.value = d;
+                opt.textContent = d;
+                districtSelect.appendChild(opt);
+            });
+
+            drawMap();
+        });
+
+        districtSelect.addEventListener("change", drawMap);
+
+        // ================= DATES =================
         const uniqueDates = [...new Set(
-            forecast.map(i => i.forecast_time.split(" ")[0])
+            forecast.map(f => f.forecast_time.split(" ")[0])
         )];
 
         dateSelect.innerHTML = "";
@@ -35,15 +73,15 @@ document.addEventListener("DOMContentLoaded", async function () {
             dateSelect.appendChild(opt);
         });
 
-        // ================= LOAD TIMES =================
+        // ================= TIMES =================
         function loadTimes(date) {
 
             timeSelect.innerHTML = "";
 
             const times = [...new Set(
                 forecast
-                    .filter(i => i.forecast_time.startsWith(date))
-                    .map(i => i.forecast_time.split(" ")[1])
+                    .filter(f => f.forecast_time.startsWith(date))
+                    .map(f => f.forecast_time.split(" ")[1])
             )];
 
             times.forEach(t => {
@@ -57,53 +95,69 @@ document.addEventListener("DOMContentLoaded", async function () {
         // ================= MAP DRAW =================
         function drawMap() {
 
-            map.eachLayer(layer => {
-                if (layer instanceof L.Marker) {
-                    map.removeLayer(layer);
-                }
-            });
+            markers.forEach(m => map.removeLayer(m));
+            markers = [];
 
-            const selectedDate = dateSelect.value;
-            const selectedTime = timeSelect.value;
+            const state = stateSelect.value;
+            const district = districtSelect.value;
+            const date = dateSelect.value;
+            const time = timeSelect.value;
 
-            const filtered = forecast.filter(item =>
-                item.forecast_time === `${selectedDate} ${selectedTime}`
-            );
+            if (!date || !time) return;
 
-            filtered.forEach(item => {
+            const targetTime = `${date} ${time}`;
 
-                // IMPORTANT: fake coordinates fallback (since forecast has no lat/lon)
-                const lat = 22.9734 + (Math.random() * 5);
-                const lon = 78.6569 + (Math.random() * 5);
+            const weatherMap = {};
 
-                L.marker([lat, lon])
-                    .addTo(map)
-                    .bindPopup(`
-                        <b>${item.district}</b><br>
-                        State: ${item.state}<br>
-                        Temp: ${item.temperature} °C<br>
-                        Humidity: ${item.humidity}%<br>
-                        Weather: ${item.weather}<br>
-                        Time: ${item.forecast_time}
-                    `);
+            forecast
+                .filter(f => f.forecast_time === targetTime)
+                .forEach(f => {
+                    weatherMap[f.district.trim().toLowerCase()] = f;
+                });
+
+            locations.forEach(loc => {
+
+                if (state && loc.State !== state) return;
+                if (district && loc.District !== district) return;
+
+                const weather = weatherMap[loc.District.trim().toLowerCase()];
+
+                if (!weather) return;
+
+                const marker = L.marker([
+                    loc.Latitude,
+                    loc.Longitude
+                ])
+                .addTo(map)
+                .bindPopup(`
+                    <b>${loc.District}</b><br>
+                    State: ${loc.State}<br>
+                    Temp: ${weather.temperature}°C<br>
+                    Humidity: ${weather.humidity}%<br>
+                    Weather: ${weather.weather}<br>
+                    Time: ${weather.forecast_time}
+                `);
+
+                markers.push(marker);
             });
         }
 
         // ================= INIT =================
         loadTimes(uniqueDates[0]);
-        drawMap();
+
+        setTimeout(drawMap, 300);
 
         dateSelect.addEventListener("change", function () {
             loadTimes(this.value);
-            drawMap();
+            setTimeout(drawMap, 100);
         });
 
         timeSelect.addEventListener("change", drawMap);
 
     }
 
-    catch (err) {
-        console.error("Forecast Error:", err);
+    catch (error) {
+        console.error("Error:", error);
     }
 
 });
