@@ -17,3 +17,230 @@ Telangana,Suryapet,17.1405,79.62
 Telangana,Vikarabad,17.3381,77.9044
 Telangana,Warangal,17.9689,79.5941
 Telangana,Yadadri Bhuvanagiri,17.515,78.885
+
+Andhra Pradesh	Anantapur	14.6819	77.6006
+Andhra Pradesh	Anakapalli	17.69	83.01
+Andhra Pradesh	Bapatla	15.9042	80.4675
+Andhra Pradesh	Chittoor	13.2172	79.1003
+Andhra Pradesh	East Godavari	17.0005	81.804
+Andhra Pradesh	Eluru	16.7107	81.0952
+Andhra Pradesh	Guntur	16.3067	80.4365
+Andhra Pradesh	Kakinada	16.9891	82.2475
+Andhra Pradesh	Krishna	16.1875	81.1389
+Andhra Pradesh	Kurnool	15.8281	78.0373
+Andhra Pradesh	Nandyal	15.4779	78.4836
+Andhra Pradesh	Nellore	14.4426	79.9865
+Andhra Pradesh	NTR	16.5062	80.648
+Andhra Pradesh	Prakasam	15.5057	80.0499
+Andhra Pradesh	Srikakulam	18.2969	83.8976
+Andhra Pradesh	Sri Sathya Sai	14.1652	77.8117
+Andhra Pradesh	Tirupati	13.6288	79.4192
+Andhra Pradesh	Visakhapatnam	17.6868	83.2185
+Andhra Pradesh	Vizianagaram	18.1067	83.3956
+Andhra Pradesh	West Godavari	16.5449	81.5212
+Andhra Pradesh	YSR Kadapa	14.4673	78.8242
+			
+West Bengal	Alipurduar	26.4837	89.5229
+West Bengal	Bankura	23.2324	87.0784
+West Bengal	Birbhum	23.908	87.535
+West Bengal	Cooch Behar	26.3452	89.4482
+West Bengal	Darjeeling	27.036	88.2627
+West Bengal	Dakshin Dinajpur	25.22	88.78
+West Bengal	Hooghly	22.9	88.39
+West Bengal	Howrah	22.5958	88.2636
+West Bengal	Jalpaiguri	26.5167	88.7333
+West Bengal	Jhargram	22.45	86.98
+West Bengal	Kalimpong	27.06	88.47
+West Bengal	Kolkata	22.5726	88.3639
+West Bengal	Malda	25.0108	88.1411
+West Bengal	Murshidabad	24.175	88.28
+West Bengal	Nadia	23.4	88.5
+West Bengal	North 24 Parganas	22.72	88.48
+West Bengal	Paschim Bardhaman	23.6739	86.9524
+West Bengal	Paschim Medinipur	22.43	87.32
+West Bengal	Purba Bardhaman	23.2324	87.8615
+West Bengal	Purba Medinipur	22.3	87.92
+West Bengal	Purulia	23.3321	86.3652
+West Bengal	South 24 Parganas	22.1352	88.4016
+			
+Delhi	Central Delhi	28.6562	77.241
+Delhi	East Delhi	28.6289	77.295
+Delhi	New Delhi	28.6139	77.209
+Delhi	North Delhi	28.7041	77.1025
+Delhi	North East Delhi	28.7306	77.276
+Delhi	North West Delhi	28.7335	77.0688
+Delhi	Shahdara	28.6816	77.289
+Delhi	South Delhi	28.5355	77.242
+Delhi	South East Delhi	28.5273	77.258
+Delhi	South West Delhi	28.5921	77.046
+Delhi	West Delhi	28.6692	77.091
+			
+Jammu and Kashmir	Anantnag	33.7311	75.1542
+Jammu and Kashmir	Bandipora	34.4173	74.6431
+Jammu and Kashmir	Baramulla	34.198	74.3636
+Jammu and Kashmir	Budgam	34.0159	74.722
+Jammu and Kashmir	Doda	33.145	75.547
+Jammu and Kashmir	Ganderbal	34.23	74.78
+Jammu and Kashmir	Jammu	32.7266	74.857
+Jammu and Kashmir	Kathua	32.3694	75.5254
+Jammu and Kashmir	Kishtwar	33.313	75.766
+Jammu and Kashmir	Kulgam	33.645	75.019
+Jammu and Kashmir	Kupwara	34.531	74.264
+Jammu and Kashmir	Poonch	33.77	74.09
+Jammu and Kashmir	Pulwama	33.874	74.899
+Jammu and Kashmir	Rajouri	33.375	74.315
+Jammu and Kashmir	Ramban	33.242	75.235
+Jammu and Kashmir	Reasi	33.082	74.833
+Jammu and Kashmir	Samba	32.563	75.119
+Jammu and Kashmir	Shopian	33.717	74.833
+Jammu and Kashmir	Srinagar	34.0837	74.7973
+Jammu and Kashmir	Udhampur	32.925	75.135
+			
+Punjab	Amritsar	31.634	74.8723
+Punjab	Barnala	30.3819	75.5468
+Punjab	Bathinda	30.211	74.9455
+Punjab	Faridkot	30.6735	74.755
+Punjab	Fatehgarh Sahib	30.643	76.395
+Punjab	Fazilka	30.402	74.028
+Punjab	Ferozepur	30.9331	74.6225
+Punjab	Gurdaspur	32.041	75.405
+Punjab	Hoshiarpur	31.532	75.917
+Punjab	Jalandhar	31.326	75.576
+Punjab	Kapurthala	31.38	75.384
+Punjab	Ludhiana	30.901	75.857
+Punjab	Malerkotla	30.53	75.89
+Punjab	Mansa	29.99	75.39
+Punjab	Moga	30.816	75.171
+Punjab	Muktsar	30.474	74.516
+Punjab	Pathankot	32.264	75.642
+Punjab	Patiala	30.3398	76.3869
+Punjab	Rupnagar	30.966	76.523
+Punjab	Sangrur	30.245	75.844
+Punjab	SAS Nagar	30.7046	76.7179
+Punjab	Sri Muktsar Sahib	30.474	74.516
+Punjab	Tarn Taran	31.451	74.927
+			
+Haryana	Ambala	30.378	76.776
+Haryana	Bhiwani	28.793	76.139
+Haryana	Charkhi Dadri	28.592	76.27
+Haryana	Faridabad	28.4089	77.3178
+Haryana	Fatehabad	29.513	75.455
+Haryana	Gurugram	28.4595	77.0266
+Haryana	Hisar	29.149	75.721
+Haryana	Jhajjar	28.606	76.656
+Haryana	Jind	29.316	76.316
+Haryana	Kaithal	29.801	76.399
+Haryana	Karnal	29.6857	76.9905
+Haryana	Kurukshetra	29.969	76.878
+Haryana	Mahendragarh	28.274	76.152
+Haryana	Nuh	28.102	77.001
+Haryana	Palwal	28.144	77.326
+Haryana	Panchkula	30.694	76.86
+Haryana	Panipat	29.3909	76.9635
+Haryana	Rewari	28.199	76.618
+Haryana	Rohtak	28.8955	76.6066
+Haryana	Sirsa	29.534	75.028
+Haryana	Sonipat	28.9931	77.0151
+Haryana	Yamunanagar	30.129	77.267
+			
+Uttar Pradesh	Agra	27.1767	78.0081
+Uttar Pradesh	Aligarh	27.8974	78.088
+Uttar Pradesh	Ambedkar Nagar	26.43	82.54
+Uttar Pradesh	Amethi	26.153	81.814
+Uttar Pradesh	Amroha	28.903	78.469
+Uttar Pradesh	Auraiya	26.465	79.509
+Uttar Pradesh	Ayodhya	26.799	82.204
+Uttar Pradesh	Azamgarh	26.073	83.185
+Uttar Pradesh	Baghpat	28.944	77.218
+Uttar Pradesh	Bahraich	27.574	81.595
+Uttar Pradesh	Ballia	25.76	84.149
+Uttar Pradesh	Balrampur	27.43	82.18
+Uttar Pradesh	Banda	25.479	80.338
+Uttar Pradesh	Barabanki	26.938	81.183
+Uttar Pradesh	Bareilly	28.367	79.43
+Uttar Pradesh	Basti	26.817	82.763
+Uttar Pradesh	Bhadohi	25.397	82.57
+Uttar Pradesh	Bijnor	29.373	78.136
+Uttar Pradesh	Budaun	28.032	79.121
+Uttar Pradesh	Bulandshahr	28.406	77.849
+Uttar Pradesh	Chandauli	25.26	83.27
+Uttar Pradesh	Deoria	26.5	83.78
+Uttar Pradesh	Etah	27.558	78.662
+Uttar Pradesh	Etawah	26.777	79.021
+Uttar Pradesh	Farrukhabad	27.391	79.58
+Uttar Pradesh	Fatehpur	25.93	80.8
+Uttar Pradesh	Gautam Buddha Nagar	28.5355	77.391
+Uttar Pradesh	Ghaziabad	28.6692	77.4538
+Uttar Pradesh	Ghazipur	25.584	83.58
+Uttar Pradesh	Gonda	27.133	81.961
+Uttar Pradesh	Gorakhpur	26.7606	83.3732
+Uttar Pradesh	Hamirpur	25.95	80.15
+Uttar Pradesh	Hardoi	27.394	80.131
+Uttar Pradesh	Jhansi	25.4484	78.5685
+Uttar Pradesh	Kanpur Nagar	26.4499	80.3319
+Uttar Pradesh	Lakhimpur Kheri	27.948	80.78
+Uttar Pradesh	Lucknow	26.8467	80.9462
+Uttar Pradesh	Mathura	27.4924	77.6737
+Uttar Pradesh	Meerut	28.9845	77.7064
+Uttar Pradesh	Mirzapur	25.146	82.569
+Uttar Pradesh	Moradabad	28.8386	78.7733
+Uttar Pradesh	Muzaffarnagar	29.473	77.704
+Uttar Pradesh	Prayagraj	25.4358	81.8463
+Uttar Pradesh	Rae Bareli	26.23	81.24
+Uttar Pradesh	Saharanpur	29.968	77.555
+Uttar Pradesh	Sitapur	27.561	80.682
+Uttar Pradesh	Unnao	26.547	80.487
+Uttar Pradesh	Varanasi	25.3176	82.9739
+			
+Madhya Pradesh	Agar Malwa	23.711	76.015
+Madhya Pradesh	Alirajpur	22.306	74.355
+Madhya Pradesh	Anuppur	23.103	81.69
+Madhya Pradesh	Ashoknagar	24.58	77.73
+Madhya Pradesh	Balaghat	21.812	80.183
+Madhya Pradesh	Barwani	22.032	74.899
+Madhya Pradesh	Betul	21.9	77.902
+Madhya Pradesh	Bhind	26.566	78.787
+Madhya Pradesh	Bhopal	23.2599	77.4126
+Madhya Pradesh	Burhanpur	21.308	76.23
+Madhya Pradesh	Chhatarpur	24.917	79.588
+Madhya Pradesh	Chhindwara	22.057	78.938
+Madhya Pradesh	Damoh	23.838	79.442
+Madhya Pradesh	Datia	25.665	78.46
+Madhya Pradesh	Dewas	22.967	76.053
+Madhya Pradesh	Dhar	22.601	75.302
+Madhya Pradesh	Dindori	22.942	81.079
+Madhya Pradesh	Guna	24.646	77.311
+Madhya Pradesh	Gwalior	26.2183	78.1828
+Madhya Pradesh	Harda	22.344	77.095
+Madhya Pradesh	Indore	22.7196	75.8577
+Madhya Pradesh	Jabalpur	23.1815	79.9864
+Madhya Pradesh	Jhabua	22.769	74.592
+Madhya Pradesh	Katni	23.838	80.394
+Madhya Pradesh	Khandwa	21.825	76.352
+Madhya Pradesh	Khargone	21.824	75.611
+Madhya Pradesh	Mandla	22.598	80.371
+Madhya Pradesh	Mandsaur	24.076	75.069
+Madhya Pradesh	Morena	26.5	78
+Madhya Pradesh	Narmadapuram	22.75	77.72
+Madhya Pradesh	Narsinghpur	22.949	79.198
+Madhya Pradesh	Neemuch	24.476	74.872
+Madhya Pradesh	Niwari	25.368	78.786
+Madhya Pradesh	Panna	24.72	80.188
+Madhya Pradesh	Raisen	23.331	77.782
+Madhya Pradesh	Rajgarh	23.868	76.733
+Madhya Pradesh	Ratlam	23.331	75.036
+Madhya Pradesh	Rewa	24.537	81.304
+Madhya Pradesh	Sagar	23.838	78.737
+Madhya Pradesh	Satna	24.585	80.833
+Madhya Pradesh	Sehore	23.2	77.084
+Madhya Pradesh	Seoni	22.086	79.543
+Madhya Pradesh	Shahdol	23.3	81.35
+Madhya Pradesh	Shajapur	23.427	76.277
+Madhya Pradesh	Sheopur	25.672	76.696
+Madhya Pradesh	Shivpuri	25.432	77.664
+Madhya Pradesh	Sidhi	24.417	81.883
+Madhya Pradesh	Singrauli	24.199	82.675
+Madhya Pradesh	Tikamgarh	24.743	78.832
+Madhya Pradesh	Ujjain	23.1765	75.7885
+Madhya Pradesh	Umaria	23.525	80.837
+Madhya Pradesh	Vidisha	23.525	77.808
