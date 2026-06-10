@@ -1,58 +1,114 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", async function () {
 
-  fetch("https://weather-forecast-xqwe.onrender.com/api/latest/Warangal")
-    .then(res => res.json())
-    .then(data => {
+    const map = L.map("map").setView([22.9734, 78.6569], 5);
 
-      if (!Array.isArray(data)) {
-        console.log("Invalid API response", data);
-        return;
-      }
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        attribution: "© OpenStreetMap contributors"
+    }).addTo(map);
 
-      // Sort by time
-      data.sort((a, b) =>
-        new Date(a.forecast_time) - new Date(b.forecast_time)
-      );
+    let markers = [];
 
-      const labels = data.map(item => item.forecast_time);
-      const temperature = data.map(item => item.temperature);
-      const humidity = data.map(item => item.humidity);
+    try {
 
-      const ctx = document.getElementById("myChart").getContext("2d");
+        const response =
+            await fetch("https://weather-forecast-xqwe.onrender.com/api/latest/Warangal");
 
-      new Chart(ctx, {
-        type: "line",
-        data: {
-          labels: labels,
-          datasets: [
-            {
-              label: "Temperature (°C)",
-              data: temperature,
-              borderColor: "red",
-              fill: false
-            },
-            {
-              label: "Humidity (%)",
-              data: humidity,
-              borderColor: "blue",
-              fill: false
-            }
-          ]
-        },
-        options: {
-          responsive: true,
-          scales: {
-            x: {
-              ticks: {
-                maxRotation: 90,
-                minRotation: 45
-              }
-            }
-          }
+        const forecast =
+            await response.json();
+
+        const dateSelect =
+            document.getElementById("dateSelect");
+
+        const timeSelect =
+            document.getElementById("timeSelect");
+
+        // UNIQUE DATES
+        const uniqueDates = [
+            ...new Set(
+                forecast.map(item =>
+                    item.forecast_time.split(" ")[0]
+                )
+            )
+        ];
+
+        dateSelect.innerHTML = "";
+
+        uniqueDates.forEach(date => {
+            const option = document.createElement("option");
+            option.value = date;
+            option.textContent = date;
+            dateSelect.appendChild(option);
+        });
+
+        function loadTimes(selectedDate) {
+
+            timeSelect.innerHTML = "";
+
+            const uniqueTimes = [
+                ...new Set(
+                    forecast
+                        .filter(item =>
+                            item.forecast_time.startsWith(selectedDate)
+                        )
+                        .map(item =>
+                            item.forecast_time.split(" ")[1]
+                        )
+                )
+            ];
+
+            uniqueTimes.forEach(time => {
+                const option = document.createElement("option");
+                option.value = time;
+                option.textContent = time;
+                timeSelect.appendChild(option);
+            });
+
         }
-      });
 
-    })
-    .catch(err => console.error("Fetch error:", err));
+        function drawMap() {
+
+            markers.forEach(m => map.removeLayer(m));
+            markers = [];
+
+            const selectedDate = dateSelect.value;
+            const selectedTime = timeSelect.value;
+
+            const filtered = forecast.filter(item =>
+                item.forecast_time === `${selectedDate} ${selectedTime}`
+            );
+
+            filtered.forEach(item => {
+
+                const marker = L.marker([17.9689, 79.5941]) // Warangal fixed
+                    .addTo(map)
+                    .bindPopup(`
+                        <b>${item.district}</b><br>
+                        Temp: ${item.temperature} °C<br>
+                        Humidity: ${item.humidity}%<br>
+                        Weather: ${item.weather}<br>
+                        Time: ${item.forecast_time}
+                    `);
+
+                markers.push(marker);
+
+            });
+
+        }
+
+        loadTimes(uniqueDates[0]);
+        drawMap();
+
+        dateSelect.addEventListener("change", function () {
+            loadTimes(this.value);
+            drawMap();
+        });
+
+        timeSelect.addEventListener("change", drawMap);
+
+    }
+
+    catch (error) {
+        console.error("Map Error:", error);
+    }
 
 });
