@@ -1,7 +1,7 @@
 state,district,forecast_time,temperature,humidity,weather,description
-Telangana,Adilabad,2026-06-10 12:00:00,40.93,25,Rain,light rain
-Telangana,Adilabad,2026-06-10 15:00:00,36.85,34,Rain,light rain
-Telangana,Adilabad,2026-06-10 18:00:00,34.19,39,Rain,light rain
+Telangana,Adilabad,2026-06-10 12:00:00,38.22,29,Rain,light rain
+Telangana,Adilabad,2026-06-10 15:00:00,36.86,33,Rain,light rain
+Telangana,Adilabad,2026-06-10 18:00:00,35.53,36,Rain,light rain
 Telangana,Adilabad,2026-06-10 21:00:00,32.12,49,Clouds,overcast clouds
 Telangana,Adilabad,2026-06-11 00:00:00,32.0,47,Clouds,overcast clouds
 Telangana,Adilabad,2026-06-11 03:00:00,32.86,44,Clouds,overcast clouds
@@ -39,9 +39,9 @@ Telangana,Adilabad,2026-06-15 00:00:00,31.21,50,Clouds,overcast clouds
 Telangana,Adilabad,2026-06-15 03:00:00,32.75,48,Clouds,broken clouds
 Telangana,Adilabad,2026-06-15 06:00:00,35.91,38,Clouds,broken clouds
 Telangana,Adilabad,2026-06-15 09:00:00,39.01,27,Clouds,broken clouds
-Telangana,Bhadradri Kothagudem,2026-06-10 12:00:00,39.83,30,Rain,light rain
-Telangana,Bhadradri Kothagudem,2026-06-10 15:00:00,33.05,55,Rain,light rain
-Telangana,Bhadradri Kothagudem,2026-06-10 18:00:00,27.76,74,Rain,light rain
+Telangana,Bhadradri Kothagudem,2026-06-10 12:00:00,37.66,34,Rain,light rain
+Telangana,Bhadradri Kothagudem,2026-06-10 15:00:00,34.81,46,Rain,light rain
+Telangana,Bhadradri Kothagudem,2026-06-10 18:00:00,31.06,61,Rain,light rain
 Telangana,Bhadradri Kothagudem,2026-06-10 21:00:00,27.74,75,Rain,light rain
 Telangana,Bhadradri Kothagudem,2026-06-11 00:00:00,27.98,75,Clouds,overcast clouds
 Telangana,Bhadradri Kothagudem,2026-06-11 03:00:00,33.37,47,Clouds,broken clouds
@@ -79,9 +79,9 @@ Telangana,Bhadradri Kothagudem,2026-06-15 00:00:00,30.18,58,Clouds,overcast clou
 Telangana,Bhadradri Kothagudem,2026-06-15 03:00:00,35.33,38,Clouds,overcast clouds
 Telangana,Bhadradri Kothagudem,2026-06-15 06:00:00,36.22,34,Clouds,broken clouds
 Telangana,Bhadradri Kothagudem,2026-06-15 09:00:00,38.09,31,Clouds,overcast clouds
-Telangana,Hyderabad,2026-06-10 12:00:00,32.62,50,Rain,moderate rain
-Telangana,Hyderabad,2026-06-10 15:00:00,31.67,53,Rain,moderate rain
-Telangana,Hyderabad,2026-06-10 18:00:00,28.8,66,Rain,light rain
+Telangana,Hyderabad,2026-06-10 12:00:00,26.58,77,Rain,moderate rain
+Telangana,Hyderabad,2026-06-10 15:00:00,27.61,71,Rain,moderate rain
+Telangana,Hyderabad,2026-06-10 18:00:00,28.06,69,Rain,light rain
 Telangana,Hyderabad,2026-06-10 21:00:00,28.08,64,Rain,light rain
 Telangana,Hyderabad,2026-06-11 00:00:00,26.11,77,Rain,light rain
 Telangana,Hyderabad,2026-06-11 03:00:00,28.94,62,Clouds,overcast clouds
@@ -119,9 +119,9 @@ Telangana,Hyderabad,2026-06-15 00:00:00,27.37,61,Clouds,overcast clouds
 Telangana,Hyderabad,2026-06-15 03:00:00,30.33,50,Clouds,broken clouds
 Telangana,Hyderabad,2026-06-15 06:00:00,34.28,37,Clouds,broken clouds
 Telangana,Hyderabad,2026-06-15 09:00:00,35.67,33,Clouds,broken clouds
-Telangana,Jagtial,2026-06-10 12:00:00,37.71,32,Rain,light rain
-Telangana,Jagtial,2026-06-10 15:00:00,35.8,37,Rain,light rain
-Telangana,Jagtial,2026-06-10 18:00:00,31.99,46,Rain,light rain
+Telangana,Jagtial,2026-06-10 12:00:00,31.13,49,Rain,light rain
+Telangana,Jagtial,2026-06-10 15:00:00,31.82,47,Rain,light rain
+Telangana,Jagtial,2026-06-10 18:00:00,31.7,47,Rain,light rain
 Telangana,Jagtial,2026-06-10 21:00:00,30.74,53,Rain,light rain
 Telangana,Jagtial,2026-06-11 00:00:00,29.73,57,Clouds,overcast clouds
 Telangana,Jagtial,2026-06-11 03:00:00,33.05,44,Clouds,few clouds
@@ -159,9 +159,9 @@ Telangana,Jagtial,2026-06-15 00:00:00,31.14,45,Clouds,overcast clouds
 Telangana,Jagtial,2026-06-15 03:00:00,31.94,47,Clouds,overcast clouds
 Telangana,Jagtial,2026-06-15 06:00:00,32.78,44,Clouds,overcast clouds
 Telangana,Jagtial,2026-06-15 09:00:00,36.39,34,Clouds,overcast clouds
-Telangana,Jayashankar Bhupalapally,2026-06-10 12:00:00,39.86,27,Rain,light rain
-Telangana,Jayashankar Bhupalapally,2026-06-10 15:00:00,36.45,37,Rain,light rain
-Telangana,Jayashankar Bhupalapally,2026-06-10 18:00:00,31.68,53,Clouds,overcast clouds
+Telangana,Jayashankar Bhupalapally,2026-06-10 12:00:00,36.91,33,Rain,light rain
+Telangana,Jayashankar Bhupalapally,2026-06-10 15:00:00,35.94,37,Rain,light rain
+Telangana,Jayashankar Bhupalapally,2026-06-10 18:00:00,33.42,47,Clouds,overcast clouds
 Telangana,Jayashankar Bhupalapally,2026-06-10 21:00:00,31.21,53,Clouds,overcast clouds
 Telangana,Jayashankar Bhupalapally,2026-06-11 00:00:00,29.42,55,Clouds,overcast clouds
 Telangana,Jayashankar Bhupalapally,2026-06-11 03:00:00,33.93,44,Clouds,broken clouds
@@ -199,9 +199,9 @@ Telangana,Jayashankar Bhupalapally,2026-06-15 00:00:00,31.06,48,Clouds,overcast 
 Telangana,Jayashankar Bhupalapally,2026-06-15 03:00:00,35.65,35,Clouds,broken clouds
 Telangana,Jayashankar Bhupalapally,2026-06-15 06:00:00,34.98,38,Clouds,broken clouds
 Telangana,Jayashankar Bhupalapally,2026-06-15 09:00:00,38.16,31,Clouds,overcast clouds
-Telangana,Karimnagar,2026-06-10 12:00:00,38.72,29,Rain,light rain
-Telangana,Karimnagar,2026-06-10 15:00:00,34.45,40,Rain,light rain
-Telangana,Karimnagar,2026-06-10 18:00:00,31.42,54,Rain,light rain
+Telangana,Karimnagar,2026-06-10 12:00:00,35.11,38,Rain,light rain
+Telangana,Karimnagar,2026-06-10 15:00:00,33.88,41,Rain,light rain
+Telangana,Karimnagar,2026-06-10 18:00:00,32.65,49,Rain,light rain
 Telangana,Karimnagar,2026-06-10 21:00:00,29.43,58,Clouds,overcast clouds
 Telangana,Karimnagar,2026-06-11 00:00:00,29.84,57,Rain,light rain
 Telangana,Karimnagar,2026-06-11 03:00:00,33.17,45,Clouds,scattered clouds
@@ -239,9 +239,9 @@ Telangana,Karimnagar,2026-06-15 00:00:00,31.07,45,Clouds,overcast clouds
 Telangana,Karimnagar,2026-06-15 03:00:00,31.39,49,Clouds,overcast clouds
 Telangana,Karimnagar,2026-06-15 06:00:00,32.45,45,Clouds,overcast clouds
 Telangana,Karimnagar,2026-06-15 09:00:00,34.87,38,Clouds,overcast clouds
-Telangana,Khammam,2026-06-10 12:00:00,40.77,29,Clouds,overcast clouds
-Telangana,Khammam,2026-06-10 15:00:00,33.54,56,Rain,light rain
-Telangana,Khammam,2026-06-10 18:00:00,27.26,77,Rain,moderate rain
+Telangana,Khammam,2026-06-10 12:00:00,40.0,30,Clouds,overcast clouds
+Telangana,Khammam,2026-06-10 15:00:00,36.58,43,Rain,light rain
+Telangana,Khammam,2026-06-10 18:00:00,31.51,62,Rain,moderate rain
 Telangana,Khammam,2026-06-10 21:00:00,27.7,74,Rain,light rain
 Telangana,Khammam,2026-06-11 00:00:00,28.48,73,Rain,light rain
 Telangana,Khammam,2026-06-11 03:00:00,32.29,52,Clouds,broken clouds
@@ -279,9 +279,9 @@ Telangana,Khammam,2026-06-15 00:00:00,30.28,59,Clouds,overcast clouds
 Telangana,Khammam,2026-06-15 03:00:00,34.55,39,Clouds,broken clouds
 Telangana,Khammam,2026-06-15 06:00:00,37.95,33,Clouds,broken clouds
 Telangana,Khammam,2026-06-15 09:00:00,40.48,27,Clouds,few clouds
-Telangana,Mahabubnagar,2026-06-10 12:00:00,34.05,42,Rain,light rain
-Telangana,Mahabubnagar,2026-06-10 15:00:00,32.02,48,Clouds,overcast clouds
-Telangana,Mahabubnagar,2026-06-10 18:00:00,28.61,64,Clouds,overcast clouds
+Telangana,Mahabubnagar,2026-06-10 12:00:00,32.82,45,Rain,light rain
+Telangana,Mahabubnagar,2026-06-10 15:00:00,32.11,48,Clouds,overcast clouds
+Telangana,Mahabubnagar,2026-06-10 18:00:00,30.01,58,Clouds,overcast clouds
 Telangana,Mahabubnagar,2026-06-10 21:00:00,26.57,71,Rain,light rain
 Telangana,Mahabubnagar,2026-06-11 00:00:00,25.62,75,Rain,light rain
 Telangana,Mahabubnagar,2026-06-11 03:00:00,28.05,64,Clouds,overcast clouds
@@ -319,9 +319,9 @@ Telangana,Mahabubnagar,2026-06-15 00:00:00,26.57,63,Clouds,overcast clouds
 Telangana,Mahabubnagar,2026-06-15 03:00:00,28.43,56,Clouds,broken clouds
 Telangana,Mahabubnagar,2026-06-15 06:00:00,32.53,43,Clouds,broken clouds
 Telangana,Mahabubnagar,2026-06-15 09:00:00,34.44,36,Clouds,scattered clouds
-Telangana,Medak,2026-06-10 12:00:00,37.26,33,Rain,light rain
-Telangana,Medak,2026-06-10 15:00:00,32.37,48,Rain,light rain
-Telangana,Medak,2026-06-10 18:00:00,25.43,80,Rain,moderate rain
+Telangana,Medak,2026-06-10 12:00:00,36.43,33,Rain,light rain
+Telangana,Medak,2026-06-10 15:00:00,34.19,41,Rain,light rain
+Telangana,Medak,2026-06-10 18:00:00,29.1,65,Rain,moderate rain
 Telangana,Medak,2026-06-10 21:00:00,27.15,66,Rain,moderate rain
 Telangana,Medak,2026-06-11 00:00:00,27.38,69,Rain,light rain
 Telangana,Medak,2026-06-11 03:00:00,29.32,56,Clouds,broken clouds
@@ -359,9 +359,9 @@ Telangana,Medak,2026-06-15 00:00:00,28.18,56,Clouds,broken clouds
 Telangana,Medak,2026-06-15 03:00:00,29.7,53,Clouds,overcast clouds
 Telangana,Medak,2026-06-15 06:00:00,33.6,40,Clouds,overcast clouds
 Telangana,Medak,2026-06-15 09:00:00,37.08,30,Clouds,scattered clouds
-Telangana,Nalgonda,2026-06-10 12:00:00,35.31,45,Rain,moderate rain
-Telangana,Nalgonda,2026-06-10 15:00:00,33.47,42,Rain,light rain
-Telangana,Nalgonda,2026-06-10 18:00:00,26.93,76,Rain,moderate rain
+Telangana,Nalgonda,2026-06-10 12:00:00,27.97,73,Rain,moderate rain
+Telangana,Nalgonda,2026-06-10 15:00:00,28.88,64,Rain,light rain
+Telangana,Nalgonda,2026-06-10 18:00:00,27.28,75,Rain,moderate rain
 Telangana,Nalgonda,2026-06-10 21:00:00,26.33,83,Rain,moderate rain
 Telangana,Nalgonda,2026-06-11 00:00:00,27.65,73,Rain,light rain
 Telangana,Nalgonda,2026-06-11 03:00:00,29.56,60,Clouds,overcast clouds
@@ -399,9 +399,9 @@ Telangana,Nalgonda,2026-06-15 00:00:00,30.42,51,Clouds,overcast clouds
 Telangana,Nalgonda,2026-06-15 03:00:00,31.78,47,Clouds,overcast clouds
 Telangana,Nalgonda,2026-06-15 06:00:00,37.28,31,Clouds,broken clouds
 Telangana,Nalgonda,2026-06-15 09:00:00,38.06,29,Clouds,overcast clouds
-Telangana,Nizamabad,2026-06-10 12:00:00,39.57,27,Clouds,broken clouds
-Telangana,Nizamabad,2026-06-10 15:00:00,33.14,49,Rain,light rain
-Telangana,Nizamabad,2026-06-10 18:00:00,29.21,61,Rain,light rain
+Telangana,Nizamabad,2026-06-10 12:00:00,38.84,27,Clouds,overcast clouds
+Telangana,Nizamabad,2026-06-10 15:00:00,35.81,38,Rain,light rain
+Telangana,Nizamabad,2026-06-10 18:00:00,32.42,50,Rain,light rain
 Telangana,Nizamabad,2026-06-10 21:00:00,28.56,64,Rain,light rain
 Telangana,Nizamabad,2026-06-11 00:00:00,29.06,58,Clouds,overcast clouds
 Telangana,Nizamabad,2026-06-11 03:00:00,31.59,48,Clouds,scattered clouds
@@ -439,9 +439,9 @@ Telangana,Nizamabad,2026-06-15 00:00:00,29.05,57,Clouds,overcast clouds
 Telangana,Nizamabad,2026-06-15 03:00:00,30.78,51,Clouds,broken clouds
 Telangana,Nizamabad,2026-06-15 06:00:00,35.99,35,Clouds,broken clouds
 Telangana,Nizamabad,2026-06-15 09:00:00,39.07,24,Clouds,few clouds
-Telangana,Rangareddy,2026-06-10 12:00:00,32.2,46,Rain,light rain
-Telangana,Rangareddy,2026-06-10 15:00:00,29.84,58,Rain,moderate rain
-Telangana,Rangareddy,2026-06-10 18:00:00,28.62,64,Rain,light rain
+Telangana,Rangareddy,2026-06-10 12:00:00,29.66,56,Rain,light rain
+Telangana,Rangareddy,2026-06-10 15:00:00,29.12,60,Rain,moderate rain
+Telangana,Rangareddy,2026-06-10 18:00:00,28.97,62,Rain,light rain
 Telangana,Rangareddy,2026-06-10 21:00:00,26.15,72,Rain,light rain
 Telangana,Rangareddy,2026-06-11 00:00:00,24.71,82,Rain,light rain
 Telangana,Rangareddy,2026-06-11 03:00:00,27.76,65,Clouds,overcast clouds
@@ -479,9 +479,9 @@ Telangana,Rangareddy,2026-06-15 00:00:00,26.23,63,Clouds,overcast clouds
 Telangana,Rangareddy,2026-06-15 03:00:00,29.24,52,Clouds,broken clouds
 Telangana,Rangareddy,2026-06-15 06:00:00,33.47,38,Clouds,broken clouds
 Telangana,Rangareddy,2026-06-15 09:00:00,34.46,34,Clouds,broken clouds
-Telangana,Sangareddy,2026-06-10 12:00:00,35.91,36,Clouds,broken clouds
-Telangana,Sangareddy,2026-06-10 15:00:00,33.32,44,Clouds,broken clouds
-Telangana,Sangareddy,2026-06-10 18:00:00,28.66,63,Rain,light rain
+Telangana,Sangareddy,2026-06-10 12:00:00,35.58,36,Clouds,broken clouds
+Telangana,Sangareddy,2026-06-10 15:00:00,34.37,40,Clouds,broken clouds
+Telangana,Sangareddy,2026-06-10 18:00:00,30.97,54,Rain,light rain
 Telangana,Sangareddy,2026-06-10 21:00:00,28.44,64,Rain,moderate rain
 Telangana,Sangareddy,2026-06-11 00:00:00,26.75,73,Rain,light rain
 Telangana,Sangareddy,2026-06-11 03:00:00,29.15,60,Clouds,broken clouds
@@ -519,9 +519,9 @@ Telangana,Sangareddy,2026-06-15 00:00:00,27.03,63,Clouds,overcast clouds
 Telangana,Sangareddy,2026-06-15 03:00:00,29.34,53,Clouds,broken clouds
 Telangana,Sangareddy,2026-06-15 06:00:00,33.1,42,Clouds,broken clouds
 Telangana,Sangareddy,2026-06-15 09:00:00,35.67,33,Clouds,scattered clouds
-Telangana,Siddipet,2026-06-10 12:00:00,37.27,31,Rain,light rain
-Telangana,Siddipet,2026-06-10 15:00:00,29.42,68,Rain,moderate rain
-Telangana,Siddipet,2026-06-10 18:00:00,28.9,64,Rain,moderate rain
+Telangana,Siddipet,2026-06-10 12:00:00,35.6,35,Rain,light rain
+Telangana,Siddipet,2026-06-10 15:00:00,32.09,53,Rain,moderate rain
+Telangana,Siddipet,2026-06-10 18:00:00,31.13,55,Rain,moderate rain
 Telangana,Siddipet,2026-06-10 21:00:00,26.05,70,Rain,light rain
 Telangana,Siddipet,2026-06-11 00:00:00,27.38,67,Rain,light rain
 Telangana,Siddipet,2026-06-11 03:00:00,30.31,52,Clouds,overcast clouds
@@ -559,9 +559,9 @@ Telangana,Siddipet,2026-06-15 00:00:00,28.35,55,Clouds,overcast clouds
 Telangana,Siddipet,2026-06-15 03:00:00,31.24,48,Clouds,broken clouds
 Telangana,Siddipet,2026-06-15 06:00:00,35.25,36,Clouds,scattered clouds
 Telangana,Siddipet,2026-06-15 09:00:00,37.83,28,Clouds,scattered clouds
-Telangana,Suryapet,2026-06-10 12:00:00,37.75,37,Rain,light rain
-Telangana,Suryapet,2026-06-10 15:00:00,34.18,44,Rain,light rain
-Telangana,Suryapet,2026-06-10 18:00:00,27.06,79,Rain,moderate rain
+Telangana,Suryapet,2026-06-10 12:00:00,32.75,52,Rain,light rain
+Telangana,Suryapet,2026-06-10 15:00:00,32.21,51,Rain,light rain
+Telangana,Suryapet,2026-06-10 18:00:00,28.96,70,Rain,moderate rain
 Telangana,Suryapet,2026-06-10 21:00:00,27.51,77,Rain,moderate rain
 Telangana,Suryapet,2026-06-11 00:00:00,27.2,78,Clouds,overcast clouds
 Telangana,Suryapet,2026-06-11 03:00:00,31.35,57,Clouds,overcast clouds
@@ -599,9 +599,9 @@ Telangana,Suryapet,2026-06-15 00:00:00,30.79,52,Clouds,overcast clouds
 Telangana,Suryapet,2026-06-15 03:00:00,30.89,51,Clouds,overcast clouds
 Telangana,Suryapet,2026-06-15 06:00:00,36.27,36,Clouds,overcast clouds
 Telangana,Suryapet,2026-06-15 09:00:00,39.51,27,Clouds,broken clouds
-Telangana,Vikarabad,2026-06-10 12:00:00,34.39,39,Clouds,broken clouds
-Telangana,Vikarabad,2026-06-10 15:00:00,31.76,48,Rain,light rain
-Telangana,Vikarabad,2026-06-10 18:00:00,28.55,64,Rain,light rain
+Telangana,Vikarabad,2026-06-10 12:00:00,33.21,42,Clouds,broken clouds
+Telangana,Vikarabad,2026-06-10 15:00:00,32.19,46,Rain,light rain
+Telangana,Vikarabad,2026-06-10 18:00:00,30.1,57,Rain,light rain
 Telangana,Vikarabad,2026-06-10 21:00:00,26.33,73,Rain,heavy intensity rain
 Telangana,Vikarabad,2026-06-11 00:00:00,25.41,76,Rain,light rain
 Telangana,Vikarabad,2026-06-11 03:00:00,27.48,66,Clouds,broken clouds
@@ -639,9 +639,9 @@ Telangana,Vikarabad,2026-06-15 00:00:00,25.6,66,Clouds,overcast clouds
 Telangana,Vikarabad,2026-06-15 03:00:00,27.75,57,Clouds,broken clouds
 Telangana,Vikarabad,2026-06-15 06:00:00,31.81,44,Clouds,broken clouds
 Telangana,Vikarabad,2026-06-15 09:00:00,34.43,35,Clouds,scattered clouds
-Telangana,Warangal,2026-06-10 12:00:00,39.37,28,Rain,light rain
-Telangana,Warangal,2026-06-10 15:00:00,34.93,42,Rain,light rain
-Telangana,Warangal,2026-06-10 18:00:00,31.0,51,Rain,light rain
+Telangana,Warangal,2026-06-10 12:00:00,35.32,37,Rain,light rain
+Telangana,Warangal,2026-06-10 15:00:00,34.11,42,Rain,light rain
+Telangana,Warangal,2026-06-10 18:00:00,32.44,47,Rain,light rain
 Telangana,Warangal,2026-06-10 21:00:00,29.37,61,Rain,light rain
 Telangana,Warangal,2026-06-11 00:00:00,28.6,58,Rain,light rain
 Telangana,Warangal,2026-06-11 03:00:00,32.78,48,Clouds,overcast clouds
@@ -679,9 +679,9 @@ Telangana,Warangal,2026-06-15 00:00:00,31.3,45,Clouds,overcast clouds
 Telangana,Warangal,2026-06-15 03:00:00,32.14,46,Clouds,broken clouds
 Telangana,Warangal,2026-06-15 06:00:00,35.84,37,Clouds,broken clouds
 Telangana,Warangal,2026-06-15 09:00:00,35.53,36,Clouds,overcast clouds
-Telangana,Yadadri Bhuvanagiri,2026-06-10 12:00:00,33.47,46,Rain,moderate rain
-Telangana,Yadadri Bhuvanagiri,2026-06-10 15:00:00,31.13,52,Rain,light rain
-Telangana,Yadadri Bhuvanagiri,2026-06-10 18:00:00,28.19,61,Rain,light rain
+Telangana,Yadadri Bhuvanagiri,2026-06-10 12:00:00,27.17,72,Rain,moderate rain
+Telangana,Yadadri Bhuvanagiri,2026-06-10 15:00:00,27.58,68,Rain,light rain
+Telangana,Yadadri Bhuvanagiri,2026-06-10 18:00:00,27.85,64,Rain,light rain
 Telangana,Yadadri Bhuvanagiri,2026-06-10 21:00:00,26.89,64,Rain,light rain
 Telangana,Yadadri Bhuvanagiri,2026-06-11 00:00:00,27.44,66,Rain,light rain
 Telangana,Yadadri Bhuvanagiri,2026-06-11 03:00:00,28.36,64,Clouds,overcast clouds
