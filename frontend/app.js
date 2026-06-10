@@ -1,4 +1,4 @@
-const API_BASE = "https://weather-forecast-xqwe.onrender.com";
+const API_BASE = "https://weather-forecast-xqwe.onrender.com/api/forecast";
 
 async function loadDistricts(){
 
