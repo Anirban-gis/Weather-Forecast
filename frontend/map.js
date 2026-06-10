@@ -10,29 +10,23 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     try {
 
-        // ✅ REAL APIs
-        const locationsResponse =
+        // ================= APIs =================
+        const locationsRes =
             await fetch("https://weather-forecast-xqwe.onrender.com/api/locations");
 
-        const forecastResponse =
+        const forecastRes =
             await fetch("https://weather-forecast-xqwe.onrender.com/api/forecast");
 
-        const locations = await locationsResponse.json();
-        const forecast = await forecastResponse.json();
+        const locations = await locationsRes.json();
+        const forecast = await forecastRes.json();
 
         const dateSelect = document.getElementById("dateSelect");
         const timeSelect = document.getElementById("timeSelect");
 
-        // -------------------------
-        // GET UNIQUE DATES
-        // -------------------------
-        const uniqueDates = [
-            ...new Set(
-                forecast.map(item =>
-                    item.forecast_time.split(" ")[0]
-                )
-            )
-        ];
+        // ================= UNIQUE DATES =================
+        const uniqueDates = [...new Set(
+            forecast.map(item => item.forecast_time.split(" ")[0])
+        )];
 
         dateSelect.innerHTML = "";
 
@@ -43,52 +37,44 @@ document.addEventListener("DOMContentLoaded", async function () {
             dateSelect.appendChild(option);
         });
 
-        // -------------------------
-        // LOAD TIMES
-        // -------------------------
-        function loadTimes(selectedDate) {
+        // ================= LOAD TIMES =================
+        function loadTimes(date) {
 
             timeSelect.innerHTML = "";
 
-            const uniqueTimes = [
-                ...new Set(
-                    forecast
-                        .filter(item =>
-                            item.forecast_time.startsWith(selectedDate)
-                        )
-                        .map(item =>
-                            item.forecast_time.split(" ")[1]
-                        )
-                )
-            ];
+            const times = [...new Set(
+                forecast
+                    .filter(item => item.forecast_time.startsWith(date))
+                    .map(item => item.forecast_time.split(" ")[1])
+            )];
 
-            uniqueTimes.forEach(time => {
+            times.forEach(time => {
                 const option = document.createElement("option");
                 option.value = time;
                 option.textContent = time;
                 timeSelect.appendChild(option);
             });
-
         }
 
-        // -------------------------
-        // DRAW MAP
-        // -------------------------
+        // ================= DRAW MAP =================
         function drawMap() {
 
+            // remove old markers safely
             markers.forEach(m => map.removeLayer(m));
             markers = [];
 
             const selectedDate = dateSelect.value;
             const selectedTime = timeSelect.value;
 
-            // Weather lookup
+            if (!selectedDate || !selectedTime) return;
+
+            const targetTime = `${selectedDate} ${selectedTime}`;
+
+            // build lookup map
             const weatherMap = {};
 
             forecast
-                .filter(item =>
-                    item.forecast_time === `${selectedDate} ${selectedTime}`
-                )
+                .filter(item => item.forecast_time === targetTime)
                 .forEach(item => {
                     weatherMap[item.district.trim().toLowerCase()] = item;
                 });
@@ -123,15 +109,18 @@ document.addEventListener("DOMContentLoaded", async function () {
 
         }
 
-        // -------------------------
-        // INIT
-        // -------------------------
-        loadTimes(uniqueDates[0]);
-        drawMap();
+        // ================= INIT =================
+        if (uniqueDates.length > 0) {
+            loadTimes(uniqueDates[0]);
+
+            setTimeout(() => {
+                drawMap();
+            }, 200);
+        }
 
         dateSelect.addEventListener("change", function () {
             loadTimes(this.value);
-            drawMap();
+            setTimeout(drawMap, 100);
         });
 
         timeSelect.addEventListener("change", drawMap);
