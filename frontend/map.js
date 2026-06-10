@@ -10,18 +10,22 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     try {
 
-        const response =
+        // ✅ REAL APIs
+        const locationsResponse =
+            await fetch("https://weather-forecast-xqwe.onrender.com/api/locations");
+
+        const forecastResponse =
             await fetch("https://weather-forecast-xqwe.onrender.com/api/forecast");
 
-        const forecast =
-            await response.json();
+        const locations = await locationsResponse.json();
+        const forecast = await forecastResponse.json();
 
-        const dateSelect =
-            document.getElementById("dateSelect");
+        const dateSelect = document.getElementById("dateSelect");
+        const timeSelect = document.getElementById("timeSelect");
 
-        const timeSelect =
-            document.getElementById("timeSelect");
-
+        // -------------------------
+        // GET UNIQUE DATES
+        // -------------------------
         const uniqueDates = [
             ...new Set(
                 forecast.map(item =>
@@ -39,6 +43,9 @@ document.addEventListener("DOMContentLoaded", async function () {
             dateSelect.appendChild(option);
         });
 
+        // -------------------------
+        // LOAD TIMES
+        // -------------------------
         function loadTimes(selectedDate) {
 
             timeSelect.innerHTML = "";
@@ -64,6 +71,9 @@ document.addEventListener("DOMContentLoaded", async function () {
 
         }
 
+        // -------------------------
+        // DRAW MAP
+        // -------------------------
         function drawMap() {
 
             markers.forEach(m => map.removeLayer(m));
@@ -72,21 +82,40 @@ document.addEventListener("DOMContentLoaded", async function () {
             const selectedDate = dateSelect.value;
             const selectedTime = timeSelect.value;
 
-            const filtered = forecast.filter(item =>
-                item.forecast_time === `${selectedDate} ${selectedTime}`
-            );
+            // Weather lookup
+            const weatherMap = {};
 
-            filtered.forEach(item => {
+            forecast
+                .filter(item =>
+                    item.forecast_time === `${selectedDate} ${selectedTime}`
+                )
+                .forEach(item => {
+                    weatherMap[item.district.trim().toLowerCase()] = item;
+                });
 
-                const marker = L.marker([17.9689, 79.5941])
-                    .addTo(map)
-                    .bindPopup(`
-                        <b>${item.district}</b><br>
-                        Temp: ${item.temperature} °C<br>
-                        Humidity: ${item.humidity}%<br>
-                        Weather: ${item.weather}<br>
-                        Time: ${item.forecast_time}
-                    `);
+            locations.forEach(loc => {
+
+                const key = loc.District.trim().toLowerCase();
+                const weather = weatherMap[key];
+
+                if (!weather) return;
+
+                const marker = L.marker([
+                    loc.Latitude,
+                    loc.Longitude
+                ])
+                .addTo(map)
+                .bindPopup(`
+                    <div style="min-width:220px">
+                        <h4>${loc.District}</h4>
+                        <b>State:</b> ${loc.State}<br>
+                        <b>Temperature:</b> ${weather.temperature} °C<br>
+                        <b>Humidity:</b> ${weather.humidity}%<br>
+                        <b>Weather:</b> ${weather.weather}<br>
+                        <b>Description:</b> ${weather.description}<br>
+                        <b>Time:</b> ${weather.forecast_time}
+                    </div>
+                `);
 
                 markers.push(marker);
 
@@ -94,6 +123,9 @@ document.addEventListener("DOMContentLoaded", async function () {
 
         }
 
+        // -------------------------
+        // INIT
+        // -------------------------
         loadTimes(uniqueDates[0]);
         drawMap();
 
