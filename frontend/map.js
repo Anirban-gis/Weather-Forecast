@@ -15,10 +15,10 @@ document.addEventListener("DOMContentLoaded", async function () {
 
         // Load locations and forecast data
         const locationsResponse =
-            await fetch("https://weather-forecast-xqwe.onrender.com/api/latest");
+            await fetch("https://weather-forecast-xqwe.onrender.com/api/locations");
 
         const forecastResponse =
-            await fetch("https://weather-forecast-xqwe.onrender.com/api/latest");
+            await fetch("https://weather-forecast-xqwe.onrender.com/api/forecast");
 
         const locations =
             await locationsResponse.json();
