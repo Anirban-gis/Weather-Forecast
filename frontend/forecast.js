@@ -6,69 +6,62 @@ document.addEventListener("DOMContentLoaded", async function () {
         attribution: "© OpenStreetMap contributors"
     }).addTo(map);
 
-    let markers = [];
+    let chart;
 
     try {
 
+        // ================= API =================
         const response =
             await fetch("https://weather-forecast-xqwe.onrender.com/api/forecast");
 
         const forecast =
             await response.json();
 
-        const dateSelect =
-            document.getElementById("dateSelect");
+        // ================= DROPDOWNS =================
+        const dateSelect = document.getElementById("dateSelect");
+        const timeSelect = document.getElementById("timeSelect");
 
-        const timeSelect =
-            document.getElementById("timeSelect");
-
-        // UNIQUE DATES
-        const uniqueDates = [
-            ...new Set(
-                forecast.map(item =>
-                    item.forecast_time.split(" ")[0]
-                )
-            )
-        ];
+        // ================= UNIQUE DATES =================
+        const uniqueDates = [...new Set(
+            forecast.map(i => i.forecast_time.split(" ")[0])
+        )];
 
         dateSelect.innerHTML = "";
 
         uniqueDates.forEach(date => {
-            const option = document.createElement("option");
-            option.value = date;
-            option.textContent = date;
-            dateSelect.appendChild(option);
+            const opt = document.createElement("option");
+            opt.value = date;
+            opt.textContent = date;
+            dateSelect.appendChild(opt);
         });
 
-        function loadTimes(selectedDate) {
+        // ================= LOAD TIMES =================
+        function loadTimes(date) {
 
             timeSelect.innerHTML = "";
 
-            const uniqueTimes = [
-                ...new Set(
-                    forecast
-                        .filter(item =>
-                            item.forecast_time.startsWith(selectedDate)
-                        )
-                        .map(item =>
-                            item.forecast_time.split(" ")[1]
-                        )
-                )
-            ];
+            const times = [...new Set(
+                forecast
+                    .filter(i => i.forecast_time.startsWith(date))
+                    .map(i => i.forecast_time.split(" ")[1])
+            )];
 
-            uniqueTimes.forEach(time => {
-                const option = document.createElement("option");
-                option.value = time;
-                option.textContent = time;
-                timeSelect.appendChild(option);
+            times.forEach(t => {
+                const opt = document.createElement("option");
+                opt.value = t;
+                opt.textContent = t;
+                timeSelect.appendChild(opt);
             });
-
         }
 
+        // ================= MAP DRAW =================
         function drawMap() {
 
-            markers.forEach(m => map.removeLayer(m));
-            markers = [];
+            map.eachLayer(layer => {
+                if (layer instanceof L.Marker) {
+                    map.removeLayer(layer);
+                }
+            });
 
             const selectedDate = dateSelect.value;
             const selectedTime = timeSelect.value;
@@ -79,22 +72,24 @@ document.addEventListener("DOMContentLoaded", async function () {
 
             filtered.forEach(item => {
 
-                const marker = L.marker([17.9689, 79.5941]) // Warangal fixed
+                // IMPORTANT: fake coordinates fallback (since forecast has no lat/lon)
+                const lat = 22.9734 + (Math.random() * 5);
+                const lon = 78.6569 + (Math.random() * 5);
+
+                L.marker([lat, lon])
                     .addTo(map)
                     .bindPopup(`
                         <b>${item.district}</b><br>
+                        State: ${item.state}<br>
                         Temp: ${item.temperature} °C<br>
                         Humidity: ${item.humidity}%<br>
                         Weather: ${item.weather}<br>
                         Time: ${item.forecast_time}
                     `);
-
-                markers.push(marker);
-
             });
-
         }
 
+        // ================= INIT =================
         loadTimes(uniqueDates[0]);
         drawMap();
 
@@ -107,8 +102,8 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     }
 
-    catch (error) {
-        console.error("Map Error:", error);
+    catch (err) {
+        console.error("Forecast Error:", err);
     }
 
 });
