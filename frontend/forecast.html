@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather Forecast Dashboard</title>
+    <title>India Weather Forecast Dashboard</title>
 
     <!-- Leaflet -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
@@ -36,17 +36,30 @@
             border-radius: 8px;
             display: flex;
             flex-wrap: wrap;
-            gap: 15px;
+            gap: 12px;
             margin-bottom: 15px;
+            align-items: center;
         }
 
-        select {
+        select, button {
             padding: 8px;
-            min-width: 180px;
+            min-width: 160px;
+        }
+
+        button {
+            background: #1976d2;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #125aa0;
         }
 
         #map {
-            height: 500px;
+            height: 520px;
             width: 100%;
             border-radius: 8px;
             margin-bottom: 20px;
@@ -68,7 +81,7 @@
 <body>
 
 <header>
-    <h2>🌦 Weather Forecast Dashboard</h2>
+    <h2>🌦 India District Weather Forecast Dashboard</h2>
 </header>
 
 <div class="container">
@@ -77,11 +90,11 @@
     <div class="controls">
 
         <select id="stateSelect">
-            <option value="">Select State</option>
+            <option value="">All States</option>
         </select>
 
         <select id="districtSelect">
-            <option value="">Select District</option>
+            <option value="">All Districts</option>
         </select>
 
         <select id="dateSelect">
@@ -92,6 +105,8 @@
             <option>Loading...</option>
         </select>
 
+        <button id="downloadCSV">⬇ Download CSV</button>
+
     </div>
 
     <!-- MAP -->
@@ -99,7 +114,7 @@
 
     <!-- CHART -->
     <div class="chart-container">
-        <h3>Temperature Chart</h3>
+        <h3>📊 Weather Chart</h3>
         <canvas id="myChart"></canvas>
     </div>
 
