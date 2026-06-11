@@ -13,23 +13,23 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     try {
 
-        // ================= LOAD DATA =================
+        // ================= FETCH DATA =================
         const forecastRes = await fetch(`${API_BASE}/api/forecast`);
         const locationsRes = await fetch(`${API_BASE}/api/locations`);
 
         const forecast = await forecastRes.json();
         const locations = await locationsRes.json();
 
-        // ================= DROPDOWNS =================
+        // ================= ELEMENTS =================
         const stateSelect = document.getElementById("stateSelect");
         const districtSelect = document.getElementById("districtSelect");
         const dateSelect = document.getElementById("dateSelect");
         const timeSelect = document.getElementById("timeSelect");
 
         // ================= STATES =================
-        const states = [...new Set(locations.map(l => l.State))];
+        const states = [...new Set(locations.map(l => l.State || l.state))];
 
-        stateSelect.innerHTML = `<option value="">Select State</option>`;
+        stateSelect.innerHTML = `<option value="">All States</option>`;
 
         states.forEach(state => {
             const opt = document.createElement("option");
@@ -38,14 +38,16 @@ document.addEventListener("DOMContentLoaded", async function () {
             stateSelect.appendChild(opt);
         });
 
-        // ================= STATE → DISTRICT =================
+        // ================= DISTRICTS =================
         stateSelect.addEventListener("change", function () {
 
-            districtSelect.innerHTML = `<option value="">Select District</option>`;
+            districtSelect.innerHTML = `<option value="">All Districts</option>`;
 
-            const filtered = locations.filter(l => l.State === this.value);
+            const filtered = locations.filter(l =>
+                (l.State || l.state) === this.value
+            );
 
-            const districts = [...new Set(filtered.map(d => d.District))];
+            const districts = [...new Set(filtered.map(d => d.District || d.district))];
 
             districts.forEach(d => {
                 const opt = document.createElement("option");
@@ -112,15 +114,18 @@ document.addEventListener("DOMContentLoaded", async function () {
             forecast
                 .filter(f => f.forecast_time === targetTime)
                 .forEach(f => {
-                    weatherMap[f.district.trim().toLowerCase()] = f;
+                    weatherMap[(f.district || f.District).trim().toLowerCase()] = f;
                 });
 
             locations.forEach(loc => {
 
-                if (state && loc.State !== state) return;
-                if (district && loc.District !== district) return;
+                const locState = loc.State || loc.state;
+                const locDistrict = loc.District || loc.district;
 
-                const weather = weatherMap[loc.District.trim().toLowerCase()];
+                if (state && locState !== state) return;
+                if (district && locDistrict !== district) return;
+
+                const weather = weatherMap[locDistrict.trim().toLowerCase()];
 
                 if (!weather) return;
 
@@ -130,9 +135,9 @@ document.addEventListener("DOMContentLoaded", async function () {
                 ])
                 .addTo(map)
                 .bindPopup(`
-                    <b>${loc.District}</b><br>
-                    State: ${loc.State}<br>
-                    Temp: ${weather.temperature}°C<br>
+                    <b>${locDistrict}</b><br>
+                    State: ${locState}<br>
+                    Temp: ${weather.temperature} °C<br>
                     Humidity: ${weather.humidity}%<br>
                     Weather: ${weather.weather}<br>
                     Time: ${weather.forecast_time}
@@ -141,6 +146,62 @@ document.addEventListener("DOMContentLoaded", async function () {
                 markers.push(marker);
             });
         }
+
+        // ================= CSV DOWNLOAD =================
+        document.getElementById("downloadCSV").addEventListener("click", function () {
+
+            const state = stateSelect.value;
+            const district = districtSelect.value;
+            const date = dateSelect.value;
+            const time = timeSelect.value;
+
+            if (!date || !time) {
+                alert("Please select date and time first");
+                return;
+            }
+
+            const targetTime = `${date} ${time}`;
+
+            let filtered = forecast.filter(f =>
+                f.forecast_time === targetTime
+            );
+
+            if (state) {
+                filtered = filtered.filter(f =>
+                    (f.state || f.State) === state
+                );
+            }
+
+            if (district) {
+                filtered = filtered.filter(f =>
+                    (f.district || f.District) === district
+                );
+            }
+
+            if (filtered.length === 0) {
+                alert("No data found for selected filters");
+                return;
+            }
+
+            let csv = "State,District,Temperature,Humidity,Weather,Description,Forecast_Time\n";
+
+            filtered.forEach(f => {
+                csv += `${f.state || f.State},${f.district || f.District},${f.temperature},${f.humidity},${f.weather},${f.description || ""},${f.forecast_time}\n`;
+            });
+
+            const blob = new Blob([csv], { type: "text/csv" });
+            const url = window.URL.createObjectURL(blob);
+
+            const a = document.createElement("a");
+            a.href = url;
+            a.download = `weather_filtered_${date}_${time}.csv`;
+
+            document.body.appendChild(a);
+            a.click();
+
+            document.body.removeChild(a);
+            window.URL.revokeObjectURL(url);
+        });
 
         // ================= INIT =================
         loadTimes(uniqueDates[0]);
@@ -157,7 +218,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     }
 
     catch (error) {
-        console.error("Error:", error);
+        console.error("Forecast Error:", error);
     }
 
 });
