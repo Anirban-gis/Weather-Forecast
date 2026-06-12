@@ -2,294 +2,420 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     const API_BASE = "https://weather-forecast-xqwe.onrender.com";
 
-    // ================= MAP =================
     const map = L.map("map").setView([22.9734, 78.6569], 5);
 
-    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-        attribution: "© OpenStreetMap contributors"
-    }).addTo(map);
+    L.tileLayer(
+        "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+        {
+            attribution: "© OpenStreetMap contributors"
+        }
+    ).addTo(map);
 
     let markers = [];
 
     try {
 
-        // ================= FETCH DATA =================
-        const forecastRes = await fetch(`${API_BASE}/api/forecast`);
-        const locationsRes = await fetch(`${API_BASE}/api/locations`);
+        const forecastRes =
+            await fetch(`${API_BASE}/api/forecast`);
 
-        const forecast = await forecastRes.json();
-        const locations = await locationsRes.json();
+        const locationsRes =
+            await fetch(`${API_BASE}/api/locations`);
 
-        // ================= ELEMENTS =================
-        const stateSelect = document.getElementById("stateSelect");
-        const districtSelect = document.getElementById("districtSelect");
-        const dateSelect = document.getElementById("dateSelect");
-        const timeSelect = document.getElementById("timeSelect");
+        const forecast =
+            await forecastRes.json();
+
+        const locations =
+            await locationsRes.json();
+
+        const stateSelect =
+            document.getElementById("stateSelect");
+
+        const districtSelect =
+            document.getElementById("districtSelect");
+
+        const dateSelect =
+            document.getElementById("dateSelect");
+
+        const timeSelect =
+            document.getElementById("timeSelect");
+
+        const downloadBtn =
+            document.getElementById("downloadCSV");
 
         // ================= STATES =================
-        const states = [...new Set(locations.map(l => l.State || l.state))];
 
-        stateSelect.innerHTML = `<option value="">All States</option>`;
+        const states = [
+            ...new Set(
+                locations.map(
+                    l => l.State || l.state
+                )
+            )
+        ];
 
-        states.forEach(state => {
-            const opt = document.createElement("option");
+        stateSelect.innerHTML =
+            `<option value="">All States</option>`;
+
+        states.sort().forEach(state => {
+
+            const opt =
+                document.createElement("option");
+
             opt.value = state;
             opt.textContent = state;
+
             stateSelect.appendChild(opt);
+
         });
 
         // ================= DISTRICTS =================
-        stateSelect.addEventListener("change", function () {
 
-            districtSelect.innerHTML = `<option value="">All Districts</option>`;
+        function loadDistricts() {
 
-            const filtered = locations.filter(l =>
-                (l.State || l.state) === this.value
-            );
+            districtSelect.innerHTML =
+                `<option value="">All Districts</option>`;
 
-            const districts = [...new Set(filtered.map(d => d.District || d.district))];
+            let filteredLocations =
+                locations;
 
-            districts.forEach(d => {
-                const opt = document.createElement("option");
+            if (stateSelect.value) {
+
+                filteredLocations =
+                    locations.filter(
+                        l =>
+                        (l.State || l.state)
+                        === stateSelect.value
+                    );
+            }
+
+            const districts = [
+                ...new Set(
+                    filteredLocations.map(
+                        d =>
+                        d.District ||
+                        d.district
+                    )
+                )
+            ];
+
+            districts.sort().forEach(d => {
+
+                const opt =
+                    document.createElement("option");
+
                 opt.value = d;
                 opt.textContent = d;
+
                 districtSelect.appendChild(opt);
+
             });
+        }
 
-            drawMap();
-        });
+        loadDistricts();
 
-        districtSelect.addEventListener("change", drawMap);
+        // ================= DATE =================
 
-        // ================= DATES =================
-        const uniqueDates = [...new Set(
-            forecast.map(f => f.forecast_time.split(" ")[0])
-        )];
+        const uniqueDates = [
+            ...new Set(
+                forecast.map(
+                    f =>
+                    f.forecast_time.split(" ")[0]
+                )
+            )
+        ];
+
+        uniqueDates.sort();
 
         dateSelect.innerHTML = "";
 
         uniqueDates.forEach(date => {
-            const opt = document.createElement("option");
+
+            const opt =
+                document.createElement("option");
+
             opt.value = date;
             opt.textContent = date;
+
             dateSelect.appendChild(opt);
+
         });
 
-        // ================= TIMES =================
+        // ================= TIME =================
+
         function loadTimes(date) {
 
             timeSelect.innerHTML = "";
 
-            const times = [...new Set(
-                forecast
-                    .filter(f => f.forecast_time.startsWith(date))
-                    .map(f => f.forecast_time.split(" ")[1])
-            )];
+            const times = [
+                ...new Set(
+                    forecast
+                    .filter(
+                        f =>
+                        f.forecast_time.startsWith(date)
+                    )
+                    .map(
+                        f =>
+                        f.forecast_time.split(" ")[1]
+                    )
+                )
+            ];
+
+            times.sort();
 
             times.forEach(t => {
-                const opt = document.createElement("option");
+
+                const opt =
+                    document.createElement("option");
+
                 opt.value = t;
                 opt.textContent = t;
+
                 timeSelect.appendChild(opt);
+
             });
+
         }
 
-        // ================= MAP DRAW =================
+        loadTimes(uniqueDates[0]);
+
+        // ================= MAP =================
+
         function drawMap() {
 
-            markers.forEach(m => map.removeLayer(m));
+            markers.forEach(
+                m => map.removeLayer(m)
+            );
+
             markers = [];
 
-            const state = stateSelect.value;
-            const district = districtSelect.value;
-            const date = dateSelect.value;
-            const time = timeSelect.value;
-
-            if (!date || !time) return;
-
-            const targetTime = `${date} ${time}`;
+            const targetTime =
+                `${dateSelect.value} ${timeSelect.value}`;
 
             const weatherMap = {};
 
             forecast
-                .filter(f => f.forecast_time === targetTime)
-                .forEach(f => {
-                    weatherMap[(f.district || f.District).trim().toLowerCase()] = f;
-                });
+            .filter(
+                f =>
+                f.forecast_time === targetTime
+            )
+            .forEach(f => {
+
+                weatherMap[
+                    (f.district || f.District)
+                    .trim()
+                    .toLowerCase()
+                ] = f;
+
+            });
 
             locations.forEach(loc => {
 
-                const locState = loc.State || loc.state;
-                const locDistrict = loc.District || loc.district;
+                const state =
+                    loc.State || loc.state;
 
-                if (state && locState !== state) return;
-                if (district && locDistrict !== district) return;
+                const district =
+                    loc.District || loc.district;
 
-                const weather = weatherMap[locDistrict.trim().toLowerCase()];
+                if (
+                    stateSelect.value &&
+                    state !== stateSelect.value
+                ) return;
+
+                if (
+                    districtSelect.value &&
+                    district !== districtSelect.value
+                ) return;
+
+                const weather =
+                    weatherMap[
+                        district
+                        .trim()
+                        .toLowerCase()
+                    ];
 
                 if (!weather) return;
 
-                const marker = L.marker([
-                    loc.Latitude,
-                    loc.Longitude
-                ])
-                .addTo(map)
-                .bindPopup(`
-                    <b>${locDistrict}</b><br>
-                    State: ${locState}<br>
-                    Temp: ${weather.temperature} °C<br>
-                    Humidity: ${weather.humidity}%<br>
-                    Weather: ${weather.weather}<br>
-                    Time: ${weather.forecast_time}
-                `);
+                const marker =
+                    L.marker([
+                        loc.Latitude,
+                        loc.Longitude
+                    ])
+                    .addTo(map)
+                    .bindPopup(`
+                        <b>${district}</b><br>
+                        State: ${state}<br>
+                        Temp: ${weather.temperature} °C<br>
+                        Humidity: ${weather.humidity}%<br>
+                        Weather: ${weather.weather}<br>
+                        Time: ${weather.forecast_time}
+                    `);
 
                 markers.push(marker);
+
             });
+
         }
 
-        // ================= CSV DOWNLOAD =================
-        // ================= CSV DOWNLOAD =================
+        drawMap();
 
-const downloadBtn = document.getElementById("downloadCSV");
+        // ================= EVENTS =================
 
-// Set initial button text
-downloadBtn.innerHTML = "🔒 Download Restricted";
+        stateSelect.addEventListener(
+            "change",
+            function () {
 
-// Change button text when state changes
-stateSelect.addEventListener("change", function () {
+                loadDistricts();
 
-    if (
-        this.value === "West Bengal" ||
-        this.value === "Punjab"
-    ) {
+                if (
+                    this.value ===
+                    "West Bengal" ||
+                    this.value ===
+                    "Punjab"
+                ) {
 
-        downloadBtn.innerHTML = "⬇ Download CSV";
+                    downloadBtn.innerHTML =
+                        "⬇ Download CSV";
 
-    } else {
+                    downloadBtn.classList.add(
+                        "allowed"
+                    );
 
-        downloadBtn.innerHTML = "🔒 Download Restricted";
+                } else {
 
-    }
+                    downloadBtn.innerHTML =
+                        "🔒 Download Restricted";
 
-});
+                    downloadBtn.classList.remove(
+                        "allowed"
+                    );
+                }
 
-downloadBtn.addEventListener("click", function () {
+                drawMap();
 
-    const state = stateSelect.value;
-    const district = districtSelect.value;
-    const date = dateSelect.value;
-    const time = timeSelect.value;
-
-    // ONLY ALLOWED STATES
-    const allowedStates = [
-        "West Bengal",
-        "Punjab"
-    ];
-
-    // BLOCK OTHER STATES
-    if (!allowedStates.includes(state)) {
-
-        alert(
-            "🔒 Download Restricted\n\n" +
-            "Download is available only for West Bengal and Punjab datasets."
+            }
         );
 
-        return;
-    }
-
-    if (!date || !time) {
-
-        alert("Please select Date and Time.");
-
-        return;
-    }
-
-    const targetTime = `${date} ${time}`;
-
-    let filtered = forecast.filter(f =>
-        f.forecast_time === targetTime
-    );
-
-    if (state) {
-
-        filtered = filtered.filter(f =>
-            (f.state || f.State) === state
+        districtSelect.addEventListener(
+            "change",
+            drawMap
         );
 
-    }
+        dateSelect.addEventListener(
+            "change",
+            function () {
 
-    if (district) {
+                loadTimes(this.value);
 
-        filtered = filtered.filter(f =>
-            (f.district || f.District) === district
+                drawMap();
+
+            }
         );
 
-    }
+        timeSelect.addEventListener(
+            "change",
+            drawMap
+        );
 
-    if (filtered.length === 0) {
+        // ================= DOWNLOAD =================
 
-        alert("No data found for selected filters.");
+        downloadBtn.addEventListener(
+            "click",
+            function () {
 
-        return;
-    }
+                const allowedStates = [
+                    "West Bengal",
+                    "Punjab"
+                ];
 
-    let csv =
-        "State,District,Temperature,Humidity,Weather,Description,Forecast_Time\n";
+                if (
+                    !allowedStates.includes(
+                        stateSelect.value
+                    )
+                ) {
 
-    filtered.forEach(f => {
+                    alert(
+                        "Download is available only for Punjab and West Bengal datasets."
+                    );
 
-        csv +=
-            `${f.state || f.State},` +
-            `${f.district || f.District},` +
-            `${f.temperature},` +
-            `${f.humidity},` +
-            `${f.weather},` +
-            `"${f.description || ""}",` +
-            `${f.forecast_time}\n`;
+                    return;
+                }
 
-    });
+                const targetTime =
+                    `${dateSelect.value} ${timeSelect.value}`;
 
-    const blob = new Blob(
-        [csv],
-        { type: "text/csv;charset=utf-8;" }
-    );
+                let filtered =
+                    forecast.filter(
+                        f =>
+                        f.forecast_time === targetTime
+                    );
 
-    const url = URL.createObjectURL(blob);
+                filtered =
+                    filtered.filter(
+                        f =>
+                        (f.state || f.State)
+                        === stateSelect.value
+                    );
 
-    const link =
-        document.createElement("a");
+                if (
+                    districtSelect.value
+                ) {
 
-    link.href = url;
+                    filtered =
+                        filtered.filter(
+                            f =>
+                            (f.district || f.District)
+                            === districtSelect.value
+                        );
 
-    link.download =
-        `${state.replace(/\s+/g, "_")}_Weather_Data.csv`;
+                }
 
-    document.body.appendChild(link);
+                let csv =
+                    "State,District,Temperature,Humidity,Weather,Forecast_Time\n";
 
-    link.click();
+                filtered.forEach(f => {
 
-    document.body.removeChild(link);
+                    csv +=
+                        `${f.state || f.State},` +
+                        `${f.district || f.District},` +
+                        `${f.temperature},` +
+                        `${f.humidity},` +
+                        `${f.weather},` +
+                        `${f.forecast_time}\n`;
 
-    URL.revokeObjectURL(url);
+                });
 
-});
+                const blob =
+                    new Blob(
+                        [csv],
+                        { type: "text/csv" }
+                    );
 
-        // ================= INIT =================
-        loadTimes(uniqueDates[0]);
+                const url =
+                    URL.createObjectURL(blob);
 
-        setTimeout(drawMap, 300);
+                const a =
+                    document.createElement("a");
 
-        dateSelect.addEventListener("change", function () {
-            loadTimes(this.value);
-            setTimeout(drawMap, 100);
-        });
+                a.href = url;
 
-        timeSelect.addEventListener("change", drawMap);
+                a.download =
+                    `${stateSelect.value.replace(/\s+/g,"_")}_Weather.csv`;
+
+                a.click();
+
+                URL.revokeObjectURL(url);
+
+            }
+        );
 
     }
 
     catch (error) {
-        console.error("Forecast Error:", error);
+
+        console.error(
+            "Forecast Error:",
+            error
+        );
+
     }
 
 });
