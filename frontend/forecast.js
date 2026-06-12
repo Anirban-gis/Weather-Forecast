@@ -148,60 +148,131 @@ document.addEventListener("DOMContentLoaded", async function () {
         }
 
         // ================= CSV DOWNLOAD =================
-        document.getElementById("downloadCSV").addEventListener("click", function () {
+        // ================= CSV DOWNLOAD =================
 
-            const state = stateSelect.value;
-            const district = districtSelect.value;
-            const date = dateSelect.value;
-            const time = timeSelect.value;
+const downloadBtn = document.getElementById("downloadCSV");
 
-            if (!date || !time) {
-                alert("Please select date and time first");
-                return;
-            }
+// Set initial button text
+downloadBtn.innerHTML = "🔒 Download Restricted";
 
-            const targetTime = `${date} ${time}`;
+// Change button text when state changes
+stateSelect.addEventListener("change", function () {
 
-            let filtered = forecast.filter(f =>
-                f.forecast_time === targetTime
-            );
+    if (
+        this.value === "West Bengal" ||
+        this.value === "Punjab"
+    ) {
 
-            if (state) {
-                filtered = filtered.filter(f =>
-                    (f.state || f.State) === state
-                );
-            }
+        downloadBtn.innerHTML = "⬇ Download CSV";
 
-            if (district) {
-                filtered = filtered.filter(f =>
-                    (f.district || f.District) === district
-                );
-            }
+    } else {
 
-            if (filtered.length === 0) {
-                alert("No data found for selected filters");
-                return;
-            }
+        downloadBtn.innerHTML = "🔒 Download Restricted";
 
-            let csv = "State,District,Temperature,Humidity,Weather,Description,Forecast_Time\n";
+    }
 
-            filtered.forEach(f => {
-                csv += `${f.state || f.State},${f.district || f.District},${f.temperature},${f.humidity},${f.weather},${f.description || ""},${f.forecast_time}\n`;
-            });
+});
 
-            const blob = new Blob([csv], { type: "text/csv" });
-            const url = window.URL.createObjectURL(blob);
+downloadBtn.addEventListener("click", function () {
 
-            const a = document.createElement("a");
-            a.href = url;
-            a.download = `weather_filtered_${date}_${time}.csv`;
+    const state = stateSelect.value;
+    const district = districtSelect.value;
+    const date = dateSelect.value;
+    const time = timeSelect.value;
 
-            document.body.appendChild(a);
-            a.click();
+    // ONLY ALLOWED STATES
+    const allowedStates = [
+        "West Bengal",
+        "Punjab"
+    ];
 
-            document.body.removeChild(a);
-            window.URL.revokeObjectURL(url);
-        });
+    // BLOCK OTHER STATES
+    if (!allowedStates.includes(state)) {
+
+        alert(
+            "🔒 Download Restricted\n\n" +
+            "Download is available only for West Bengal and Punjab datasets."
+        );
+
+        return;
+    }
+
+    if (!date || !time) {
+
+        alert("Please select Date and Time.");
+
+        return;
+    }
+
+    const targetTime = `${date} ${time}`;
+
+    let filtered = forecast.filter(f =>
+        f.forecast_time === targetTime
+    );
+
+    if (state) {
+
+        filtered = filtered.filter(f =>
+            (f.state || f.State) === state
+        );
+
+    }
+
+    if (district) {
+
+        filtered = filtered.filter(f =>
+            (f.district || f.District) === district
+        );
+
+    }
+
+    if (filtered.length === 0) {
+
+        alert("No data found for selected filters.");
+
+        return;
+    }
+
+    let csv =
+        "State,District,Temperature,Humidity,Weather,Description,Forecast_Time\n";
+
+    filtered.forEach(f => {
+
+        csv +=
+            `${f.state || f.State},` +
+            `${f.district || f.District},` +
+            `${f.temperature},` +
+            `${f.humidity},` +
+            `${f.weather},` +
+            `"${f.description || ""}",` +
+            `${f.forecast_time}\n`;
+
+    });
+
+    const blob = new Blob(
+        [csv],
+        { type: "text/csv;charset=utf-8;" }
+    );
+
+    const url = URL.createObjectURL(blob);
+
+    const link =
+        document.createElement("a");
+
+    link.href = url;
+
+    link.download =
+        `${state.replace(/\s+/g, "_")}_Weather_Data.csv`;
+
+    document.body.appendChild(link);
+
+    link.click();
+
+    document.body.removeChild(link);
+
+    URL.revokeObjectURL(url);
+
+});
 
         // ================= INIT =================
         loadTimes(uniqueDates[0]);
