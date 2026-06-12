@@ -12,6 +12,8 @@ document.addEventListener("DOMContentLoaded", async function () {
     ).addTo(map);
 
     let markers = [];
+    let tempChart = null;
+    let humidityChart = null;
 
     try {
 
@@ -257,6 +259,71 @@ document.addEventListener("DOMContentLoaded", async function () {
 
         drawMap();
 
+        // ================= CHARTS =================
+        function updateCharts() {
+            const district =
+                districtSelect.value;
+            const date =
+                dateSelect.value;
+            if (!district) return;
+            const filteredData =
+                forecast.filter(item =>
+                    (item.district || item.District)
+                    === district
+                    &&
+                    item.forecast_time.startsWith(date)
+                               );
+            const labels =
+                filteredData.map(
+                    item =>
+                        item.forecast_time.split(" ")[1]
+                );
+            const temperatures =
+                filteredData.map(
+                    item =>
+                        item.temperature
+                );
+            const humidities =
+                filteredData.map(
+                    item =>
+                        item.humidity
+                );
+            if (tempChart)
+                tempChart.destroy();
+            if (humidityChart)
+                humidityChart.destroy();
+            tempChart = new Chart(
+                document.getElementById("tempChart"),
+                {
+                    type: "line",
+                    data: {
+                        labels: labels,
+                        datasets: [{
+                            label: "Temperature (°C)",
+                            data: temperatures,
+                            borderColor: "red",
+                            fill: false
+                        }]
+                    }
+                }
+            );
+            humidityChart = new Chart(
+                document.getElementById("humidityChart"),
+                {
+                    type: "line",
+                    data: {
+                        labels: labels,
+                        datasets: [{
+                            label: "Humidity (%)",
+                            data: humidities,
+                            borderColor: "blue",
+                            fill: false
+                        }]
+                    }
+                }
+            );
+        }
+
         // ================= EVENTS =================
 
         stateSelect.addEventListener(
@@ -296,7 +363,10 @@ document.addEventListener("DOMContentLoaded", async function () {
 
         districtSelect.addEventListener(
             "change",
-            drawMap
+            function () {
+                drawMap();
+                updateCharts();
+            }
         );
 
         dateSelect.addEventListener(
@@ -306,13 +376,17 @@ document.addEventListener("DOMContentLoaded", async function () {
                 loadTimes(this.value);
 
                 drawMap();
+                updateCharts();
 
             }
         );
-
+        
         timeSelect.addEventListener(
             "change",
-            drawMap
+            function () {
+                drawMap();
+                updateCharts();
+            }
         );
 
         // ================= DOWNLOAD =================
