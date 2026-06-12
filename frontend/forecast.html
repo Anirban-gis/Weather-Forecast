@@ -2,245 +2,158 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>India District Weather Dashboard</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet"
-        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<title>India Weather Forecast Dashboard</title>
 
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<link rel="stylesheet"
+href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 
-    <style>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            overflow-x: hidden;
-        }
+<style>
 
-        /* Weather Background */
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#f4f6f9;
+}
 
-        #weatherBackground {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: -1;
+header{
+    background:#1976d2;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
 
-            background-image:
-                url("images/default_weather.jpg");
+.container{
+    padding:15px;
+}
 
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
+.controls{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+    background:white;
+    padding:15px;
+    border-radius:8px;
+    margin-bottom:15px;
+}
 
-            transition: all 1s ease;
-        }
+.controls div{
+    display:flex;
+    flex-direction:column;
+}
 
-        header {
-            background: rgba(25,118,210,0.9);
-            color: white;
-            padding: 15px;
-            text-align: center;
-        }
+select{
+    min-width:180px;
+    padding:8px;
+}
 
-        .container {
-            padding: 20px;
-        }
+.download-btn{
+    background:#d32f2f;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:6px;
+    cursor:pointer;
+    font-weight:bold;
+    margin-top:20px;
+}
 
-        .controls {
+.download-btn.allowed{
+    background:#2e7d32;
+}
 
-            background: rgba(255,255,255,0.9);
+.download-note{
+    width:100%;
+    font-size:12px;
+    color:#666;
+}
 
-            backdrop-filter: blur(4px);
+#map{
+    width:100%;
+    height:550px;
+    border-radius:8px;
+    margin-bottom:20px;
+}
 
-            padding: 15px;
+.chart-container{
+    background:white;
+    padding:15px;
+    border-radius:8px;
+}
 
-            border-radius: 8px;
+</style>
 
-            display: flex;
-
-            gap: 15px;
-
-            flex-wrap: wrap;
-
-            align-items: center;
-
-            margin-bottom: 15px;
-        }
-
-        select,
-        button {
-
-            padding: 10px;
-
-            min-width: 180px;
-
-            border: 1px solid #ccc;
-
-            border-radius: 5px;
-        }
-
-        button {
-
-            background: #1976d2;
-
-            color: white;
-
-            cursor: pointer;
-
-            border: none;
-        }
-
-        button:hover {
-            opacity: 0.9;
-        }
-
-        #map {
-
-            width: 100%;
-
-            height: 550px;
-
-            border-radius: 8px;
-
-            margin-bottom: 20px;
-
-            border: 1px solid #ccc;
-        }
-
-        .chart-container {
-
-            background: rgba(255,255,255,0.9);
-
-            backdrop-filter: blur(4px);
-
-            padding: 15px;
-
-            border-radius: 8px;
-        }
-
-        canvas {
-            max-height: 450px;
-        }
-
-    </style>
 </head>
 
 <body>
 
-    <!-- Dynamic Weather Background -->
+<header>
+    <h1>🌦 India District Weather Forecast Dashboard</h1>
+</header>
 
-    <div id="weatherBackground"></div>
+<div class="container">
 
-    <header>
-        <h1>🌦 India District Weather Forecast Dashboard</h1>
-    </header>
+    <div class="controls">
 
-    <div class="container">
-
-        <!-- Filters -->
-
-        <div class="controls">
-
-            <div>
-                <label><b>State</b></label><br>
-
-                <select id="stateSelect">
-
-                    <option value="">
-                        All States
-                    </option>
-
-                </select>
-
-            </div>
-
-            <div>
-                <label><b>District</b></label><br>
-
-                <select id="districtSelect">
-
-                    <option value="">
-                        All Districts
-                    </option>
-
-                </select>
-
-            </div>
-
-            <div>
-                <label><b>Date</b></label><br>
-
-                <select id="dateSelect">
-
-                    <option>
-                        Loading...
-                    </option>
-
-                </select>
-
-            </div>
-
-            <div>
-                <label><b>Time</b></label><br>
-
-                <select id="timeSelect">
-
-                    <option>
-                        Loading...
-                    </option>
-
-                </select>
-
-            </div>
-
-            <div>
-
-                <label><b>Download</b></label><br>
-
-                <button id="downloadCSV" class="download-btn">
-                    🔒 Download Restricted
-                </button>
-
-                    ⬇ Download CSV
-
-                </button>
-
-            </div>
-
+        <div>
+            <label><strong>State</strong></label>
+            <select id="stateSelect">
+                <option value="">All States</option>
+            </select>
         </div>
 
-        <!-- Map -->
+        <div>
+            <label><strong>District</strong></label>
+            <select id="districtSelect">
+                <option value="">All Districts</option>
+            </select>
+        </div>
 
-        <div id="map"></div>
+        <div>
+            <label><strong>Date</strong></label>
+            <select id="dateSelect">
+                <option>Loading...</option>
+            </select>
+        </div>
 
-        <!-- Chart -->
+        <div>
+            <label><strong>Time</strong></label>
+            <select id="timeSelect">
+                <option>Loading...</option>
+            </select>
+        </div>
 
-        <div class="chart-container">
+        <div>
+            <button id="downloadCSV"
+            class="download-btn">
+                🔒 Download Restricted
+            </button>
+        </div>
 
-            <h2>
-                📊 Weather Analysis
-            </h2>
-
-            <canvas id="myChart"></canvas>
-
+        <div class="download-note">
+            Download access is currently available only for
+            Punjab and West Bengal datasets.
         </div>
 
     </div>
 
-    <!-- Leaflet -->
+    <div id="map"></div>
 
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <div class="chart-container">
+        <h2>Temperature Forecast</h2>
+        <canvas id="myChart"></canvas>
+    </div>
 
-    <!-- Your Scripts -->
+</div>
 
-    <script src="map.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
-    <script src="forecast.js"></script>
+<script src="map.js"></script>
+<script src="forecast.js"></script>
 
 </body>
-
 </html>
