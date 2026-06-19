@@ -1,3 +1,4 @@
+
 document.addEventListener("DOMContentLoaded", async function () {
 
     const API_BASE = "https://weather-forecast-xqwe.onrender.com";
@@ -15,6 +16,8 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     try {
 
+        // ================= FETCH DATA =================
+
         const forecastRes =
             await fetch(`${API_BASE}/api/forecast`);
 
@@ -26,6 +29,8 @@ document.addEventListener("DOMContentLoaded", async function () {
 
         const locations =
             await locationsRes.json();
+
+        // ================= ELEMENTS =================
 
         const stateSelect =
             document.getElementById("stateSelect");
@@ -85,14 +90,14 @@ document.addEventListener("DOMContentLoaded", async function () {
                         (l.State || l.state)
                         === stateSelect.value
                     );
+
             }
 
             const districts = [
                 ...new Set(
                     filteredLocations.map(
                         d =>
-                        d.District ||
-                        d.district
+                        d.District || d.district
                     )
                 )
             ];
@@ -108,11 +113,12 @@ document.addEventListener("DOMContentLoaded", async function () {
                 districtSelect.appendChild(opt);
 
             });
+
         }
 
         loadDistricts();
 
-        // ================= DATE =================
+        // ================= DATES =================
 
         const uniqueDates = [
             ...new Set(
@@ -139,7 +145,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 
         });
 
-        // ================= TIME =================
+        // ================= TIMES =================
 
         function loadTimes(date) {
 
@@ -179,83 +185,92 @@ document.addEventListener("DOMContentLoaded", async function () {
 
         // ================= POPUP CHART FUNCTION =================
 
-function createPopupCharts(district, popupId) {
+        function createPopupCharts(district, popupId) {
 
-    const date = dateSelect.value;
+            const date = dateSelect.value;
 
-    const filteredData =
-        forecast.filter(item =>
-            (item.district || item.District) === district &&
-            item.forecast_time.startsWith(date)
-        );
+            const filteredData =
+                forecast.filter(item =>
+                    (item.district || item.District) === district &&
+                    item.forecast_time.startsWith(date)
+                );
 
-    const labels =
-        filteredData.map(item =>
-            item.forecast_time.split(" ")[1]
-        );
+            const labels =
+                filteredData.map(item =>
+                    item.forecast_time.split(" ")[1]
+                );
 
-    const temperatures =
-        filteredData.map(item =>
-            item.temperature
-        );
+            const temperatures =
+                filteredData.map(item =>
+                    item.temperature
+                );
 
-    const humidities =
-        filteredData.map(item =>
-            item.humidity
-        );
+            const humidities =
+                filteredData.map(item =>
+                    item.humidity
+                );
 
-    const tempCanvas =
-        document.getElementById(`tempChart_${popupId}`);
+            const tempCanvas =
+                document.getElementById(`tempChart_${popupId}`);
 
-    const humidityCanvas =
-        document.getElementById(`humidityChart_${popupId}`);
+            const humidityCanvas =
+                document.getElementById(`humidityChart_${popupId}`);
 
-    if (!tempCanvas || !humidityCanvas) {
-        return;
-    }
+            if (!tempCanvas || !humidityCanvas) {
+                return;
+            }
 
-    new Chart(tempCanvas, {
-        type: "line",
-        data: {
-            labels: labels,
-            datasets: [{
-                label: "Temperature (°C)",
-                data: temperatures,
-                borderColor: "red",
-                fill: false
-            }]
-        },
-        options: {
-            responsive: true,
-            maintainAspectRatio: false
+            // Temperature Chart
+            new Chart(tempCanvas, {
+
+                type: "line",
+
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: "Temperature (°C)",
+                        data: temperatures,
+                        borderColor: "red",
+                        fill: false
+                    }]
+                },
+
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false
+                }
+
+            });
+
+            // Humidity Chart
+            new Chart(humidityCanvas, {
+
+                type: "line",
+
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: "Humidity (%)",
+                        data: humidities,
+                        borderColor: "blue",
+                        fill: false
+                    }]
+                },
+
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false
+                }
+
+            });
+
         }
-    });
-
-    new Chart(humidityCanvas, {
-        type: "line",
-        data: {
-            labels: labels,
-            datasets: [{
-                label: "Humidity (%)",
-                data: humidities,
-                borderColor: "blue",
-                fill: false
-            }]
-        },
-        options: {
-            responsive: true,
-            maintainAspectRatio: false
-        }
-    });
-
-}
-```
-
 
         // ================= MAP =================
 
         function drawMap() {
 
+            // Remove old markers
             markers.forEach(
                 m => map.removeLayer(m)
             );
@@ -290,11 +305,13 @@ function createPopupCharts(district, popupId) {
                 const district =
                     loc.District || loc.district;
 
+                // State Filter
                 if (
                     stateSelect.value &&
                     state !== stateSelect.value
                 ) return;
 
+                // District Filter
                 if (
                     districtSelect.value &&
                     district !== districtSelect.value
@@ -311,6 +328,8 @@ function createPopupCharts(district, popupId) {
 
                 const popupId =
                     district.replace(/\s+/g, "_");
+
+                // ================= POPUP HTML =================
 
                 const popupContent = `
                     <div>
@@ -339,25 +358,39 @@ function createPopupCharts(district, popupId) {
 
                     </div>
                 `;
+
+                // ================= MARKER =================
+
                 const marker = L.marker([
-                    loc.Latitude, 
+                    loc.Latitude,
                     loc.Longitude
                 ])
-                    .addTo(map)
-                    .bindPopup(popupContent); 
-                marker.on("popupopen", function () { 
+                .addTo(map)
+                .bindPopup(popupContent);
+
+                // ================= POPUP EVENT =================
+
+                marker.on("popupopen", function () {
+
                     setTimeout(() => {
+
                         createPopupCharts(
                             district,
                             popupId
-                        ); },
-                        300);
-                    });
-                    markers.push(marker);
-                    }); // END locations.forEach
-                    } // END drawMap 
-                    drawMap();
+                        );
 
+                    }, 300);
+
+                });
+
+                markers.push(marker);
+
+            });
+
+        }
+
+        // Initial Draw
+        drawMap();
 
         // ================= EVENTS =================
 
@@ -368,10 +401,8 @@ function createPopupCharts(district, popupId) {
                 loadDistricts();
 
                 if (
-                    this.value ===
-                    "West Bengal" ||
-                    this.value ===
-                    "Punjab"
+                    this.value === "West Bengal" ||
+                    this.value === "Punjab"
                 ) {
 
                     downloadBtn.innerHTML =
@@ -389,6 +420,7 @@ function createPopupCharts(district, popupId) {
                     downloadBtn.classList.remove(
                         "allowed"
                     );
+
                 }
 
                 drawMap();
@@ -399,7 +431,9 @@ function createPopupCharts(district, popupId) {
         districtSelect.addEventListener(
             "change",
             function () {
+
                 drawMap();
+
             }
         );
 
@@ -417,11 +451,13 @@ function createPopupCharts(district, popupId) {
         timeSelect.addEventListener(
             "change",
             function () {
+
                 drawMap();
+
             }
         );
 
-        // ================= DOWNLOAD =================
+        // ================= DOWNLOAD CSV =================
 
         downloadBtn.addEventListener(
             "click",
@@ -443,6 +479,7 @@ function createPopupCharts(district, popupId) {
                     );
 
                     return;
+
                 }
 
                 const targetTime =
@@ -461,9 +498,7 @@ function createPopupCharts(district, popupId) {
                         === stateSelect.value
                     );
 
-                if (
-                    districtSelect.value
-                ) {
+                if (districtSelect.value) {
 
                     filtered =
                         filtered.filter(
@@ -504,7 +539,7 @@ function createPopupCharts(district, popupId) {
                 a.href = url;
 
                 a.download =
-                    `${stateSelect.value.replace(/\s+/g,"_")}_Weather.csv`;
+                    `${stateSelect.value.replace(/\s+/g, "_")}_Weather.csv`;
 
                 a.click();
 
@@ -525,3 +560,4 @@ function createPopupCharts(district, popupId) {
     }
 
 });
+```
