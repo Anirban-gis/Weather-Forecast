@@ -1,3 +1,4 @@
+javascript
 document.addEventListener("DOMContentLoaded", async function () {
 
     const API_BASE = "https://weather-forecast-xqwe.onrender.com";
@@ -12,8 +13,6 @@ document.addEventListener("DOMContentLoaded", async function () {
     ).addTo(map);
 
     let markers = [];
-    let tempChart = null;
-    let humidityChart = null;
 
     try {
 
@@ -179,6 +178,83 @@ document.addEventListener("DOMContentLoaded", async function () {
 
         loadTimes(uniqueDates[0]);
 
+        // ================= POPUP CHART FUNCTION =================
+
+        function createPopupCharts(district, popupId) {
+
+            const date = dateSelect.value;
+
+            const filteredData =
+                forecast.filter(item =>
+                    (item.district || item.District) === district &&
+                    item.forecast_time.startsWith(date)
+                );
+
+            const labels =
+                filteredData.map(
+                    item =>
+                    item.forecast_time.split(" ")[1]
+                );
+
+            const temperatures =
+                filteredData.map(
+                    item =>
+                    item.temperature
+                );
+
+            const humidities =
+                filteredData.map(
+                    item =>
+                    item.humidity
+                );
+
+            setTimeout(() => {
+
+                // Temperature Chart
+                new Chart(
+                    document.getElementById(`tempChart_${popupId}`),
+                    {
+                        type: "line",
+                        data: {
+                            labels: labels,
+                            datasets: [{
+                                label: "Temperature (°C)",
+                                data: temperatures,
+                                borderColor: "red",
+                                fill: false
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            maintainAspectRatio: false
+                        }
+                    }
+                );
+
+                // Humidity Chart
+                new Chart(
+                    document.getElementById(`humidityChart_${popupId}`),
+                    {
+                        type: "line",
+                        data: {
+                            labels: labels,
+                            datasets: [{
+                                label: "Humidity (%)",
+                                data: humidities,
+                                borderColor: "blue",
+                                fill: false
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            maintainAspectRatio: false
+                        }
+                    }
+                );
+
+            }, 200);
+        }
+
         // ================= MAP =================
 
         function drawMap() {
@@ -236,20 +312,53 @@ document.addEventListener("DOMContentLoaded", async function () {
 
                 if (!weather) return;
 
+                const popupId =
+                    district.replace(/\s+/g, "_");
+
+                const popupContent = `
+                    <div>
+
+                        <h3 class="popup-title">
+                            ${district}
+                        </h3>
+
+                        <b>State:</b> ${state}<br>
+                        <b>Temperature:</b> ${weather.temperature} °C<br>
+                        <b>Humidity:</b> ${weather.humidity}%<br>
+                        <b>Weather:</b> ${weather.weather}<br>
+                        <b>Time:</b> ${weather.forecast_time}<br><br>
+
+                        <div class="popup-chart-container">
+
+                            <div class="popup-chart">
+                                <canvas id="tempChart_${popupId}"></canvas>
+                            </div>
+
+                            <div class="popup-chart">
+                                <canvas id="humidityChart_${popupId}"></canvas>
+                            </div>
+
+                        </div>
+
+                    </div>
+                `;
+
                 const marker =
                     L.marker([
                         loc.Latitude,
                         loc.Longitude
                     ])
                     .addTo(map)
-                    .bindPopup(`
-                        <b>${district}</b><br>
-                        State: ${state}<br>
-                        Temp: ${weather.temperature} °C<br>
-                        Humidity: ${weather.humidity}%<br>
-                        Weather: ${weather.weather}<br>
-                        Time: ${weather.forecast_time}
-                    `);
+                    .bindPopup(popupContent);
+
+                marker.on("popupopen", function () {
+
+                    createPopupCharts(
+                        district,
+                        popupId
+                    );
+
+                });
 
                 markers.push(marker);
 
@@ -258,71 +367,6 @@ document.addEventListener("DOMContentLoaded", async function () {
         }
 
         drawMap();
-
-        // ================= CHARTS =================
-        function updateCharts() {
-            const district =
-                districtSelect.value;
-            const date =
-                dateSelect.value;
-            if (!district) return;
-            const filteredData =
-                forecast.filter(item =>
-                    (item.district || item.District)
-                    === district
-                    &&
-                    item.forecast_time.startsWith(date)
-                               );
-            const labels =
-                filteredData.map(
-                    item =>
-                        item.forecast_time.split(" ")[1]
-                );
-            const temperatures =
-                filteredData.map(
-                    item =>
-                        item.temperature
-                );
-            const humidities =
-                filteredData.map(
-                    item =>
-                        item.humidity
-                );
-            if (tempChart)
-                tempChart.destroy();
-            if (humidityChart)
-                humidityChart.destroy();
-            tempChart = new Chart(
-                document.getElementById("tempChart"),
-                {
-                    type: "line",
-                    data: {
-                        labels: labels,
-                        datasets: [{
-                            label: "Temperature (°C)",
-                            data: temperatures,
-                            borderColor: "red",
-                            fill: false
-                        }]
-                    }
-                }
-            );
-            humidityChart = new Chart(
-                document.getElementById("humidityChart"),
-                {
-                    type: "line",
-                    data: {
-                        labels: labels,
-                        datasets: [{
-                            label: "Humidity (%)",
-                            data: humidities,
-                            borderColor: "blue",
-                            fill: false
-                        }]
-                    }
-                }
-            );
-        }
 
         // ================= EVENTS =================
 
@@ -365,7 +409,6 @@ document.addEventListener("DOMContentLoaded", async function () {
             "change",
             function () {
                 drawMap();
-                updateCharts();
             }
         );
 
@@ -376,16 +419,14 @@ document.addEventListener("DOMContentLoaded", async function () {
                 loadTimes(this.value);
 
                 drawMap();
-                updateCharts();
 
             }
         );
-        
+
         timeSelect.addEventListener(
             "change",
             function () {
                 drawMap();
-                updateCharts();
             }
         );
 
