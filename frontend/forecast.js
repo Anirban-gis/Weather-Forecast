@@ -179,80 +179,78 @@ document.addEventListener("DOMContentLoaded", async function () {
 
         // ================= POPUP CHART FUNCTION =================
 
-        function createPopupCharts(district, popupId) {
+function createPopupCharts(district, popupId) {
 
-            const date = dateSelect.value;
+    const date = dateSelect.value;
 
-            const filteredData =
-                forecast.filter(item =>
-                    (item.district || item.District) === district &&
-                    item.forecast_time.startsWith(date)
-                );
+    const filteredData =
+        forecast.filter(item =>
+            (item.district || item.District) === district &&
+            item.forecast_time.startsWith(date)
+        );
 
-            const labels =
-                filteredData.map(
-                    item =>
-                    item.forecast_time.split(" ")[1]
-                );
+    const labels =
+        filteredData.map(item =>
+            item.forecast_time.split(" ")[1]
+        );
 
-            const temperatures =
-                filteredData.map(
-                    item =>
-                    item.temperature
-                );
+    const temperatures =
+        filteredData.map(item =>
+            item.temperature
+        );
 
-            const humidities =
-                filteredData.map(
-                    item =>
-                    item.humidity
-                );
+    const humidities =
+        filteredData.map(item =>
+            item.humidity
+        );
 
-            setTimeout(() => {
+    const tempCanvas =
+        document.getElementById(`tempChart_${popupId}`);
 
-                // Temperature Chart
-                new Chart(
-                    document.getElementById(`tempChart_${popupId}`),
-                    {
-                        type: "line",
-                        data: {
-                            labels: labels,
-                            datasets: [{
-                                label: "Temperature (°C)",
-                                data: temperatures,
-                                borderColor: "red",
-                                fill: false
-                            }]
-                        },
-                        options: {
-                            responsive: true,
-                            maintainAspectRatio: false
-                        }
-                    }
-                );
+    const humidityCanvas =
+        document.getElementById(`humidityChart_${popupId}`);
 
-                // Humidity Chart
-                new Chart(
-                    document.getElementById(`humidityChart_${popupId}`),
-                    {
-                        type: "line",
-                        data: {
-                            labels: labels,
-                            datasets: [{
-                                label: "Humidity (%)",
-                                data: humidities,
-                                borderColor: "blue",
-                                fill: false
-                            }]
-                        },
-                        options: {
-                            responsive: true,
-                            maintainAspectRatio: false
-                        }
-                    }
-                );
+    if (!tempCanvas || !humidityCanvas) {
+        return;
+    }
 
-            }, 200);
+    new Chart(tempCanvas, {
+        type: "line",
+        data: {
+            labels: labels,
+            datasets: [{
+                label: "Temperature (°C)",
+                data: temperatures,
+                borderColor: "red",
+                fill: false
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false
         }
+    });
+
+    new Chart(humidityCanvas, {
+        type: "line",
+        data: {
+            labels: labels,
+            datasets: [{
+                label: "Humidity (%)",
+                data: humidities,
+                borderColor: "blue",
+                fill: false
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false
+        }
+    });
+
+}
+```
+
 
         // ================= MAP =================
 
@@ -341,31 +339,25 @@ document.addEventListener("DOMContentLoaded", async function () {
 
                     </div>
                 `;
-
-                const marker =
-                    L.marker([
-                        loc.Latitude,
-                        loc.Longitude
-                    ])
+                const marker = L.marker([
+                    loc.Latitude, 
+                    loc.Longitude
+                ])
                     .addTo(map)
-                    .bindPopup(popupContent);
+                    .bindPopup(popupContent); 
+                marker.on("popupopen", function () { 
+                    setTimeout(() => {
+                        createPopupCharts(
+                            district,
+                            popupId
+                        ); },
+                        300);
+                    });
+                    markers.push(marker);
+                    }); // END locations.forEach
+                    } // END drawMap 
+                    drawMap();
 
-                marker.on("popupopen", function () {
-
-                    createPopupCharts(
-                        district,
-                        popupId
-                    );
-
-                });
-
-                markers.push(marker);
-
-            });
-
-        }
-
-        drawMap();
 
         // ================= EVENTS =================
 
