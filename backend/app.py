@@ -1,4 +1,5 @@
 from pathlib import Path
+import sqlite3
 import pandas as pd
 from flask import Flask, jsonify
 from flask_cors import CORS
@@ -22,6 +23,42 @@ DISTRICT_FILE = DATA_DIR / "district_master.csv"
 # ✅ FIXED FILE NAME (IMPORTANT CHANGE)
 CURRENT_FILE = DATA_DIR / "Forecast_Weather.csv"
 FORECAST_FILE = DATA_DIR / "Forecast_Weather.csv"
+
+# ==================================================
+# SQLITE CLEANUP
+# ==================================================
+
+DB_FILE = DATA_DIR / "weather_history.db"
+
+def clean_old_weather_data():
+
+    # Skip if DB does not exist
+    if not DB_FILE.exists():
+        print("Database file not found")
+        return
+
+    try:
+        conn = sqlite3.connect(DB_FILE)
+
+        cursor = conn.cursor()
+
+        # Delete records older than 8 days
+        cursor.execute("""
+            DELETE FROM weather_history
+            WHERE date_time < datetime('now', '-8 days')
+        """)
+
+        conn.commit()
+
+        # Reduce DB size
+        cursor.execute("VACUUM")
+
+        conn.close()
+
+        print("Old weather data removed successfully")
+
+    except Exception as e:
+        print(f"Database cleanup error: {e}")
 
 # ==================================================
 # HOME
@@ -197,4 +234,5 @@ def health():
 # ==================================================
 
 if __name__ == "__main__":
+    clean_old_weather_data()
     app.run(host="0.0.0.0", port=5000)
