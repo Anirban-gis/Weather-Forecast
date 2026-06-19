@@ -1,4 +1,3 @@
-javascript
 document.addEventListener("DOMContentLoaded", async function () {
 
     const API_BASE = "https://weather-forecast-xqwe.onrender.com";
