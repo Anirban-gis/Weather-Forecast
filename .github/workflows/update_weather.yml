@@ -31,16 +31,17 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Delete DB if Older Than 2 Days
+      - name: Delete DB if Size Exceeds 88 MB
         run: |
           DB_FILE="data/weather_history.db"
+          MAX_SIZE=$((88 * 1024 * 1024))
           if [ -f "$DB_FILE" ]; then
-            FILE_AGE=$(( ( $(date +%s) - $(date +%s -r "$DB_FILE") ) / 86400 ))
-            if [ "$FILE_AGE" -ge 2 ]; then
-              echo "weather_history.db is $FILE_AGE day(s) old — deleting."
+            FILE_SIZE=$(stat -c%s "$DB_FILE")
+            if [ "$FILE_SIZE" -gt "$MAX_SIZE" ]; then
+              echo "weather_history.db is $(( FILE_SIZE / 1024 / 1024 )) MB — exceeds 88 MB limit, deleting."
               rm "$DB_FILE"
             else
-              echo "weather_history.db is $FILE_AGE day(s) old — keeping."
+              echo "weather_history.db is $(( FILE_SIZE / 1024 / 1024 )) MB — within limit, keeping."
             fi
           else
             echo "weather_history.db does not exist — nothing to delete."
