@@ -31,6 +31,21 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Delete DB if Older Than 2 Days
+        run: |
+          DB_FILE="data/weather_history.db"
+          if [ -f "$DB_FILE" ]; then
+            FILE_AGE=$(( ( $(date +%s) - $(date +%s -r "$DB_FILE") ) / 86400 ))
+            if [ "$FILE_AGE" -ge 2 ]; then
+              echo "weather_history.db is $FILE_AGE day(s) old — deleting."
+              rm "$DB_FILE"
+            else
+              echo "weather_history.db is $FILE_AGE day(s) old — keeping."
+            fi
+          else
+            echo "weather_history.db does not exist — nothing to delete."
+          fi
+
       - name: Run Weather Update Script
         run: |
           python -m backend.forecast_api
